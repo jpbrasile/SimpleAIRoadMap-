@@ -1,5 +1,7 @@
-# SimpleAIRoadMap:
-How to master AI step by step from beginner to expert level
+# [SimpleAIRoadMap](https://chatgpt.com/share/d2c569e9-b863-4143-959c-583dc10b6257) *:
+*: Nous avons mis un hyperlien sur le chat d'aide à la production de ce markdown 
+
+# **How to master AI step by step from beginner to expert level**
 
 _**Savoir Lire, Ecrire , Compter : A l'heure de l'IA, ses savoir-faire de base se sont étendus:**_
 
