@@ -22,7 +22,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 |---------------------------|------------------|-------------------|---------------|----------------|------------------|---------|----------------|-------------|---------|
 | **Débutant** (Local Gratuit)  |            |                  |               |                |                  |         |                |             |         |
 | **Débutant** (Local Payant)   |                 |                   |               |                |                  |         |                |             |         |
-| **Débutant** (Déporté Gratuit) |     Perplexity                   |   Harpa.ai                 |               |                |                  |         |                |  [Lightning AI](https://www.perplexity.ai/search/recherche-des-cores-toroidaux-aYOmvrjRTfKPbY65bxzlUQ)           |         |
+| **Débutant** (Déporté Gratuit) |     Perplexity                   |   Harpa.ai                 |               |                |                  |         |                |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd)           |         |
 | **Débutant** (Déporté Payant)  |          Perplexity         |        Harpa.ai           |               |                |                  |         |                |             |         |
 | **Apprenti** (Local Gratuit)  |                  |                   |               |                |                  |         |                |             |         |
 | **Apprenti** (Local Payant)   |                  |                   |               |                |                  |         |                |             |         |
