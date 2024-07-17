@@ -16,11 +16,12 @@ L'IA doit aussi savoir s'adapter au niveau de l'utilisateur :
 - Pour celui qui maîtrise, il adaptera les boîtes existantes à ses besoins. C'est le _"How to improve what it does"_.
 - Pour l'expert enfin, il créera ses propres outils. C'est le _"How to create new tools"_.
 
+Si toutes ces capacités sont intégrés dans notre IA, elle devient un parfait assistant (_Bot assistant_)
 D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-on des solutions locales ou déportées,payantes ou gratuites ?
   
-| **Niveau d'utilisateur** | **Web Scraping** | **Video Reading** | **Prompting** | **Automation** | **Video Making** | **RAG** | **Multimodal** | **Coding** | **API** |
-|---------------------------|------------------|-------------------|---------------|----------------|------------------|---------|----------------|-------------|---------|
-| **Débutant** (Local Gratuit)  |            |                  |               |                |                  |         |                |             |         |
+| **Niveau d'utilisateur** | **Web Scraping** | **Video Reading** | **Prompting** | **Automation** | **Video Making** | **RAG** | **Multimodal** | **Coding** | **API** |**Bot Assistant**
+|---------------------------|------------------|-------------------|---------------|----------------|------------------|---------|----------------|-------------|---------|-------|
+| **Débutant** (Local Gratuit)  |            |                  |     [Aidé par un prompt système](https://chatgpt.com/share/a5025942-a31c-477b-852e-925e8446575a)          |                |                  |         |                |             |         |
 | **Débutant** (Local Payant)   |                 |                   |               |                |                  |         |                |             |         |
 | **Débutant** (Déporté Gratuit) |     Perplexity                   |   Harpa.ai                 |               |                |                  |         |                |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd)           |         |
 | **Débutant** (Déporté Payant)  |          Perplexity         |        Harpa.ai           |               |                |                  |         |                |             |         |
