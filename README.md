@@ -20,10 +20,10 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
   
 | **Niveau d'utilisateur** | **Web Scraping** | **Video Reading** | **Prompting** | **Automation** | **Video Making** | **RAG** | **Multimodal** | **Coding** | **API** |
 |---------------------------|------------------|-------------------|---------------|----------------|------------------|---------|----------------|-------------|---------|
-| **Débutant** (Local Gratuit)  |                  |                   |               |                |                  |         |                |             |         |
-| **Débutant** (Local Payant)   |                  |                   |               |                |                  |         |                |             |         |
-| **Débutant** (Déporté Gratuit) |                  |                   |               |                |                  |         |                |             |         |
-| **Débutant** (Déporté Payant)  |                  |                   |               |                |                  |         |                |             |         |
+| **Débutant** (Local Gratuit)  |            |                  |               |                |                  |         |                |             |         |
+| **Débutant** (Local Payant)   |                 |                   |               |                |                  |         |                |             |         |
+| **Débutant** (Déporté Gratuit) |     Perplexity                   |   Harpa.ai                 |               |                |                  |         |                |             |         |
+| **Débutant** (Déporté Payant)  |          Perplexity         |        Harpa.ai           |               |                |                  |         |                |             |         |
 | **Apprenti** (Local Gratuit)  |                  |                   |               |                |                  |         |                |             |         |
 | **Apprenti** (Local Payant)   |                  |                   |               |                |                  |         |                |             |         |
 | **Apprenti** (Déporté Gratuit) |                  |                   |               |                |                  |         |                |             |         |
