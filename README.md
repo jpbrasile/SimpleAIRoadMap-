@@ -26,7 +26,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
   - **Data and Actions Creation** :Text/Voice/Image/Animation/Video/3D modeling/API Endpoint Development/Virtual Operator/Development Environment
   - **All in one** : Agents/Coding assistant/Data scraping assistant/Teaching Assistant/Project assistant/Expert assistant
 
-
+<br>
 
 | Data Acquisition            | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
@@ -34,8 +34,10 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Voice                       |          |               |          |        |
 | Image                       |          |               |          |        |
 | Video                       |          |               |          |        |
-| Web Scraping                |          |               |          |        |
+| Web Scraping                | Perplexity/Harpa          |               |          |        |
 | External Tool API Access    |          |               |          |        |
+<br>
+
 
 | Data Processing             | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
@@ -47,6 +49,9 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Automation                  |          |               |          |        |
 | Tools creation              |          |               |          |        |
 
+<br>
+
+
 | Data and Actions Creation   | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
 | Text                        |          |               |          |        |
@@ -57,7 +62,9 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | 3D modeling                 |          |               |          |        |
 | API Endpoint Development    |          |               |          |        |
 | Virtual Operator            |          |               |          |        |
-| Development Environment     |          |               |          |        |
+| Development Environment     |          |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd)              |          |        |
+
+<br>
 
 | All in One                  | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
@@ -67,23 +74,6 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Teaching Assistant          |          |               |          |        |
 | Project assistant           |          |               |          |        |
 | Expert assistant            |          |               |          |        |
-
+<br>
   
-|**User status** |**Scraping** |**Streaming**| **Prompting** |**Automation**|**Video Production** |**RAG**|**Multimodal** | **Coding** | **API** |**Bot Assistant**| **Hear** |**See**|**Speak**|**Click**|**Draw**|
-|---------------------------|------------------|-------------------|---------------|----------------|------------------|---------|----------------|-----------|---------|-----------------|----------|---------|-----------|---------|--------|    
-| **Débutant** (Local Gratuit)  |            |                  |     [Aidé par un prompt système](https://chatgpt.com/share/a5025942-a31c-477b-852e-925e8446575a)          |                |                  |         |                |             |         |
-| **Débutant** (Local Payant)   |                 |                   |               |                |                  |         |                |             |         |
-| **Débutant** (Déporté Gratuit) |     Perplexity                   |   Harpa.ai                 |               |                |                  |         |                |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd)           |         |
-| **Débutant** (Déporté Payant)  |          Perplexity         |        Harpa.ai           |               |                |                  |         |                |             |         |
-| **Apprenti** (Local Gratuit)  |                  |                   |               |                |                  |         |                |             |         |
-| **Apprenti** (Local Payant)   |                  |                   |               |                |                  |         |                |             |         |
-| **Apprenti** (Déporté Gratuit) |                  |                   |               |                |                  |         |                |             |         |
-| **Apprenti** (Déporté Payant)  |                  |                   |               |                |                  |         |                |             |         |
-| **Maîtrise** (Local Gratuit)  |                  |                   |               |                |                  |         |                |             |         |
-| **Maîtrise** (Local Payant)   |                  |                   |               |                |                  |         |                |             |         |
-| **Maîtrise** (Déporté Gratuit) |                  |                   |               |                |                  |         |                |             |         |
-| **Maîtrise** (Déporté Payant)  |                  |                   |               |                |                  |         |                |             |         |
-| **Expert** (Local Gratuit)    |                  |                   |               |                |                  |         |                |             |         |
-| **Expert** (Local Payant)     |                  |                   |               |                |                  |         |                |             |         |
-| **Expert** (Déporté Gratuit)  |                  |                   |               |                |                  |         |                |             |         |
-| **Expert** (Déporté Payant)   |                  |                   |               |                |                  |         |                |             |         |
+
