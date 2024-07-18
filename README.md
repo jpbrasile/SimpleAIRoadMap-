@@ -39,6 +39,124 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 <br>
 <title>Tooltip Example</title>
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .tooltip {
+            position: relative;
+            cursor: pointer;
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .tooltip::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: 100%; /* Position the tooltip above the link */
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            white-space: nowrap;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s;
+            z-index: 1;
+        }
+
+        .tooltip:hover::after {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Data Acquisition</th>
+                <th>Débutant</th>
+                <th>Intermédiaire</th>
+                <th>Maîtrise</th>
+                <th>Expert</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Text</td>
+                <td class="tooltip" data-tooltip="NotebookLM, Perplexity">NotebookLM,<br>Perplexity</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Voice</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Image</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Video</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Web Scraping</td>
+                <td class="tooltip" data-tooltip="Perplexity, Harpa">Perplexity,<br>Harpa</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>External Tool API Access</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
 | Data Processing             | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
 | Prompting                   | [Metaprompt](https://chatgpt.com/share/9bf5e118-0943-4d83-98fa-40b4ade83247)          |               |          |        |
