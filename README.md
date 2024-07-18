@@ -32,7 +32,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 
 | Data Acquisition            | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
-| Text                        |🛠️ [NotebookLM](https://notebooklm.google/),<br>🛠️ [Perplexity](https://www.perplexity.ai)         |               |          |        |
+| Text                        |🛠️ [NotebookLM](https://notebooklm.google/) -<br>[ses caractéristiques](https://chatgpt.com/share/2a77dd27-ca9c-41ef-a85e-f401362111cf),<br>🛠️ [Perplexity](https://www.perplexity.ai)         |               |          |        |
 | Voice                       |          |               |          |        |
 | Image                       |          |               |          |        |
 | Video /Vision               |          |               | [openedai-vision](https://github.com/matatonic/openedai-vision)         |        |
@@ -60,7 +60,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 |-----------------------------|----------|---------------|----------|--------|
 | Text                        |          |               |          |        |
 | - Transcription audio mulitlangues, multi partcipants                        |          |[aTrain](https://github.com/JuergenFleiss/aTrain)               |          |        |
-| Voice                       |          |               |          |        |
+| Voice                       |          |   [local et gratuit](https://www.youtube.com/watch?v=N0UrOr6LBkw) <br> [alltalk_tts](https://github.com/erew123/alltalk_tts) <br> [~ elevenlabs mais gratuit]((https://ttsopenai.com/) <br> [Chansons avec suno](suno.ai) <br> [CosyVoice en local, facile à implanter](https://chatgpt.com/share/881feabd-9e38-4eea-8776-6e3bcafe7359)          |          |        |
 | Image                       |          |               |          |        |
 | - avec Caractères consistants                       |          |   [FaceChain](https://facechain-fact.github.io/)  <br>   [portrait/vêtements/prompt pour la pose](https://arxiv.org/html/2406.09162v1)         |          |        |
 | Animation                   | [hedra](https://www.hedra.com/)         |               |          |        |
@@ -71,7 +71,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | - avec caractères persistants                       |          |  [ArtFlow](https://app.artflow.ai/character-builder?feature=actors)             |          |        |
 | - Face swap                       |          | [Face Swap Any Video](https://youtu.be/XwaLYUjWaEg?si=JtLFSmNSP4jJ4kTy)            |          |        |
 | Web app                     |          |               |          |        |
-| 3D modeling                 |          |               |          |        |
+| 3D modeling                 |          |               |          |  [CadQuery](https://github.com/CadQuery/cadquery) <br> -[ses caractéristiques](https://chatgpt.com/share/c6743a29-56b2-4536-84fa-209041d3ff02)      |
 | API Endpoint Development    |          |  [Gorilla](https://gorilla.cs.berkeley.edu/)              |          | [vectorShift](https://vectorshift.ai/)    |
 | Virtual Operator            |          |               |          |        |
 | Local Development Environment      |[Github](https://github.com/) <br> [LMStudio](https://lmstudio.ai/)         |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd) <br> [HuggingFace candle](https://www.youtube.com/watch?v=8hpYedvjrxE)  <br> [Docker](https://www.docker.com/)            |          |        |
@@ -88,7 +88,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Avatar                      |          |  [via Kaggle](https://www.youtube.com/watch?v=pvGhSfsi1Ys)             |          |        |
 |  - parlant ou chantant                      |          |  [Gratuit et bluffant](https://github.com/fudan-generative-vision/hallo?tab=readme-ov-file)  !            |          |        |
 | Chatbot          | [pmfm](pmfm.ai) <br> - [ses caractéristiques](https://chatgpt.com/share/3599eac7-d41b-484a-bb9b-1929482a3f56)         |  [Poe.com](https://www.perplexity.ai/search/chatbot-https-poe-com-principa-xeo_mfVZRZSmg.MJYxnibA)        |          |        |
-| - Voice assistant multi-modal                      |          |               | [Voir la vidéo](https://youtu.be/pi6gr_YHSuc?si=fffk2BoXy-qdY-Im)  
+| - Voice assistant multi-modal                      |          |               | [Voir la vidéo](https://youtu.be/pi6gr_YHSuc?si=fffk2BoXy-qdY-Im) <br [Allice](github.com/myshell-ai/AIlice) <br> - [sescaractéristiques](https://chatgpt.com/share/dd1851ef-4020-4ffe-842b-249d630c8ac9)
   |        |
 | Coding assistant            |          | [aider.chat](https://www.perplexity.ai/search/aider-code-assistant-cheat-she-REvsq3zxSwS75PPD_HcVeQ)              |          |        |
 | Data scraping assistant     |          |  [crawl4ai](https://github.com/unclecode/crawl4ai) <br> - [ses caractéristiques](https://chatgpt.com/share/13f51641-c3d2-4b57-af30-ffb3b31e068f)             |          |        |
@@ -99,6 +99,43 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Expert assistant            |          |               |          |        |
 <br>
   
+
+
+
+  - ⬜ :[CosyVoice](https://chatgpt.com/share/881feabd-9e38-4eea-8776-6e3bcafe7359) text to speech local facilement implantable en local (débutant)
+
+10. **Utilisation de Github**
+- Voici les étapes pour transformer votre répertoire local en repository GitHub et synchroniser les deux avec Git :
+  - Créez un nouveau repository sur GitHub :
+    - Connectez-vous à votre compte GitHub
+    - Cliquez sur "New repository"
+    - Donnez un nom à votre repository
+    - Ne cochez pas "Initialize this repository with a README"
+    - Cliquez sur "Create repository"
+  - Initialisez Git dans votre répertoire local :
+    - Ouvrez un terminal
+    - Naviguez vers votre répertoire local
+    - Exécutez : `git init`
+    - Ajoutez vos fichiers au staging area :
+    - Créez un fichier .gitignore :
+      - Dans votre répertoire local, créez un fichier nommé .gitignore s'il n'existe pas déjà.
+      - Ajoutez .env au .gitignore :
+      - Ouvrez le fichier .gitignore avec un éditeur de texte et ajoutez la ligne suivante `.env`
+      - `git add .`
+    - Faites votre premier commit :
+      - `git commit -m "Initial commit"`
+      - Liez votre repository local au repository GitHub :
+      - `git remote add origin https://github.com/votre-nom-utilisateur/nom-du-repo.git`
+    - Poussez vos changements vers GitHub :
+      - `git push -u origin main` (ou master si c'est votre branche principale)
+  - Après ces étapes, votre répertoire local sera synchronisé avec le repository GitHub. Pour les futures modifications :
+    - Faites vos changements localement
+    - Ajoutez les fichiers modifiés : git add .
+    - Committez : `git commit -m "Description des changements"`
+    - Poussez vers GitHub : `git push`
+  - Si vous avez déjà commité le fichier .env, vous devrez le retirer du suivi de Git : `git rm --cached .env`
+  	Cette commande supprime le fichier du repository Git sans le supprimer de votre système de fichiers local.
+  - Pour récupérer en local des modifications faites sur Github: `git pull origin main`
 
 
 __***Avec le monde d'avant l'IA on apprenait à faire puis on faisait. Avec le monde d'aujourd'hui on fait faire à l'IA, puis on apprend à partir de ce que l'IA a fait, on finit donc par savoir faire aussi. Du coup plus besoin de prof, il ne suffit que de vouloir faire pour parvenir à nos fins !! The sky is the limit !!!***__
@@ -359,57 +396,12 @@ Forest_trail_1 in a lush, shadowy woodland with dappled sunlight. Man_1 (45 year
 
 9. **Text to CAD**
 - ⚙️ :Sonnet 3.5 semble être capable de créer un [programme python capable de générer des formes complexes](https://claude.ai/chat/91026ba9-f74b-4622-b215-3148ada38543)
-- ⬜ :  Par ailleurs [CadQuery](https://github.com/CadQuery/cadquery) semble intéressant à évaluer 
-  - 🛠️ CadQuery : Module Python intuitif pour créer des modèles paramétriques 3D.
-  - ✍️ Scripts courts : Écrire des scripts simples pour produire des modèles de haute qualité.
-  - 🆚 Comparaison OpenSCAD :
-  - 📜 Utilise Python : Accès à de nombreuses bibliothèques et IDE.
-  - 🔧 Noyau OCCT : Plus puissant que CGAL, supporte NURBS, splines, import/export STEP.
-  - ⏱️ Scripts concis : Moins de code nécessaire grâce à des fonctionnalités de positionnement avancées.
-  - 🚀 Génération rapide : Crée des fichiers STL, STEP, AMF et 3MF plus rapidement.
-  - 💻 Intégration facile : Conçu comme bibliothèque Python sans GUI, idéal pour serveurs et scripts scientifiques.
-  - 🛡️ Avantages :
-    - 🔄 Modèles paramétriques facilement personnalisables.
-    - 🖨️ Sortie de formats CAD de haute qualité (STEP, DXF, etc.).
-    - 🧩 Assemblages imbriqués à partir de pièces individuelles.
-  - 🚀 Version 2.0 :
-  - 🔄 Basée sur OCCT : Plus de contrôle et de flexibilité, malgré une complexité accrue.
+
 - ⚙️ :[**BeeGraphy**](https://www.youtube.com/watch?v=MdNp6nQgqgU) : Text to CAD via remote API. Tutorial en cours 
 
 - ⚙️ A voir le [tutorial](https://zoo.dev/docs/tutorials/text-to-cad) 
 
-10. **Utilisation de Github**
-- Voici les étapes pour transformer votre répertoire local en repository GitHub et synchroniser les deux avec Git :
-  - Créez un nouveau repository sur GitHub :
-    - Connectez-vous à votre compte GitHub
-    - Cliquez sur "New repository"
-    - Donnez un nom à votre repository
-    - Ne cochez pas "Initialize this repository with a README"
-    - Cliquez sur "Create repository"
-  - Initialisez Git dans votre répertoire local :
-    - Ouvrez un terminal
-    - Naviguez vers votre répertoire local
-    - Exécutez : `git init`
-    - Ajoutez vos fichiers au staging area :
-    - Créez un fichier .gitignore :
-      - Dans votre répertoire local, créez un fichier nommé .gitignore s'il n'existe pas déjà.
-      - Ajoutez .env au .gitignore :
-      - Ouvrez le fichier .gitignore avec un éditeur de texte et ajoutez la ligne suivante `.env`
-      - `git add .`
-    - Faites votre premier commit :
-      - `git commit -m "Initial commit"`
-      - Liez votre repository local au repository GitHub :
-      - `git remote add origin https://github.com/votre-nom-utilisateur/nom-du-repo.git`
-    - Poussez vos changements vers GitHub :
-      - `git push -u origin main` (ou master si c'est votre branche principale)
-  - Après ces étapes, votre répertoire local sera synchronisé avec le repository GitHub. Pour les futures modifications :
-    - Faites vos changements localement
-    - Ajoutez les fichiers modifiés : git add .
-    - Committez : `git commit -m "Description des changements"`
-    - Poussez vers GitHub : `git push`
-  - Si vous avez déjà commité le fichier .env, vous devrez le retirer du suivi de Git : `git rm --cached .env`
-  	Cette commande supprime le fichier du repository Git sans le supprimer de votre système de fichiers local.
-  - Pour récupérer en local des modifications faites sur Github: `git pull origin main`
+
 
 11. **Web scraping**:
   - ⬜ :[Les outils de web scraping 2024](https://youtu.be/od6AaKhKYmg?si=bol1exHiamBqdTmH)  :**Jina AI Reader API**, Mendable Firecrawl, and Crawl4AI and More"
@@ -488,7 +480,7 @@ Try out our live research preview to see how STORM can help your knowledge explo
 13. **Traitement d'images** :
 - [Upscaling](https://flowt.ai/community/supir-v2-plugandplay-edition-n5acf-v)
 - [Avec abonnement mensuel](https://www.imagepipeline.io/pricing)
-- 🛠️ [**AuraFlow**](https://huggingface.co/spaces/multimodalart/AuraFlow)  produit des images de qualité et peut être mis en oeuvre soit en local soit àpartir d'un espace HuggingFace
+- 🛠️ [**AuraFlow**](https://huggingface.co/spaces/multimodalart/AuraFlow)  produit des images de qualité et peut être mis en oeuvre soit en local soit à partir d'un espace HuggingFace
 <img src="https://github.com/user-attachments/assets/1fd78976-37cb-47ca-92d9-3a0aea08fa66" width="20%">
 
   🛠️ **Fooocus** accessible sur [Colab](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb) et sur replicate  [fooocus api](https://replicate.com/konieshadow/fooocus-api/api)
@@ -526,48 +518,11 @@ Try out our live research preview to see how STORM can help your knowledge explo
 - ⬜  : [**GraphRAG**](https://youtu.be/6Yu6JpLMWVo?si=i2pk2P7yP60Q0-LM)
 - ⬜  : [**GraphRAG en local avec Groq, recherches  locale et globale**](https://youtu.be/xkDGpR5g9D0?si=fNW3yN-VV9K0-BZF)
 - ⬜ : [Agentic RAG dans colab](https://colab.research.google.com/drive/1-cTexfgPITZ6jkSLHsP7uObdfE1rfDxu?usp=sharing]  avec [une vidéo explicative](https://www.youtube.com/watch?v=QQAkXHRJcZg&t=1s)
--  ✅ : comparaison d'e l'analyse d'un document par [**sonnet**](https://claude.ai/chat/ad5d814e-8723-4d9d-b85e-f1da95ce1150) , [**perplexity**](https://www.perplexity.ai/search/dis-moi-ce-que-tu-penses-du-do-rOeCbqOfTqu90EG_HRlomQ) et [**NotebookLM**](https://notebooklm.google.com/notebook/96ec78de-aa3a-446f-9800-257520648ad9?_gl=1*1igqfq9*_ga*MTQzNTk3OTMyOS4xNzIxMTEyNTAx*_ga_W0LDH41ZCB*MTcyMTExMjUwMC4xLjAuMTcyMTExMjUwMC42MC4wLjA.&original_referer=https:%2F%2Fnotebooklm.google%23&pli=1)
--  [**NotebookLM**](https://notebooklm.google/) est particulièrement intéresssant pour absorber une masse considérable de documents et y répondre suivant divers critères 
-    - 🌟 **Intérêt de NotebookLM :**
-          • 🧠 Assistant IA personnalisé pour vos documents
-          • 📚 Analyse et synthèse intelligente des sources
-          • 🔍 Recherche avancée avec citations précises
-          • ✍️ Aide à la rédaction et génération d'idées
-      
-    - 🛠️ **Cheat Sheet NotebookLM :**
-          •📥 Sources compatibles :
-          • 📄 Google Docs
-          • 📊 Google Slides
-          • 🌐 URL web
-          • 📑 PDF
-          • 📝 Fichiers texte
-      
-    - 💡 **Fonctionnalités clés :**
-          • 📓 Création de notebooks thématiques
-          • 🔎 Analyse automatique des documents
-          • 📋 Génération de résumés et guides
-          • ❓ Questions-réponses sur le contenu
-          • 🔗 Citations avec liens vers les sources
-      
-    - 🚀 **Conseils d'utilisation :**
-          • 🎯 Commencer par un projet spécifique
-          • 📚 Importer des sources variées
-          • 💼 Utiliser pour recherche, analyse, rédaction
-          • ✅ Vérifier les citations pour plus de fiabilité
-      
-    - 🌐 **Disponibilité :**
-          • 🌍 200+ pays et territoires
-          • 🆓 Gratuit (actuellement)
-          • 🔑 Nécessite un compte Google
+-  ✅ : comparaison d'e l'analyse d'un document par [**sonnet**](https://claude.ai/chat/ad5d814e-8723-4d9d-b85e-f1da95ce1150) , [**perplexity**](https://www.perplexity.ai/search/dis-moi-ce-que-tu-penses-du-do-rOeCbqOfTqu90EG_HRlomQ) et e
       
 17. ⚙️ [**Détection d'objets automatique avec Sonnet**](https://youtu.be/u-glnHI4zCY?si=GOxoN7xGd6C4k9eq)
 18.   ✅ **PC distant** : [Replicate](https://replicate.com/) : permet l'accès à des ressources (comme [la création d'images](https://replicate.com/bytedance/sdxl-lightning-4step/api) via des API ou playground :essais gratuit puis coût suivant le temps passé
-19. *text to speech** 
-  - ⬜  : [text to speech local et gratuit](https://www.youtube.com/watch?v=N0UrOr6LBkw)
-  - ⬜  : [alltalk_tts](https://github.com/erew123/alltalk_tts)
-  - 🛠️ : [ttsopenai](https://ttsopenai.com/) : l'équivalent gratuit d'elevenlabs
-  - 🛠️ : [suno](suno.ai) : Création de chanson à partir d'un texte
-  - ⬜ :[CosyVoice](https://chatgpt.com/share/881feabd-9e38-4eea-8776-6e3bcafe7359) text to speech local facilement implantable en local (débutant)
+
 20. ⬜ : A évaluer [Invideo](https://invideo.io/i/samsonvowles), [Replicate](https://replicate.com/), [Live-portrait](https://replicate.com/fofr/ve-portrait), [Toon crafter]https://replicate.com/fofr/tooncrafter), [Oldify](https://replicate.com/arielreplicate/oldify), [Pixverse](https://app.pixverse.ai/),[Pika](https://pika.art/), [Filmora](https://filmora.wondershare.net), [anthropic-cookbook](https://github.com/anthropics/anthropic-cookbook/tree/main)
 21. **Agent**:
 - ⬜  : [Tutorial : build agent with Docker](https://youtu.be/AhPXGKG4RZ4?si=rjCHN_tNT9UFbP8w)
@@ -639,7 +594,7 @@ Le résultat est tout à fait correct :
 
 -  ⬜  : [MOSHY](https://www.youtube.com/watch?v=AuXNiQvoe6g)
 -  ⬜  : [Accessible via un code python](https://www.youtube.com/watch?v=w5unVTO7mLQ)
--  ⬜  : [Allice](https://github.com/myshell-ai/AIlice) :  AIlice est une assistante intelligente, versatile et évolutive. Voilà une [synthèse](https://chatgpt.com/share/dd1851ef-4020-4ffe-842b-249d630c8ac9) de ses capacités
+
  
  
 
