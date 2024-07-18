@@ -39,7 +39,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 
 | Data Processing             | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
-| Prompting                   |          |               |          |        |
+| Prompting                   | [Metaprompt](https://chatgpt.com/share/9bf5e118-0943-4d83-98fa-40b4ade83247)          |               |          |        |
 | RAG (Retrieval-Augmented Generation) |          |               |          |        |
 | LLM (Large Language Models) |          |               |          |        |
 | mLLM (Multimodal Large Language Models) |          |               |          |        |
