@@ -29,13 +29,14 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 <br>
 **TO DO  ⬜ / DONE ✅** / **en cours** ⚙️ / **tools** 🛠️ / **innovations** 💡
 <br>
+
 | Data Acquisition            | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
-| Text                        |🛠️ NotebookLM,<br>🛠️ Perplexity         |               |          |        |
+| Text                        |🛠️ [NotebookLM](https://notebooklm.google/),<br>🛠️ [Perplexity](https://www.perplexity.ai)         |               |          |        |
 | Voice                       |          |               |          |        |
 | Image                       |          |               |          |        |
-| Video                       |          |               |          |        |
-| Web Scraping                |🛠️ Perplexity <br>🛠️ Harpa          |               |          |        |
+| Video /Vision               |          |               | [openedai-vision](https://github.com/matatonic/openedai-vision)         |        |
+| Web Scraping                |🛠️ [Perplexity](https://www.perplexity.ai) <br>🛠️ [Harpa](Harpa.ai)          |               |          |        |
 | External Tool API Access    |          |               |          |        |
 <br>
 # Table des Matières
@@ -44,13 +45,14 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 - [Détails Techniques](#détails-techniques)
 - [Conclusion](#conclusion)
 
+<br>
 
 | Data Processing             | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
 | [Prompting](https://chatgpt.com/share/1bc7eb5b-5afd-4d57-a963-5fc3b73ae1fa)                   | [Metaprompt](https://chatgpt.com/share/9bf5e118-0943-4d83-98fa-40b4ade83247)          |               |          |        |
 | RAG (Retrieval-Augmented Generation) |          |               |          |        |
-| LLM (Large Language Models) |          |               |          |        |
-| mLLM (Multimodal Large Language Models) |          |               |          |        |
+| LLM (Large Language Models) |[Sonnet Chat](https://claude.ai/new)<br>[ChatGPT](https://chatgpt.com/)          | [OpenAI playground & API](https://platform.openai.com)  <br> [Deepseek api](https://www.deepseek.com/) <br> [Groq](https://groq.com/)  <br> [Mistral](https://mistral.ai/) <br> [Sonnet API](https://www.anthropic.com/api-bk)          |  [mathstral](https://mistral.ai/news/mathstral/)        |        |
+| LLM Multimodal |          |               |          |        |
 | Reasoning                   |          |               |          |        |
 | Automation                  |          |               |          |        |
 | Tools creation              |          |               |          |        |
@@ -63,22 +65,26 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Text                        |          |               |          |        |
 | Voice                       |          |               |          |        |
 | Image                       |          |               |          |        |
-| Animation                   |          |               |          |        |
+| Animation                   | [hedra](https://www.hedra.com/)         |               |          |        |
 | Video                       |          |               |          |        |
+| Web app                     |          |               |          |        |
 | 3D modeling                 |          |               |          |        |
-| API Endpoint Development    |          |               |          |        |
+| API Endpoint Development    |          |  [Gorilla](https://gorilla.cs.berkeley.edu/)              |          |        |
 | Virtual Operator            |          |               |          |        |
-| Development Environment     |          |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd)              |          |        |
+| Local Development Environment      |[Github](https://github.com/) <br> [LMStudio](https://lmstudio.ai/)         |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd) <br> [HuggingFace candle](https://www.youtube.com/watch?v=8hpYedvjrxE)  <br> [Docker](https://www.docker.com/)            |          |        |
+| Cloud based Development Environment            | [[colab.google](https://www.perplexity.ai/search/quelles-sont-les-principales-c-NcNfvE5bRASAqlxa6IoQQA) <br> [[kaggle.com](https://www.perplexity.ai/search/quelles-sont-les-principales-c-eZGY4KOjRyOxAXcPjfMKVA) <br> [huggingface.co](https://www.perplexity.ai/search/https-huggingface-co-quelles-s-45BlLQtASYGCMo4QEsGixA) <br>         |               |          |        |
 
 <br>
 
 | All in One                  | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
 | Agents                      |          |               |          |        |
-| Coding assistant            |          |               |          |        |
+| Chatbot          |          |  [Poe.com](https://www.perplexity.ai/search/chatbot-https-poe-com-principa-xeo_mfVZRZSmg.MJYxnibA)        |          |        |
+| Coding assistant            |          | [aider.chat](https://www.perplexity.ai/search/aider-code-assistant-cheat-she-REvsq3zxSwS75PPD_HcVeQ)              |          |        |
 | Data scraping assistant     |          |               |          |        |
 | Teaching Assistant          |          |               |          |        |
 | Project assistant           |          |               |          |        |
+| Remote phone assistant      |          |               | [VAPI](https://docs.vapi.ai/introduction)         |        |
 | Expert assistant            |          |               |          |        |
 <br>
   
@@ -243,7 +249,7 @@ Claude dit: [TextBlock(text='Bonjour !', type='text')]
     ```J'ai eu des problèmes qui ont été résolu dans le document joint, fais en la synthèse```
   - AIDER est [SOTA](https://aider.chat/docs/leaderboards/) avec Sonnet 3.5 mais il est aussi très performant avec DeepSeekCoder
   - ⬜ :[AIDER avec deepSeek](https://youtu.be/Y-_0VkMUiPc?si=zAPZQrYj6yrMHhne)
--  ⬜ [**Micr-oagent**](https://github.com/BuilderIO/micro-agent) : itération automatique sur des cas tests
+-  ⬜ [**Micro-agent**](https://github.com/BuilderIO/micro-agent) : itération automatique sur des cas tests
 -  ⬜ [**CodeGeeX4**](https://github.com/THUDM/CodeGeeX4) : en plugin de VS code
 
 - 
@@ -484,14 +490,7 @@ Try out our live research preview to see how STORM can help your knowledge explo
                 
 - ⬜:  [**beautifulsoup-vs-scrapy**: qui est le meilleur](https://scrapingrobot.com/blog/beautifulsoup-vs-scrapy/)
   
-12. **Exemple de prompting**
-- **Parler la langue du LLM:** : Un LLM peut comprendre des instructions concises et structurées, mais il a tendance à se mettre à la place des humains en étant souvent un peu trop verbeux. Voilà comment s'y adapter `donne les <directives> permettant d'opérer ces adaptations par rapport à la configuration initiale sous forme de string :"""<directives>""" destiné à être pris en compte par un LLM et pas un humain (donc <directives> compactes et structurées`
-- ⚙️: [**Prompt pour cloner un custom GPT**](https://www.youtube.com/watch?v=DPl46_9WCi0)
-- On peut faire des mises en forme sophistiquées avec sonnet 3.5 et artefact : ainsi avec le prompt peux tu me décrire la cigale et la fourmi avec un jeu d'émoji et la signification en anglais à côté de chaque phrase. Fais le avec React car les emooji doivent être 3 fois plus grand que le texte . 4 émoji par phrase`` on obtient:
 
-  ![image](https://github.com/user-attachments/assets/b8b5c938-7be3-425e-80c4-3f347cbc2175)
-- ⬜: [**Gestion de projet**](https://www.youtube.com/watch?v=rbVTTZPbGfw) automatisée de sa création,WBS,Gantt, Mail ciblés ... avec le bon prompting et l'artefacts de Sonnet
-- ⬜ 💡 : Généraliser le concept précédent avec les script de l'auteur de la vidéo précédente et déployer les applications correspondantes sur [pmfm](pmfm.ai)
 13. **Traitement d'images** :
 - [Upscaling](https://flowt.ai/community/supir-v2-plugandplay-edition-n5acf-v)
 - [Avec abonnement mensuel](https://www.imagepipeline.io/pricing)
@@ -500,7 +499,7 @@ Try out our live research preview to see how STORM can help your knowledge explo
 
   🛠️ **Fooocus** accessible sur [Colab](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb) et sur replicate  [fooocus api](https://replicate.com/konieshadow/fooocus-api/api)
   
-<img src="https://github.com/user-attachments/assets/ae951b46-0b30-46da-b940-44b34f5af0fe" width="50%">
+![image](https://github.com/user-attachments/assets/ae951b46-0b30-46da-b940-44b34f5af0fe)
 
 - ⬜ : [Upscaling image et vidéo en local](https://chatgpt.com/share/37cb1a6e-6019-4b95-8e9e-50cdc169d864)
    
