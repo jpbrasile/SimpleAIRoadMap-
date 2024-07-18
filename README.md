@@ -39,23 +39,19 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Web Scraping                |🛠️ [Perplexity](https://www.perplexity.ai) <br>🛠️ [Harpa](Harpa.ai)          |               |          |        |
 | External Tool API Access    |          |               |          |        |
 <br>
-# Table des Matières
 
-- [Introduction](#introduction)
-- [Détails Techniques](#détails-techniques)
-- [Conclusion](#conclusion)
-
-<br>
 
 | Data Processing             | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
 | [Prompting](https://chatgpt.com/share/1bc7eb5b-5afd-4d57-a963-5fc3b73ae1fa)                   | [Metaprompt](https://chatgpt.com/share/9bf5e118-0943-4d83-98fa-40b4ade83247)          |               |          |        |
-| RAG (Retrieval-Augmented Generation) |          |               |          |        |
+| RAG (Retrieval-Augmented Generation) |          |               |  [Tutorial 1](https://github.com/Vasanthengineer4949/NLP-Projects-NHV/tree/main/Advanced%20RAG%20A-Z%20Course) <br> [Graph RAG tutorial](https://github.com/run-llama/llama_index/blob/main/docs/docs/examples/cookbooks/GraphRAG_v1.ipynb)        |        |
 | LLM (Large Language Models) |[Sonnet Chat](https://claude.ai/new)<br>[ChatGPT](https://chatgpt.com/)          | [OpenAI playground & API](https://platform.openai.com)  <br> [Deepseek api](https://www.deepseek.com/) <br> [Groq](https://groq.com/)  <br> [Mistral](https://mistral.ai/) <br> [Sonnet API](https://www.anthropic.com/api-bk)          |  [mathstral](https://mistral.ai/news/mathstral/)        |        |
 | LLM Multimodal |          |               |          |        |
 | Reasoning                   |          |               |          |        |
-| Automation                  |          |               |          |        |
+| Automation                  |          |               |          |[Fabric](https://github.com/danielmiessler/fabric) <br> - [ses fonctionnalités](https://chatgpt.com/share/1f411711-2457-459f-94d8-2d3d67805592)       |
 | Tools creation              |          |               |          |        |
+| Real objects from text            |          |               |    [text to real 3D part](https://chatgpt.com/c/847ba680-fd83-4ed7-bd0b-84a2d75f0f67) 
+      |        |
 
 <br>
 
@@ -63,34 +59,46 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Data and Actions Creation   | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
 | Text                        |          |               |          |        |
+| - Transcription audio mulitlangues, multi partcipants                        |          |[aTrain](https://github.com/JuergenFleiss/aTrain)               |          |        |
 | Voice                       |          |               |          |        |
 | Image                       |          |               |          |        |
+| - avec Caractères consistants                       |          |   [FaceChain](https://facechain-fact.github.io/)  <br>   [portrait/vêtements/prompt pour la pose](https://arxiv.org/html/2406.09162v1)         |          |        |
 | Animation                   | [hedra](https://www.hedra.com/)         |               |          |        |
+| - avec images humaines réalistes    |        |               |  [unianimate](https://unianimate.github.io/)         |        |
+| - à partir d'une image   |        |               |   [EasyAnimate](https://github.com/aigc-apps/EasyAnimate)        |        |
+| - à partir de 2 vidéos    |        |               |  [MotionFollower]([https://unianimate.github.io/](https://francis-rings.github.io/MotionFollower/))         |        |
 | Video                       |          |               |          |        |
+| - avec caractères persistants                       |          |  [ArtFlow](https://app.artflow.ai/character-builder?feature=actors)             |          |        |
+| - Face swap                       |          | [Face Swap Any Video](https://youtu.be/XwaLYUjWaEg?si=JtLFSmNSP4jJ4kTy)            |          |        |
 | Web app                     |          |               |          |        |
 | 3D modeling                 |          |               |          |        |
-| API Endpoint Development    |          |  [Gorilla](https://gorilla.cs.berkeley.edu/)              |          |        |
+| API Endpoint Development    |          |  [Gorilla](https://gorilla.cs.berkeley.edu/)              |          | [vectorShift](https://vectorshift.ai/)    |
 | Virtual Operator            |          |               |          |        |
 | Local Development Environment      |[Github](https://github.com/) <br> [LMStudio](https://lmstudio.ai/)         |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd) <br> [HuggingFace candle](https://www.youtube.com/watch?v=8hpYedvjrxE)  <br> [Docker](https://www.docker.com/)            |          |        |
 | Cloud based Development Environment            | [[colab.google](https://www.perplexity.ai/search/quelles-sont-les-principales-c-NcNfvE5bRASAqlxa6IoQQA) <br> [[kaggle.com](https://www.perplexity.ai/search/quelles-sont-les-principales-c-eZGY4KOjRyOxAXcPjfMKVA) <br> [huggingface.co](https://www.perplexity.ai/search/https-huggingface-co-quelles-s-45BlLQtASYGCMo4QEsGixA) <br>         |               |          |        |
+
+
 
 <br>
 
 | All in One                  | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
+| Traitement multimédia (texte,...3D)                  |  [Viva]( https://vivago.ai/home)        |               |          |        |
 | Agents                      |          |               |          |        |
-| Chatbot          |          |  [Poe.com](https://www.perplexity.ai/search/chatbot-https-poe-com-principa-xeo_mfVZRZSmg.MJYxnibA)        |          |        |
+| Avatar                      |          |  [via Kaggle](https://www.youtube.com/watch?v=pvGhSfsi1Ys)             |          |        |
+|  - parlant ou chantant                      |          |  [Gratuit et bluffant](https://github.com/fudan-generative-vision/hallo?tab=readme-ov-file)  !            |          |        |
+| Chatbot          | [pmfm](pmfm.ai) <br> - [ses caractéristiques](https://chatgpt.com/share/3599eac7-d41b-484a-bb9b-1929482a3f56)         |  [Poe.com](https://www.perplexity.ai/search/chatbot-https-poe-com-principa-xeo_mfVZRZSmg.MJYxnibA)        |          |        |
+| - Voice assistant multi-modal                      |          |               | [Voir la vidéo](https://youtu.be/pi6gr_YHSuc?si=fffk2BoXy-qdY-Im)  
+  |        |
 | Coding assistant            |          | [aider.chat](https://www.perplexity.ai/search/aider-code-assistant-cheat-she-REvsq3zxSwS75PPD_HcVeQ)              |          |        |
-| Data scraping assistant     |          |               |          |        |
+| Data scraping assistant     |          |  [crawl4ai](https://github.com/unclecode/crawl4ai) <br> - [ses caractéristiques](https://chatgpt.com/share/13f51641-c3d2-4b57-af30-ffb3b31e068f)             |          |        |
 | Teaching Assistant          |          |               |          |        |
 | Project assistant           |          |               |          |        |
 | Remote phone assistant      |          |               | [VAPI](https://docs.vapi.ai/introduction)         |        |
+| Your website asistant Chatbot      |          |               |         |  ⬜: [vectorShift](https://www.youtube.com/watch?v=Pjdnq-WcDHQ)      |
 | Expert assistant            |          |               |          |        |
 <br>
   
-
-
-
 
 
 __***Avec le monde d'avant l'IA on apprenait à faire puis on faisait. Avec le monde d'aujourd'hui on fait faire à l'IA, puis on apprend à partir de ce que l'IA a fait, on finit donc par savoir faire aussi. Du coup plus besoin de prof, il ne suffit que de vouloir faire pour parvenir à nos fins !! The sky is the limit !!!***__
@@ -472,21 +480,7 @@ Try out our live research preview to see how STORM can help your knowledge explo
         
           - Remplacer format OpenAI par format Anthropic dans tout le code
           - Utiliser les modèles spécifiés dans .env (FAST_LLM_MODEL et SMART_LLM_MODEL)
- - ⬜:  [**crawl4ai**](https://github.com/unclecode/crawl4ai) : gratuit accès par code python
-  - 🆓 Completely free and open-source
-  - 🤖 LLM-friendly output formats (JSON, cleaned HTML, markdown)
-  - 🌍 Supports crawling multiple URLs simultaneously
-  - 🎨 Extracts and returns all media tags (Images, Audio, and Video)
-  - 🔗 Extracts all external and internal links
-  - 📚 Extracts metadata from the page
-  - 🔄 Custom hooks for authentication, headers, and page modifications before crawling
-  - 🕵️ User-agent customization
-  - 🖼️ Takes screenshots of the page
-  - 📜 Executes multiple custom JavaScripts before crawling
-  - 📚 Various chunking strategies: topic-based, regex, sentence, and more
-  - 🧠 Advanced extraction strategies: cosine clustering, LLM, and more
-  - 🎯 CSS selector support
-  - 📝 Passes instructions/keywords to refine extraction
+
                 
 - ⬜:  [**beautifulsoup-vs-scrapy**: qui est le meilleur](https://scrapingrobot.com/blog/beautifulsoup-vs-scrapy/)
   
@@ -522,12 +516,7 @@ Try out our live research preview to see how STORM can help your knowledge explo
   </tr>
 </table>
 
-14. **Caractères consistants:**
-- ⚙️: [ArtFlow](https://app.artflow.ai/character-builder?feature=actors) permet d'y parvenir pour 4 mn de vidéo en version gratuite.
-- ⚙️ : [On choisi le portrait, les vêtements et un prompt pour la pose](https://arxiv.org/html/2406.09162v1
-- ⬜ [**FaceChain**](https://facechain-fact.github.io/) produit des visages consistant à partir d'une seule image
-- <img src="https://github.com/user-attachments/assets/891dbdd2-8e7a-449f-bd86-83cf4ad8e866" width=50%>
-- ⬜ [**Cours gratuit sur les RAG](https://github.com/Vasanthengineer4949/NLP-Projects-NHV/tree/main/Advanced%20RAG%20A-Z%20Course) et [ici](https://github.com/run-llama/llama_index/blob/main/docs/docs/examples/cookbooks/GraphRAG_v1.ipynb) pour GraphRAG
+
 
   
 15. ⚙️ [**Apprendre de façon active avec sonnet**](https://www.youtube.com/watch?v=Wf9hRb6pBXA)
@@ -640,80 +629,27 @@ Le résultat est tout à fait correct :
 - Le chatbot doit s'adapter au contexte; [Un chatbot interactif peut être développé](https://www.youtube.com/watch?v=BGgx9921uWY)  
 - <img src="https://github.com/user-attachments/assets/958d8873-2ab4-4f5e-ad7b-80f10daa0ff9" width=50% >
   
--  **Déploiement du chatbot** avec [**pmfm**](pmfm.ai)
-  -  🤖 Créer son assistant IA personnel sans coder
-  - 🚀 Lancer rapidement son chatbot sur internet
-  - 💬 Discuter avec ses clients 24h/24 et 7j/7
-   -💰 Gagner de l'argent avec son assistant IA (plans payants)
-  - 🎨 Personnaliser l'apparence de son chatbot
-  - 📊 Voir qui utilise son assistant et comment
-  - 🌐 Avoir son propre site web pour son IA (plans payants)
-  - 📱 Utiliser son assistant sur ordinateur et mobile
-  - 📢 Faire connaître son entreprise grâce à l'IA
-  - 🔒 Héberger son assistant en toute sécurité
-  - 🔍 Être mieux trouvé sur internet
-  - 🆓 Essayer gratuitement (50 messages/mois)
-  - 💼 Avoir plus de fonctionnalités en payant
-  - 🔄 Profiter des dernières nouveautés
-  - 👥 Rejoindre une communauté de créateurs
-  - 🛒 Utiliser l'IA pour l'e-commerce
-  - 🏥 Créer un assistant santé
-  - 🛍️ Aider les clients dans les magasins
-  - 📚 Faire un assistant pour réviser ses cours
-  - 💼 Préparer des entretiens d'embauche
-  - 🌟 Lancer sa propre entreprise basée sur l'IA
+
 
 26. ⬜  : **Fabrication low cost**:
 - [Robot low cost](https://youtu.be/F7IjlE9MfJU?si=uduz-vRK8YOe4bfc)
 - [Imprimante SLS DIY]( https://sls4all.com/store/)
-- [text to real 3D part](https://chatgpt.com/c/847ba680-fd83-4ed7-bd0b-84a2d75f0f67) 
 
-27. ⬜  : [**Voice assistant multimodal**](https://youtu.be/pi6gr_YHSuc?si=fffk2BoXy-qdY-Im)  avec ChatGPT-4o, Groq, Llama3, OpenAI-TTS & Faster-Whisper
+
+
 -  ⬜  : [MOSHY](https://www.youtube.com/watch?v=AuXNiQvoe6g)
 -  ⬜  : [Accessible via un code python](https://www.youtube.com/watch?v=w5unVTO7mLQ)
 -  ⬜  : [Allice](https://github.com/myshell-ai/AIlice) :  AIlice est une assistante intelligente, versatile et évolutive. Voilà une [synthèse](https://chatgpt.com/share/dd1851ef-4020-4ffe-842b-249d630c8ac9) de ses capacités
-29. ⬜  : [**Avatar parlant ou chantant gratuit**](https://github.com/fudan-generative-vision/hallo?tab=readme-ov-file) : Bluffant ! 
-   - ⬜  : [**Avatar parlant avec CompfyUI**](https://www.youtube.com/watch?v=IOCA6ncJC6k) : Un classique, mais la mode passe vite dans l'IA. Sans installation locale on peut aussi [le mettre en oeuvre directement dans Kaggle](https://www.youtube.com/watch?v=pvGhSfsi1Ys) 
-30.  ⬜  : [**Transcription audio de réunion en local**](https://github.com/JuergenFleiss/aTrain) : multilangue et identifie les participants, open source
-31.  ⬜ : [**Viva : traitement images et video**]( https://vivago.ai/home) : Gratuit, Viva propose une gamme de fonctionnalités comprenant Texte en Vidéo, Amélioration de Vidéo, Image en Vidéo, Pinceau Magique (nouveau), Texte en Image, Image en Texte, Amélioration d'Image, Remplacement IA, Gomme Magique, Extension Magique et Texte en 3D (nouveau).
-  - [Face Swap Any Video](https://youtu.be/XwaLYUjWaEg?si=JtLFSmNSP4jJ4kTy)
-  - Édition et génération vidéo simplifiées et améliorées :[Motion Follower, Easy Animate et Uni Animate](https://chatgpt.com/share/3230e7bc-3f2c-46e1-8d76-20e9468eb2f0)
+ 
+ 
 
-      **MotionFollower : Édition de mouvement vidéo par IA**
-      [En savoir plus](https://francis-rings.github.io/Motio...)
-      Avez-vous déjà souhaité pouvoir transférer des mouvements d'une vidéo à une autre de manière transparente ? MotionFollower est là pour réaliser vos rêves ! Ce modèle d'IA de pointe vous permet de transférer les mouvements d'une vidéo source à votre protagoniste, tout en préservant l'arrière-plan et l'apparence originaux. Avec son pose controller, reference controller, score-guided diffusion et son architecture efficace, MotionFollower surpasse les autres modèles en termes d'utilisation de la mémoire GPU et de gestion des arrière-plans complexes et des mouvements de caméra.
-      
-      **EasyAnimate : Génération avancée de vidéos par IA**
-      [En savoir plus](https://github.com/aigc-apps/EasyAnimate)
-      Préparez-vous à être époustouflé par EasyAnimate, un modèle d'IA avancé développé par les brillants esprits du groupe Alibaba. En utilisant l'architecture Transformer et le cadre Diffusion Transformer, EasyAnimate peut générer des vidéos de haute performance et de longue durée avec des transitions de mouvement fluides. Sa polyvalence, son approche Slice VAE et son écosystème holistique le rendent adapté à diverses applications, des images aux vidéos. Ce modèle d'IA établit une nouvelle norme en matière de génération de vidéos par IA et ouvre des possibilités infinies pour les créateurs.
-      
-      **UniAnimate : Animation d'images humaines réalistes**
-      [En savoir plus](https://unianimate.github.io/)
-      [GitHub](https://github.com/ali-vilab/UniAnimate)
-      UniAnimate est le révolutionnaire de l'animation d'images humaines que vous attendiez ! Avec son modèle de diffusion vidéo unifié, UniAnimate peut animer une seule image de référence basée sur une séquence de poses cibles, produisant des vidéos étonnamment réalistes. L'entrée de bruit unifiée du modèle et la modélisation temporelle efficace assurent des transitions fluides et une gestion efficace des séquences plus longues. Les résultats de synthèse supérieurs d'UniAnimate et sa capacité de transfert inter-domaines en font le modèle d'IA incontournable po
 
-32. **Automatisation de tâches**
-- [Fabric](https://github.com/danielmiessler/fabric)
-  - Voici une liste des principales fonctionnalités de Fabric, le framework open-source d'IA :
-    • 📝 Extraire les points clés et résumer des vidéos YouTube, podcasts et longs contenus
-    • ✍️ Rédiger des essais ou textes dans votre propre style à partir d'une simple idée
-    • 📚 Synthétiser des articles académiques complexes
-    • 🎨 Générer des prompts d'IA pour créer des images correspondant à un texte
-    • ⭐ Évaluer la qualité d'un contenu avant de le lire/regarder en entier
-    • 💻 Expliquer du code et améliorer de la documentation technique
-    • 📊 Analyser des données et extraire des insights
-    • 🗣️ Créer des posts pour les réseaux sociaux à partir de n'importe quel contenu
-    • 🔍 Extraire des citations et passages pertinents de différentes sources
-    • 📅 Analyser vos habitudes et routines à partir de vos notes et données personnelles
-    • 🧠 Résoudre des problèmes en les décomposant en sous-tâches
-    • 🔄 Combiner plusieurs prompts (appelés "Patterns") pour des tâches plus complexes
-    • 🛠️ Créer vos propres prompts personnalisés pour des besoins spécifiques
-    • 🗣️ Interagir par commandes vocales ou interface en ligne de commande
-    • 🔗 S'intégrer avec d'autres outils comme Obsidian pour la prise de notes
-- [vectorShift](https://vectorshift.ai/) : Un écosystème pour concevoir, déployer et gérer des applications d'IA en no code. [Découvrez](https://www.youtube.com/watch?v=Pjdnq-WcDHQ) comment créer un chatbot d'IA en utilisant VectorShift, capable de rechercher et de répondre aux requêtes basées sur le contenu de votre site web !
 
-33. **Comment améliorer les performances d'un LLM**:
-    
-![image](https://github.com/user-attachments/assets/0e698b2d-b1cc-4e3b-bbc3-769a45dbec41)
+
+
+
+
+
+
 
 
