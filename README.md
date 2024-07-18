@@ -30,14 +30,14 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 
 | Data Acquisition            | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
-| Text                        |          |               |          |        |
+| Text                        | NotebookLM,<br> Perplexity         |               |          |        |
 | Voice                       |          |               |          |        |
 | Image                       |          |               |          |        |
 | Video                       |          |               |          |        |
-| Web Scraping                | Perplexity/Harpa          |               |          |        |
+| Web Scraping                | Perplexity <br>Harpa          |               |          |        |
 | External Tool API Access    |          |               |          |        |
 <br>
-
+<title>Tooltip Example</title>
 
 | Data Processing             | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
