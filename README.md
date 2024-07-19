@@ -1,8 +1,4 @@
-Name	URL	Leaderboard Meaning
-Open LLM Leaderboard	"url=https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard?query=mlabonne%2FBeyonder-4x7B-v2"	Tracks, ranks, and evaluates open LLMs and chatbots. Provides performance data based on various benchmarks and is regularly updated to reflect the latest advancements in the field.
-Trustbit LLM Leaderboards	"url=https://www.trustbit.tech/en/llm-benchmarks"	Monthly evaluations of LLMs based on real benchmark data. Categories include document processing, CRM integration, external integration, marketing support, and code generation. These leaderboards help identify the best models for specific digital product development needs.
-Chatbot Arena	"url=https://silatus.com/blog/2024yearofllms/"	Evaluates LLMs through head-to-head comparisons using an Elo rating system. Provides a dynamic and community-driven leaderboard that highlights models excelling in various tasks, offering a comprehensive assessment of LLM performance across different use cases.
-MMLU Pro Eval	"url=https://klu.ai/glossary/mmlu-pro-eval"	Focuses on evaluating LLMs based on their performance in multi-task language understanding (MMLU). This benchmark assesses models' ability to reason and handle complex tasks, providing a detailed analysis of their capabilities in understanding and generating human-like text.
+
 
 __***Avec le monde d'avant l'IA on apprenait à faire puis on faisait. Avec le monde d'aujourd'hui on fait faire à l'IA, puis on apprend à partir de ce que l'IA a fait, on finit donc par savoir faire aussi. Du coup plus besoin de prof, il ne suffit que de vouloir faire pour parvenir à nos fins !! The sky is the limit !!!***__
 
@@ -55,7 +51,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 
 | Data Processing             | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
-| [Prompting](https://chatgpt.com/share/1bc7eb5b-5afd-4d57-a963-5fc3b73ae1fa)                   | [Chain of thought](https://chat.mistral.ai/chat/f035abe1-8249-402e-90a8-031ebc7c28d1) <br> [Metaprompt](https://chatgpt.com/share/9bf5e118-0943-4d83-98fa-40b4ade83247)          |               |          |        |
+| [Prompting](https://chatgpt.com/share/1bc7eb5b-5afd-4d57-a963-5fc3b73ae1fa)                   |- [mise à jour des LLM](https://www.perplexity.ai/search/vous-etes-un-assistant-ia-spec-yFTongczR5q288uYziNP_A) <br> [Chain of thought](https://chat.mistral.ai/chat/f035abe1-8249-402e-90a8-031ebc7c28d1) <br> [Metaprompt](https://chatgpt.com/share/9bf5e118-0943-4d83-98fa-40b4ade83247)          |               |          |        |
 | RAG (Retrieval-Augmented Generation) |          |               |  [Tutorial 1](https://github.com/Vasanthengineer4949/NLP-Projects-NHV/tree/main/Advanced%20RAG%20A-Z%20Course) <br> [Graph RAG tutorial](https://github.com/run-llama/llama_index/blob/main/docs/docs/examples/cookbooks/GraphRAG_v1.ipynb)        |        |
 | LLM (Large Language Models) |[Sonnet Chat](https://claude.ai/new)<br>[ChatGPT](https://chatgpt.com/)          | [OpenAI playground & API](https://platform.openai.com)  <br> [Deepseek api](https://www.deepseek.com/) <br> [Groq](https://groq.com/)  <br> [Mistral](https://mistral.ai/) <br> [Sonnet API](https://www.anthropic.com/api-bk)          |  [mathstral](https://mistral.ai/news/mathstral/)        |        |
 | LLM Multimodal |          |               |          |        |
@@ -87,7 +83,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | 3D modeling                 |          |               |          |  [CadQuery](https://github.com/CadQuery/cadquery) <br> -[ses caractéristiques](https://chatgpt.com/share/c6743a29-56b2-4536-84fa-209041d3ff02)      |
 | API Endpoint Development    |          |  [Gorilla](https://gorilla.cs.berkeley.edu/)              |          | [vectorShift](https://vectorshift.ai/)    |
 | Virtual Operator            |          |               |          |        |
-| Local Development Environment      |[Github](https://github.com/) <br> [- Tuto web site deploy & cheat sheet](https://www.perplexity.ai/search/creer-son-site-en-ligne-avec-g-vCw21czUT6.9nE7dSYjeHA) <br>[LMStudio](https://lmstudio.ai/)         |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd) <br> [HuggingFace candle](https://www.youtube.com/watch?v=8hpYedvjrxE)  <br> [Docker](https://www.docker.com/)            |          |        |
+| Local Development Environment      |[Github](https://github.com/) <br> [- Tuto web site deploy & cheat sheet](https://www.perplexity.ai/search/creer-son-site-en-ligne-avec-g-vCw21czUT6.9nE7dSYjeHA) <br>[LMStudio](https://lmstudio.ai/)         |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd) <br> [HuggingFace candle](https://www.perplexity.ai/search/faire-un-resume-de-https-www-y-Nd7V1Ag9TjGjS9gY0AJCgQ)  <br> [Docker](https://www.docker.com/)            |          |        |
 | Cloud based Development Environment            | [colab.google](https://www.perplexity.ai/search/quelles-sont-les-principales-c-NcNfvE5bRASAqlxa6IoQQA) <br> [kaggle.com](https://www.perplexity.ai/search/quelles-sont-les-principales-c-eZGY4KOjRyOxAXcPjfMKVA) <br> [huggingface.co](https://www.perplexity.ai/search/https-huggingface-co-quelles-s-45BlLQtASYGCMo4QEsGixA) <br>         |               |          |        |
 | Fabrication             |          |               |          | - [Robot <1000 €](https://github.com/Red-Rabbit-Robotics) <br>[- Imprimante SLS DIY](https://sls4all.com/store/)       |
 
@@ -141,32 +137,6 @@ L'idée est de construire pas à pas une "baquette magique" apte à tout faire. 
 
 
 
-## Les incontournables utilisables sans rien automatiser. 
-
-- [Mieux vaut regarder les benchmarks pour choisir](https://klu.ai/glossary/mmlu-pro-eval)
-<img src="https://github.com/jpbrasile/AI-automation/assets/8331027/57f69c6d-9505-4b23-82a7-eee9025e392e" width="600" >
-
-  - ⬜ :
-  
-    - [QWEN2](https://qwenlm.github.io/blog/qwen2) est semble-t-il très performant (128 k de contexte)
-
-    -  [gemma2](https://artificialanalysis.ai/models/gemma-2-9b)
-      
-    -  ![image](https://github.com/user-attachments/assets/7e4a4f2d-373b-437e-82dd-dcfc22d4df21)
-
-    -  Mise en oeuvre des modèles locaux avec [HuggingFace candle](https://www.youtube.com/watch?v=8hpYedvjrxE) : Ultra-rapide, développé en Rust  
-
-- Pour les maths et le raisonnement en local : [mathstral](https://mistral.ai/news/mathstral/)
-![image](https://github.com/user-attachments/assets/50f68eed-55ce-411c-8878-31c09fbcd57a)
-
-- Codestral Mamba, de Mistral AI, est un modèle innovant qui peut traiter les séquences rapidement, quelle que soit leur longueur, capable de gérer jusqu'à 256k tokens avec des performances équivalentes aux modèles transformateurs de pointe, particulièrement efficace pour les applications de productivité de code
-<img src="https://github.com/user-attachments/assets/146d165a-645a-453b-b9d5-f2f671c3c2f6" width="70%">
-
-- Donc utiliser **Sonnet 3.5** et **GPT-4o** pour avoir les meilleures réponses à nos questions.
-- [**Perplexity**](https://www.perplexity.ai/) est un autre incontournable pour surfer sur le web ( que nous contournerons quand même plus tard ! 😊)
-- [**Harpa**](Harpa.ai) permet d'interagir avec une page web ou une video YouTube
-- **Copilot de Microsoft**
-- Je vous laisse le soin de tester ces différents logiciels qui même dans leurs versions gratuites amélioreront sensiblement votre productivité.
 
 ## Les incontournables pour automatiser:
 - Les mêmes (ou leur équivalent) accessibles à l'intérieur d'un code Python. 
@@ -462,6 +432,32 @@ Le résultat est tout à fait correct :
 
 
 
+## Les incontournables utilisables sans rien automatiser. 
+
+- [Mieux vaut regarder les benchmarks pour choisir](https://klu.ai/glossary/mmlu-pro-eval)
+<img src="https://github.com/jpbrasile/AI-automation/assets/8331027/57f69c6d-9505-4b23-82a7-eee9025e392e" width="600" >
+
+  - ⬜ :
+  
+    - [QWEN2](https://qwenlm.github.io/blog/qwen2) est semble-t-il très performant (128 k de contexte)
+
+    -  [gemma2](https://artificialanalysis.ai/models/gemma-2-9b)
+      
+    -  ![image](https://github.com/user-attachments/assets/7e4a4f2d-373b-437e-82dd-dcfc22d4df21)
+
+    -  Mise en oeuvre des modèles locaux avec [HuggingFace candle](https://www.youtube.com/watch?v=8hpYedvjrxE) : Ultra-rapide, développé en Rust  
+
+- Pour les maths et le raisonnement en local : [mathstral](https://mistral.ai/news/mathstral/)
+![image](https://github.com/user-attachments/assets/50f68eed-55ce-411c-8878-31c09fbcd57a)
+
+- Codestral Mamba, de Mistral AI, est un modèle innovant qui peut traiter les séquences rapidement, quelle que soit leur longueur, capable de gérer jusqu'à 256k tokens avec des performances équivalentes aux modèles transformateurs de pointe, particulièrement efficace pour les applications de productivité de code
+<img src="https://github.com/user-attachments/assets/146d165a-645a-453b-b9d5-f2f671c3c2f6" width="70%">
+
+- Donc utiliser **Sonnet 3.5** et **GPT-4o** pour avoir les meilleures réponses à nos questions.
+- [**Perplexity**](https://www.perplexity.ai/) est un autre incontournable pour surfer sur le web ( que nous contournerons quand même plus tard ! 😊)
+- [**Harpa**](Harpa.ai) permet d'interagir avec une page web ou une video YouTube
+- **Copilot de Microsoft**
+- Je vous laisse le soin de tester ces différents logiciels qui même dans leurs versions gratuites amélioreront sensiblement votre productivité.
 
 
 
