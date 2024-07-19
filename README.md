@@ -11,25 +11,26 @@ __***Avec le monde d'avant l'IA on apprenait à faire puis on faisait. Avec le m
 _**Savoir Lire, Ecrire , Compter : A l'heure de l'IA, ses savoir-faire de base se sont étendus:**_
 
 - **Lire** c'est aussi naviguer sur le web (_web scraping_) et apprendre en regardant des vidéos sur YouTube (_video reading_) 
-- **Ecrire** c'est aussi chatter (_prompting_) avec l'IA (_LLM_) , envoyer des mails(_automation_), créer des vidéos (video_making_) ou utiliser un espace de stockage qui nous est propre et facilement accessible (_RAG_). C'est aussi savoir communiquer avec notre environnement (_multimodal_)
+- **Ecrire** c'est aussi chatter (_prompting_) avec l'IA (_LLM_) , envoyer des mails(_automation_), créer des vidéos (_video_making_) ou utiliser un espace de stockage qui nous est propre et facilement accessible (_RAG_). C'est aussi savoir communiquer avec notre environnement (_multimodal_)
 - **Compter** c'est aussi lancer des programmes (_coding_), accéder à des ressources externes(_API)_
 
 L'IA doit aussi savoir s'adapter au niveau de l'utilisateur :
 
-- Pour le __débutant__, elle fournira des "boîtes noires" qui réaliseront certaines des tâches décrites plus haut sans que l'utilisateur ait à faire d'effort. C'est le _"What does it do"_.
-- Pour l'__apprenti__, elle permettra de réaliser des tâches plus complexes en associant les outils disponibles. C'est le _"How to use it"_.
-- Pour celui qui __maîtrise__, il adaptera les boîtes existantes à ses besoins. C'est le _"How to improve what it does"_.
-- Pour l'__expert__ enfin, il créera ses propres outils. C'est le _"How to create new tools"_.
+- Pour le __débutant__, elle fournira des "boîtes noires" qui réaliseront certaines des tâches décrites plus haut sans que l'utilisateur ait à faire d'effort. C'est le _"What does it do ?"_.
+- Pour l'__apprenti__, elle permettra de réaliser des tâches plus complexes en associant les outils disponibles. C'est le _"How to use it ?"_.
+- Pour celui qui __maîtrise__, il adaptera les boîtes existantes à ses besoins. C'est le _"How to improve what it does ?"_.
+- Pour l'__expert__ enfin, il créera ses propres outils. C'est le _"How to create new tools ?"_.
 
 Si toutes ces capacités sont intégrés dans notre IA, elle devient un parfait assistant 
 D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-on des solutions locales ou déportées,payantes ou gratuites ?
 
 - [**Classification des possibilitées de l'IA**](https://chatgpt.com/share/c7d34658-7c48-4e70-ad22-01c3d5071553) 
 
-  - **Data Acquisition** :Text/Voice/Image/Video/Web Scraping/External Tool API Access
-  - **Data Processing** : Prompting/RAG/LLM/mLLM/Reasoning/Automation/Tools creation 
-  - **Data and Actions Creation** :Text/Voice/Image/Animation/Video/3D modeling/API Endpoint Development/Virtual Operator/Development Environment
-  - **All in one** : Agents/Coding assistant/Data scraping assistant/Teaching Assistant/Project assistant/Expert assistant
+  - **Data Acquisition** :Text/Voice/Image/Video/Vision/Web Scraping/External API 
+  - **Data Processing** : Prompting/RAG/LLM/multimodal LLM/Reasoning/Automation/Tools creation/Object manufacturing 
+  - **Creation** :Text/Voice/Image/Animation/Video/Web App/3D modeling/API Endpoint Development/Virtual Operator/Fabrication
+  - **Tools** : Multimedi treatment/Function calling/Agents/Avatar/ChatBot/Voice assistant/Coding assistant/Data scraping assistant/Teaching Assistant/Project Assistant/Remote phone assistant/Website Assistant Chatbot/Expert assistant
+
 
 <br><br>
 ![image](https://github.com/user-attachments/assets/7d25f8b8-77d5-4b30-b940-4adfbe331e31)
@@ -44,7 +45,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Image                       |          |               |          |        |
 | Video /Vision               | [Object detection](https://claude.site/artifacts/58f9617b-29ff-4d72-94c6-fef471fe4550)         |               | [openedai-vision](https://github.com/matatonic/openedai-vision)         |        |
 | Web Scraping                |🛠️ [Perplexity](https://www.perplexity.ai) <br>🛠️ [Harpa](Harpa.ai)          |               |  [gpt researcher](https://www.perplexity.ai/search/remet-en-forme-en-faisant-si-n-sATjIynuR9i6G8ikas0w2w)        |        |
-| External Tool API Access    |          |               |          |        |
+| External API     |          |               |          |        |
 
 <br><br>
 
@@ -58,7 +59,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Reasoning                   |          |               |          |        |
 | Automation                  |          |               |          |[Fabric](https://github.com/danielmiessler/fabric) <br> - [ses fonctionnalités](https://chatgpt.com/share/1f411711-2457-459f-94d8-2d3d67805592)       |
 | Tools creation              |          |               |          |        |
-| Real objects from text            |          |               |    [text to real 3D part](https://chatgpt.com/c/847ba680-fd83-4ed7-bd0b-84a2d75f0f67) 
+| Objects manufacturing            |          |               |    [text to real 3D part](https://chatgpt.com/c/847ba680-fd83-4ed7-bd0b-84a2d75f0f67) 
    
 
 <br><br>
@@ -91,9 +92,10 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 
 <br><br>
 
-| All in One                  | Débutant | Intermédiaire | Maîtrise | Expert |
+| Tools                  | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
-| Traitement multimédia (texte,...3D)                  |  [Viva]( https://vivago.ai/home)        |               |          |        |
+| multimedia Treatment(texte,...3D)                  |  [Viva]( https://vivago.ai/home)        |               |          |        |
+| Function calling                |  | [Gorilla](https://gorilla.cs.berkeley.edu/) |  |  |
 | Agents                      |          |               |  [Build agent with Docker](https://www.perplexity.ai/search/resume-sous-la-forme-d-une-lis-4bHWdgdFRo6exzkPiyX0ag) <br> [agents on internet](https://www.perplexity.ai/search/explique-sous-forme-de-liste-a-h0KnUnaSSFyQucTGJuh2Ag)       |        |
 | Avatar                      |          |  [via Kaggle](https://www.youtube.com/watch?v=pvGhSfsi1Ys)             |          |        |
 |  - parlant ou chantant                      |          |  [Gratuit et bluffant](https://github.com/fudan-generative-vision/hallo?tab=readme-ov-file)  !            |          |        |
@@ -105,7 +107,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Teaching Assistant          |          |               |          |        |
 | Project assistant           |          |               |          |        |
 | Remote phone assistant      |          |               | [VAPI](https://docs.vapi.ai/introduction)         |        |
-| Your website asistant Chatbot      |          |               |         |  ⬜: [vectorShift](https://www.youtube.com/watch?v=Pjdnq-WcDHQ)      |
+| Website assistant Chatbot      |          |               |         |  ⬜: [vectorShift](https://www.youtube.com/watch?v=Pjdnq-WcDHQ)      |
 | Expert assistant            |          |               |          |        |
 <br><br>
   
@@ -131,17 +133,15 @@ L'idée est de construire pas à pas une "baquette magique" apte à tout faire. 
 - Comment apprendre cette nouvelle façon de travailler , en comprenant comment la magie opére.
 - Cela passe par l'emploi d'outils pour :
   - Ne pas réinventer la roue, donc voir si notre problème n'est pas déjà résolu. c'est le "**web scraping**" en particulier sur Github, Hugging Face ou Papers with Code
-  - Récupérer l'état de l'art c'est le "web scraping" de site cpomme Arxiv en particulier et le **RAG** pour stocker le savoir
+  - Récupérer l'état de l'art c'est la combinaison de "web scraping" de site comme Arxiv ou Github en particulier et le **RAG** pour stocker le savoir
   - Le programmer en "no code" avec les **coding assistants**
-  - Utiliser des **agents** collaborant entre eux pour résoudre les problèmes les plus complexes 
-
-
+  - Utiliser des **agents** collaborant entre eux pour résoudre les problèmes les plus complexes, chaque fois qu'une programmation directe s'avère difficile 
 
 
 ## Les incontournables pour automatiser:
 - Les mêmes (ou leur équivalent) accessibles à l'intérieur d'un code Python. 
 - Des outils produisant et mettant en oeuvre le code à notre place
-- Des outils pour produire automatiquement des vidéos qui nous servirons à apprendre ce que fait l'IA
+- Des outils pour produire automatiquement des vidéos qui nous serviront à apprendre 
 - Des outils pour [appeler des fonctions externes](https://gorilla.cs.berkeley.edu/leaderboard.html)
 <img src="https://github.com/jpbrasile/AI-automation/assets/8331027/084708bc-b8f1-469e-94bd-32d48cc6cf50" width="600" />
 
@@ -149,7 +149,7 @@ L'idée est de construire pas à pas une "baquette magique" apte à tout faire. 
 <img src="https://github.com/user-attachments/assets/2c6ec9d9-0e17-4a29-8eb3-30219d50ff46" width="600" />
 
 
-- Le coeur du système, les **LLM** (Large language model)  recoivent du texte, le traite et fournissent du texte en retour. Le texte d'entrée doit être tel qu'il exprime clairement et concrètement nos attentes (c'est le prompting)
+- Le coeur du système, les **LLM** (Large language model)  recoivent du texte (ou de plus en plus des sources d'origines variées), le traite et fournissent du texte en retour. Le texte d'entrée doit être tel qu'il exprime clairement et concrètement nos attentes (c'est le __prompting__)
 - Le texte en retour peut être formaté pour correspondre à une réponse de type texte brut, JSON,  markdown, HTML , code , API ... suivant le post processing envisagé.
 
 1. ## Création automatique d'une API web qui peut effectuer deux opérations mathématiques :
