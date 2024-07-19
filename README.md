@@ -1,3 +1,9 @@
+Name	URL	Leaderboard Meaning
+Open LLM Leaderboard	"url=https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard?query=mlabonne%2FBeyonder-4x7B-v2"	Tracks, ranks, and evaluates open LLMs and chatbots. Provides performance data based on various benchmarks and is regularly updated to reflect the latest advancements in the field.
+Trustbit LLM Leaderboards	"url=https://www.trustbit.tech/en/llm-benchmarks"	Monthly evaluations of LLMs based on real benchmark data. Categories include document processing, CRM integration, external integration, marketing support, and code generation. These leaderboards help identify the best models for specific digital product development needs.
+Chatbot Arena	"url=https://silatus.com/blog/2024yearofllms/"	Evaluates LLMs through head-to-head comparisons using an Elo rating system. Provides a dynamic and community-driven leaderboard that highlights models excelling in various tasks, offering a comprehensive assessment of LLM performance across different use cases.
+MMLU Pro Eval	"url=https://klu.ai/glossary/mmlu-pro-eval"	Focuses on evaluating LLMs based on their performance in multi-task language understanding (MMLU). This benchmark assesses models' ability to reason and handle complex tasks, providing a detailed analysis of their capabilities in understanding and generating human-like text.
+
 __***Avec le monde d'avant l'IA on apprenait à faire puis on faisait. Avec le monde d'aujourd'hui on fait faire à l'IA, puis on apprend à partir de ce que l'IA a fait, on finit donc par savoir faire aussi. Du coup plus besoin de prof, il ne suffit que de vouloir faire pour parvenir à nos fins !! The sky is the limit !!!***__
 
 
@@ -29,9 +35,11 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
   - **Data and Actions Creation** :Text/Voice/Image/Animation/Video/3D modeling/API Endpoint Development/Virtual Operator/Development Environment
   - **All in one** : Agents/Coding assistant/Data scraping assistant/Teaching Assistant/Project assistant/Expert assistant
 
-<br>
-**TO DO  ⬜ / DONE ✅** / **en cours** ⚙️ / **tools** 🛠️ / **innovations** 💡
-<br>
+<br><br>
+![image](https://github.com/user-attachments/assets/7d25f8b8-77d5-4b30-b940-4adfbe331e31)
+<br><br>
+
+
 
 | Data Acquisition            | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
@@ -108,6 +116,9 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 
 
 
+<br>
+**TO DO  ⬜ / DONE ✅** / **en cours** ⚙️ / **tools** 🛠️ / **innovations** 💡
+<br>
 
 
 
