@@ -43,7 +43,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 
 | Data Processing             | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
-| [Prompting](https://chatgpt.com/share/1bc7eb5b-5afd-4d57-a963-5fc3b73ae1fa)                   | [Metaprompt](https://chatgpt.com/share/9bf5e118-0943-4d83-98fa-40b4ade83247)          |               |          |        |
+| [Prompting](https://chatgpt.com/share/1bc7eb5b-5afd-4d57-a963-5fc3b73ae1fa) <br> [Chain of thought](https://chat.mistral.ai/chat/f035abe1-8249-402e-90a8-031ebc7c28d1)                   | [Metaprompt](https://chatgpt.com/share/9bf5e118-0943-4d83-98fa-40b4ade83247)          |               |          |        |
 | RAG (Retrieval-Augmented Generation) |          |               |  [Tutorial 1](https://github.com/Vasanthengineer4949/NLP-Projects-NHV/tree/main/Advanced%20RAG%20A-Z%20Course) <br> [Graph RAG tutorial](https://github.com/run-llama/llama_index/blob/main/docs/docs/examples/cookbooks/GraphRAG_v1.ipynb)        |        |
 | LLM (Large Language Models) |[Sonnet Chat](https://claude.ai/new)<br>[ChatGPT](https://chatgpt.com/)          | [OpenAI playground & API](https://platform.openai.com)  <br> [Deepseek api](https://www.deepseek.com/) <br> [Groq](https://groq.com/)  <br> [Mistral](https://mistral.ai/) <br> [Sonnet API](https://www.anthropic.com/api-bk)          |  [mathstral](https://mistral.ai/news/mathstral/)        |        |
 | LLM Multimodal |          |               |          |        |
