@@ -1,3 +1,6 @@
+__***Avec le monde d'avant l'IA on apprenait à faire puis on faisait. Avec le monde d'aujourd'hui on fait faire à l'IA, puis on apprend à partir de ce que l'IA a fait, on finit donc par savoir faire aussi. Du coup plus besoin de prof, il ne suffit que de vouloir faire pour parvenir à nos fins !! The sky is the limit !!!***__
+
+
 # [SimpleAIRoadMap](https://chatgpt.com/share/d2c569e9-b863-4143-959c-583dc10b6257) *:
 *: Nous avons mis un hyperlien sur le chat d'aide à la production de ce markdown 
 
@@ -62,7 +65,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Text                        |          |               |          |        |
 | - Transcription audio mulitlangues, multi partcipants                        |          |[aTrain](https://github.com/JuergenFleiss/aTrain)               |          |        |
 | Voice                       |        |    [alltalk_tts](https://github.com/erew123/alltalk_tts) <br> [~ elevenlabs mais gratuit](https://ttsopenai.com/) <br> [Chansons avec suno](suno.ai) <br> [CosyVoice en local, facile à implanter](https://chatgpt.com/share/881feabd-9e38-4eea-8776-6e3bcafe7359)          |          |        |
-| Image                       | [Fooocus on Colab](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb)  <br>  [fooocus api](https://replicate.com/konieshadow/fooocus-api/api)  <br> <img src="https://github.com/user-attachments/assets/ae951b46-0b30-46da-b940-44b34f5af0fe" width="60%"> <br> tout en un pour 9€/mois <br>  [AuraFlow](https://www.perplexity.ai/search/resume-sous-forme-de-liste-a-p-95pSiRbEQ3e9vCU9KCVe9w) <br> - en playground pour 0.02 € <br> <img src="https://github.com/user-attachments/assets/1cd6927e-2ad4-49d3-9c52-99aeff69700b" width="25%">  | [CompfyUI sur HF](https://huggingface.co/spaces/Deadmon/union-sdxl): <br> Prompt: En mode manga : Night_sky_1 with a full moon. Piper_McNimbus (12 years old, long auburn hair, freckles, bright green eyes, wearing pajamas,) soars through the air, arms outstretched, with a joyful expression. Clouds_1 (wispy, moonlit) surround her. Stars_1 (twinkling, numerous) fill the background. The atmosphere is magical and liberating. <br> Image: <img src="https://github.com/user-attachments/assets/12e8187c-c43e-402e-9182-a4f2a3511136" alt="Generated Image" width="50%"> |
+| Image                       | [Fooocus on Colab](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb)  <br>  [fooocus api](https://replicate.com/konieshadow/fooocus-api/api)  <br> <img src="https://github.com/user-attachments/assets/ae951b46-0b30-46da-b940-44b34f5af0fe" width="60%"> <br> [tout en un pour 9€/mois](https://www.perplexity.ai/search/donne-moi-les-fonctionnalite-d-zy4EKgaqQEi2VjSn.fAMvQ) <br>  [AuraFlow](https://www.perplexity.ai/search/resume-sous-forme-de-liste-a-p-95pSiRbEQ3e9vCU9KCVe9w) <br> - en playground pour 0.02 € <br> <img src="https://github.com/user-attachments/assets/1cd6927e-2ad4-49d3-9c52-99aeff69700b" width="25%">  | [CompfyUI sur HF](https://huggingface.co/spaces/Deadmon/union-sdxl): <br> Prompt: En mode manga : Night_sky_1 with a full moon. Piper_McNimbus (12 years old, long auburn hair, freckles, bright green eyes, wearing pajamas,) soars through the air, arms outstretched, with a joyful expression. Clouds_1 (wispy, moonlit) surround her. Stars_1 (twinkling, numerous) fill the background. The atmosphere is magical and liberating. <br> Image: <img src="https://github.com/user-attachments/assets/12e8187c-c43e-402e-9182-a4f2a3511136" alt="Generated Image" width="50%"> |
 | - upscaling                       |  [Upscaling](https://flowt.ai/community/supir-v2-plugandplay-edition-n5acf-v)       |               |          |        |
 | - avec Caractères consistants                       |          |   [FaceChain](https://facechain-fact.github.io/)  <br>   [portrait/vêtements/prompt pour la pose](https://arxiv.org/html/2406.09162v1)         |          |        |
 | Animation                   | [hedra](https://www.hedra.com/)         |               |          |        |
@@ -107,66 +110,8 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 
 
 
-10. **Utilisation de Github**
-- Voici les étapes pour transformer votre répertoire local en repository GitHub et synchroniser les deux avec Git :
-  - Créez un nouveau repository sur GitHub :
-    - Connectez-vous à votre compte GitHub
-    - Cliquez sur "New repository"
-    - Donnez un nom à votre repository
-    - Ne cochez pas "Initialize this repository with a README"
-    - Cliquez sur "Create repository"
-  - Initialisez Git dans votre répertoire local :
-    - Ouvrez un terminal
-    - Naviguez vers votre répertoire local
-    - Exécutez : `git init`
-    - Ajoutez vos fichiers au staging area :
-    - Créez un fichier .gitignore :
-      - Dans votre répertoire local, créez un fichier nommé .gitignore s'il n'existe pas déjà.
-      - Ajoutez .env au .gitignore :
-      - Ouvrez le fichier .gitignore avec un éditeur de texte et ajoutez la ligne suivante `.env`
-      - `git add .`
-    - Faites votre premier commit :
-      - `git commit -m "Initial commit"`
-      - Liez votre repository local au repository GitHub :
-      - `git remote add origin https://github.com/votre-nom-utilisateur/nom-du-repo.git`
-    - Poussez vos changements vers GitHub :
-      - `git push -u origin main` (ou master si c'est votre branche principale)
-  - Après ces étapes, votre répertoire local sera synchronisé avec le repository GitHub. Pour les futures modifications :
-    - Faites vos changements localement
-    - Ajoutez les fichiers modifiés : git add .
-    - Committez : `git commit -m "Description des changements"`
-    - Poussez vers GitHub : `git push`
-  - Si vous avez déjà commité le fichier .env, vous devrez le retirer du suivi de Git : `git rm --cached .env`
-  	Cette commande supprime le fichier du repository Git sans le supprimer de votre système de fichiers local.
-  - Pour récupérer en local des modifications faites sur Github: `git pull origin main`
 
 
-__***Avec le monde d'avant l'IA on apprenait à faire puis on faisait. Avec le monde d'aujourd'hui on fait faire à l'IA, puis on apprend à partir de ce que l'IA a fait, on finit donc par savoir faire aussi. Du coup plus besoin de prof, il ne suffit que de vouloir faire pour parvenir à nos fins !! The sky is the limit !!!***__
-
-**TO DO  ⬜ / DONE ✅** / **en cours** ⚙️ / **tools** 🛠️ / **innovations** 💡
-|        |        |  |
-|-------------------|-------------------|-------------------|
-| - Prompting (12) ⚙️| - Site web sur Github (7) ✅      | Traitement d'images(13)  ⚙️ |
-| - 🛠️ Docker  ✅| - Simple API locale (1) ✅      | Speech to text  ⬜ (30)|
-| - 🛠️[Github](https://github.com/) (10) ✅| -  (5)Programmation no code (AIDER ✅), (MicroAgent ⬜)     |- Web scrapping via python (11) ⚙️      |
-| - 🛠️ GPT-4o ✅ et [playground](https://platform.openai.com/playground/chat?models=gpt-4o)| -  🛠️ LM Studio ✅       |- RAG  (16)  ⚙️     |
-| - 🛠️ Anthropic [chat](https://claude.ai/new) & [API](https://www.anthropic.com/api-bk) (Sonnet 3.5) ✅| - Text to speech via python: payant(3. ✅) et gratuit (19. ⬜)     |-  GPTs  ⬜  |
-| - 🛠️[Perplexity](https://www.perplexity.ai/)   ✅|- Text to vidéo et traitements (3)    ⚙️       |-  Agents (21) ⬜  |
-| - 🛠️ Comfyui   ✅| - ⬜:  Tutoriel video automatique     |- Function calling (Gorilla) ⬜   |
-| - 🛠️ Copilot ✅| -  Création d'images consistantes  ✅    |- Text to CAD (9) ⚙️      |
-| - 🛠️ Anaconda ✅| - Création de tutoriel vidéo  ✅       |- Serveur local ⬜    |
-| - 🛠️[Hedra](https://www.hedra.com/) ✅ | - Vidéo-livre narratif généré à partir de texte (8) ✅      |- Remote PC (18) ✅   |
-| - 🛠️Mistral| - LLM via python (2)  ✅      |-  [LLM en //](https://youtu.be/6hG39mr9c0k?si=jwaLEMEDurlWbHuF)   ⬜  |
-| - 🛠️[Deepseek api](https://www.deepseek.com/) ⬜  | - Text to image local (6)   ✅     |-  Open interpreter ⬜  |
-|- 🛠️ [Groq](https://groq.com/) ✅ |🛠️ Hugging Face ✅  |- Coder à partir de GitHub, HF, papers with code  ⬜    |
-|- 🛠️VS studio ✅ |- 🛠️ Kaggle ✅   |- 🛠️ Colab  ✅  |
-|- Caractères consistants (14) ⚙️ |-  Apprendre de façon active (15) ⚙️  |- ⚙️ Détection automatique avec Sonnet (17)  |
-|- 🛠️ [Poe](https://poe.com/) ✅ |-  🛠️ Web Apps by [123apps](https://123apps.com/) :Edit, Convert, Create |- 🛠️ [VAPI](https://docs.vapi.ai/introduction) : your remote phone assistant |
-|- ⬜ : 🛠️ à évaluer (20)  |-⬜ : Fabrication low cost (26)  |- ⬜ : Avatar parlant ou chantant gratuit (28)  |
-|- ⚙️: LearnAnything (22) 💡 | - ⚙️: Text to Graph (23) 💡   |- ⬜ : RAG to Graph     |
-|- ⚙️ : API de calcul scientifique (24) 💡 |- ⬜ : Déploiement du chatbot (25)      | Bot assistant multimodal (27)   |
-|- ⬜ : [OpenedAI Vision (~ GPT4-vision)](https://www.youtube.com/watch?v=61F_4zfs_Jg)|- ⬜ : Traitement images et video (31)   |-  |
-| - ⬜ : Automatisation de tâches (32) | Amélioration des performances d'un LLM (33)  |  |
 
 
 
@@ -220,7 +165,8 @@ L'idée est de construire pas à pas une "baquette magique" apte à tout faire. 
 <img src="https://github.com/jpbrasile/AI-automation/assets/8331027/084708bc-b8f1-469e-94bd-32d48cc6cf50" width="600" />
 
 ## Architecture générale:
-<img src="https://github.com/jpbrasile/AI-automation/assets/8331027/17a47369-f026-46b6-a11c-0dc0d48f35de" width="600" />
+<img src="https://github.com/user-attachments/assets/2c6ec9d9-0e17-4a29-8eb3-30219d50ff46" width="600" />
+
 
 - Le coeur du système, les **LLM** (Large language model)  recoivent du texte, le traite et fournissent du texte en retour. Le texte d'entrée doit être tel qu'il exprime clairement et concrètement nos attentes (c'est le prompting)
 - Le texte en retour peut être formaté pour correspondre à une réponse de type texte brut, JSON,  markdown, HTML , code , API ... suivant le post processing envisagé.
@@ -401,21 +347,7 @@ Try out our live research preview to see how STORM can help your knowledge explo
 - Les traitements possibles sont nombreux, c'est pourquoi un logiciel tout en un, accessible par API via Docker est interessant. Nous avons déjà installé Compfyui sur docker. Reste à intérer le bon module:
 - Trouver [controlnet-union-sdxl-1.0](https://huggingface.co/xinsir/controlnet-union-sdxl-1.0) sur HuggingFace
 - ⚙️: [Un tutorial nécessaire pour la prise en main de ComfyUi](https://www.youtube.com/watch?v=zpJQUw_0lBI)  
-- L'installation sur ComfyUI n'est pas encore acquise mais il nous est possible d'utiliser [un espace HF qui le met en &#339;uvre](https://huggingface.co/spaces/Deadmon/union-sdxl):
-<table>
-  <tr>
-    <th>Prompt</th>
-    <th>Image</th>
-  </tr>
-  <tr>
-    <td width="50%">
-      En mode manga : Night_sky_1 with a full moon. Piper_McNimbus (12 years old, long auburn hair, freckles, bright green eyes, wearing pajamas,) soars through the air, arms outstretched, with a joyful expression. Clouds_1 (wispy, moonlit) surround her. Stars_1 (twinkling, numerous) fill the background. The atmosphere is magical and liberating.
-    </td>
-    <td width="50%">
-      <img src="https://github.com/user-attachments/assets/12e8187c-c43e-402e-9182-a4f2a3511136" alt="Generated Image" width="100%">
-    </td>
-  </tr>
-</table>
+
 
 
 
@@ -489,6 +421,33 @@ Le résultat est tout à fait correct :
 
 
   
+
+
+
+**TO DO  ⬜ / DONE ✅** / **en cours** ⚙️ / **tools** 🛠️ / **innovations** 💡
+|        |        |  |
+|-------------------|-------------------|-------------------|
+| - Prompting (12) ⚙️| - Site web sur Github (7) ✅      | Traitement d'images(13)  ⚙️ |
+| - 🛠️ Docker  ✅| - Simple API locale (1) ✅      | Speech to text  ⬜ (30)|
+| - 🛠️[Github](https://github.com/) (10) ✅| -  (5)Programmation no code (AIDER ✅), (MicroAgent ⬜)     |- Web scrapping via python (11) ⚙️      |
+| - 🛠️ GPT-4o ✅ et [playground](https://platform.openai.com/playground/chat?models=gpt-4o)| -  🛠️ LM Studio ✅       |- RAG  (16)  ⚙️     |
+| - 🛠️ Anthropic [chat](https://claude.ai/new) & [API](https://www.anthropic.com/api-bk) (Sonnet 3.5) ✅| - Text to speech via python: payant(3. ✅) et gratuit (19. ⬜)     |-  GPTs  ⬜  |
+| - 🛠️[Perplexity](https://www.perplexity.ai/)   ✅|- Text to vidéo et traitements (3)    ⚙️       |-  Agents (21) ⬜  |
+| - 🛠️ Comfyui   ✅| - ⬜:  Tutoriel video automatique     |- Function calling (Gorilla) ⬜   |
+| - 🛠️ Copilot ✅| -  Création d'images consistantes  ✅    |- Text to CAD (9) ⚙️      |
+| - 🛠️ Anaconda ✅| - Création de tutoriel vidéo  ✅       |- Serveur local ⬜    |
+| - 🛠️[Hedra](https://www.hedra.com/) ✅ | - Vidéo-livre narratif généré à partir de texte (8) ✅      |- Remote PC (18) ✅   |
+| - 🛠️Mistral| - LLM via python (2)  ✅      |-  [LLM en //](https://youtu.be/6hG39mr9c0k?si=jwaLEMEDurlWbHuF)   ⬜  |
+| - 🛠️[Deepseek api](https://www.deepseek.com/) ⬜  | - Text to image local (6)   ✅     |-  Open interpreter ⬜  |
+|- 🛠️ [Groq](https://groq.com/) ✅ |🛠️ Hugging Face ✅  |- Coder à partir de GitHub, HF, papers with code  ⬜    |
+|- 🛠️VS studio ✅ |- 🛠️ Kaggle ✅   |- 🛠️ Colab  ✅  |
+|- Caractères consistants (14) ⚙️ |-  Apprendre de façon active (15) ⚙️  |- ⚙️ Détection automatique avec Sonnet (17)  |
+|- 🛠️ [Poe](https://poe.com/) ✅ |-  🛠️ Web Apps by [123apps](https://123apps.com/) :Edit, Convert, Create |- 🛠️ [VAPI](https://docs.vapi.ai/introduction) : your remote phone assistant |
+|- ⬜ : 🛠️ à évaluer (20)  |-⬜ : Fabrication low cost (26)  |- ⬜ : Avatar parlant ou chantant gratuit (28)  |
+|- ⚙️: LearnAnything (22) 💡 | - ⚙️: Text to Graph (23) 💡   |- ⬜ : RAG to Graph     |
+|- ⚙️ : API de calcul scientifique (24) 💡 |- ⬜ : Déploiement du chatbot (25)      | Bot assistant multimodal (27)   |
+|- ⬜ : [OpenedAI Vision (~ GPT4-vision)](https://www.youtube.com/watch?v=61F_4zfs_Jg)|- ⬜ : Traitement images et video (31)   |-  |
+| - ⬜ : Automatisation de tâches (32) | Amélioration des performances d'un LLM (33)  |  |
 
 
 
