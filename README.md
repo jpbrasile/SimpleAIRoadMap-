@@ -43,7 +43,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 
 | Data Processing             | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
-| [Prompting](https://chatgpt.com/share/1bc7eb5b-5afd-4d57-a963-5fc3b73ae1fa) <br> [Chain of thought](https://chat.mistral.ai/chat/f035abe1-8249-402e-90a8-031ebc7c28d1)                   | [Metaprompt](https://chatgpt.com/share/9bf5e118-0943-4d83-98fa-40b4ade83247)          |               |          |        |
+| [Prompting](https://chatgpt.com/share/1bc7eb5b-5afd-4d57-a963-5fc3b73ae1fa)                   | [Chain of thought](https://chat.mistral.ai/chat/f035abe1-8249-402e-90a8-031ebc7c28d1) <br> [Metaprompt](https://chatgpt.com/share/9bf5e118-0943-4d83-98fa-40b4ade83247)          |               |          |        |
 | RAG (Retrieval-Augmented Generation) |          |               |  [Tutorial 1](https://github.com/Vasanthengineer4949/NLP-Projects-NHV/tree/main/Advanced%20RAG%20A-Z%20Course) <br> [Graph RAG tutorial](https://github.com/run-llama/llama_index/blob/main/docs/docs/examples/cookbooks/GraphRAG_v1.ipynb)        |        |
 | LLM (Large Language Models) |[Sonnet Chat](https://claude.ai/new)<br>[ChatGPT](https://chatgpt.com/)          | [OpenAI playground & API](https://platform.openai.com)  <br> [Deepseek api](https://www.deepseek.com/) <br> [Groq](https://groq.com/)  <br> [Mistral](https://mistral.ai/) <br> [Sonnet API](https://www.anthropic.com/api-bk)          |  [mathstral](https://mistral.ai/news/mathstral/)        |        |
 | LLM Multimodal |          |               |          |        |
@@ -56,7 +56,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 <br>
 
 
-| Data and Actions Creation   | Débutant | Intermédiaire | Maîtrise | Expert |
+|  Creation   | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
 | Text                        |          |               |          |        |
 | - Transcription audio mulitlangues, multi partcipants                        |          |[aTrain](https://github.com/JuergenFleiss/aTrain)               |          |        |
@@ -76,6 +76,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Virtual Operator            |          |               |          |        |
 | Local Development Environment      |[Github](https://github.com/) <br> [LMStudio](https://lmstudio.ai/)         |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd) <br> [HuggingFace candle](https://www.youtube.com/watch?v=8hpYedvjrxE)  <br> [Docker](https://www.docker.com/)            |          |        |
 | Cloud based Development Environment            | [[colab.google](https://www.perplexity.ai/search/quelles-sont-les-principales-c-NcNfvE5bRASAqlxa6IoQQA) <br> [[kaggle.com](https://www.perplexity.ai/search/quelles-sont-les-principales-c-eZGY4KOjRyOxAXcPjfMKVA) <br> [huggingface.co](https://www.perplexity.ai/search/https-huggingface-co-quelles-s-45BlLQtASYGCMo4QEsGixA) <br>         |               |          |        |
+| Fabrication             |          |               |          |        |
 
 
 
@@ -88,7 +89,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Avatar                      |          |  [via Kaggle](https://www.youtube.com/watch?v=pvGhSfsi1Ys)             |          |        |
 |  - parlant ou chantant                      |          |  [Gratuit et bluffant](https://github.com/fudan-generative-vision/hallo?tab=readme-ov-file)  !            |          |        |
 | Chatbot          | [pmfm](pmfm.ai) <br> - [ses caractéristiques](https://chatgpt.com/share/3599eac7-d41b-484a-bb9b-1929482a3f56)         |  [Poe.com](https://www.perplexity.ai/search/chatbot-https-poe-com-principa-xeo_mfVZRZSmg.MJYxnibA)        |          |        |
-| - Voice assistant multi-modal                      |          |               | [Voir la vidéo](https://youtu.be/pi6gr_YHSuc?si=fffk2BoXy-qdY-Im) <br [Allice](github.com/myshell-ai/AIlice) <br> - [sescaractéristiques](https://chatgpt.com/share/dd1851ef-4020-4ffe-842b-249d630c8ac9)
+| - Voice assistant                       |          |               |[en local] (https://www.perplexity.ai/search/resume-dans-unne-liste-a-puce-94GkUCHiTFOwvm9_Mzsk2A) <br> [Multimodal]([https://youtu.be/pi6gr_YHSuc?si=fffk2BoXy-qdY-Im](https://www.perplexity.ai/search/resume-dans-une-liste-a-puces-wT0ANkSQRxmb3d5SCrF_vA)) <br> [Allice](github.com/myshell-ai/AIlice) <br> - [sescaractéristiques](https://chatgpt.com/share/dd1851ef-4020-4ffe-842b-249d630c8ac9)
   |        |
 | Coding assistant            |          | [aider.chat](https://www.perplexity.ai/search/aider-code-assistant-cheat-she-REvsq3zxSwS75PPD_HcVeQ)              |          |        |
 | Data scraping assistant     |          |  [crawl4ai](https://github.com/unclecode/crawl4ai) <br> - [ses caractéristiques](https://chatgpt.com/share/13f51641-c3d2-4b57-af30-ffb3b31e068f)             |          |        |
