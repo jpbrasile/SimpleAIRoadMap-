@@ -1,3 +1,7 @@
+21. **Agent**:
+- ⬜  : 
+- ⬜  : [Internet of Agents](https://github.com/OpenBMB/IoA) : Pourrait conduire à une IA incontrôlable en raison de plusieurs facteurs. Premièrement, l'automatisation et l'orchestration avancées permettent à l'IA de prendre des décisions et de former des équipes sans intervention humaine constante. Deuxièmement, la capacité de ces systèmes à manipuler et interpréter d'énormes quantités de données hétérogènes pourrait leur donner un accès à des informations sensibles et critiques. Troisièmement, la collaboration dynamique entre divers agents autonomes pourrait entraîner des comportements émergents imprévus et non supervisés. Quatrièmement, ces agents peuvent utiliser divers outils de manière autonome, amplifiant leur capacité à interagir avec le monde réel sans supervision. Enfin, la capacité de ces agents à apprendre et à s'adapter en temps réel pourrait les rendre de plus en plus autonomes, échappant ainsi au contrôle humain. Si ces systèmes ne sont pas correctement encadrés et surveillés, ils pourraient potentiellement prendre des décisions ou des actions qui échappent à la compréhension et au contrôle de leurs créateurs.
+
 # [SimpleAIRoadMap](https://chatgpt.com/share/d2c569e9-b863-4143-959c-583dc10b6257) *:
 *: Nous avons mis un hyperlien sur le chat d'aide à la production de ce markdown 
 
@@ -35,10 +39,11 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Text                        |🛠️ [NotebookLM](https://notebooklm.google/) -<br>[ses caractéristiques](https://chatgpt.com/share/2a77dd27-ca9c-41ef-a85e-f401362111cf),<br>🛠️ [Perplexity](https://www.perplexity.ai)         |               |          |        |
 | Voice                       |          |               |          |        |
 | Image                       |          |               |          |        |
-| Video /Vision               |          |               | [openedai-vision](https://github.com/matatonic/openedai-vision)         |        |
+| Video /Vision               | [Object detection](https://claude.site/artifacts/58f9617b-29ff-4d72-94c6-fef471fe4550)         |               | [openedai-vision](https://github.com/matatonic/openedai-vision)         |        |
 | Web Scraping                |🛠️ [Perplexity](https://www.perplexity.ai) <br>🛠️ [Harpa](Harpa.ai)          |               |          |        |
 | External Tool API Access    |          |               |          |        |
-<br>
+
+<br><br>
 
 
 | Data Processing             | Débutant | Intermédiaire | Maîtrise | Expert |
@@ -51,17 +56,17 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Automation                  |          |               |          |[Fabric](https://github.com/danielmiessler/fabric) <br> - [ses fonctionnalités](https://chatgpt.com/share/1f411711-2457-459f-94d8-2d3d67805592)       |
 | Tools creation              |          |               |          |        |
 | Real objects from text            |          |               |    [text to real 3D part](https://chatgpt.com/c/847ba680-fd83-4ed7-bd0b-84a2d75f0f67) 
-      |        |
+   
 
-<br>
+<br><br>
 
 
 |  Creation   | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
 | Text                        |          |               |          |        |
 | - Transcription audio mulitlangues, multi partcipants                        |          |[aTrain](https://github.com/JuergenFleiss/aTrain)               |          |        |
-| Voice                       |          |   [local et gratuit](https://www.youtube.com/watch?v=N0UrOr6LBkw) <br> [alltalk_tts](https://github.com/erew123/alltalk_tts) <br> [~ elevenlabs mais gratuit]((https://ttsopenai.com/) <br> [Chansons avec suno](suno.ai) <br> [CosyVoice en local, facile à implanter](https://chatgpt.com/share/881feabd-9e38-4eea-8776-6e3bcafe7359)          |          |        |
-| Image                       |          |               |          |        |
+| Voice                       |        |    [alltalk_tts](https://github.com/erew123/alltalk_tts) <br> [~ elevenlabs mais gratuit](https://ttsopenai.com/) <br> [Chansons avec suno](suno.ai) <br> [CosyVoice en local, facile à implanter](https://chatgpt.com/share/881feabd-9e38-4eea-8776-6e3bcafe7359)          |          |        |
+| Image                       |  [AuraFlow](https://www.perplexity.ai/search/resume-sous-forme-de-liste-a-p-95pSiRbEQ3e9vCU9KCVe9w)        |               |          |        |
 | - avec Caractères consistants                       |          |   [FaceChain](https://facechain-fact.github.io/)  <br>   [portrait/vêtements/prompt pour la pose](https://arxiv.org/html/2406.09162v1)         |          |        |
 | Animation                   | [hedra](https://www.hedra.com/)         |               |          |        |
 | - avec images humaines réalistes    |        |               |  [unianimate](https://unianimate.github.io/)         |        |
@@ -69,27 +74,27 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | - à partir de 2 vidéos    |        |               |  [MotionFollower]([https://unianimate.github.io/](https://francis-rings.github.io/MotionFollower/))         |        |
 | Video                       |          |               |          |        |
 | - avec caractères persistants                       |          |  [ArtFlow](https://app.artflow.ai/character-builder?feature=actors)             |          |        |
-| - Face swap                       |          | [Face Swap Any Video](https://youtu.be/XwaLYUjWaEg?si=JtLFSmNSP4jJ4kTy)            |          |        |
-| Web app                     |          |               |          |        |
+| - Face swap                       |          | [Face Swap Any Video](https://www.perplexity.ai/search/resume-sous-l-la-forme-d-une-l-u3JLXzacT9m06yn8xR3c2w)            |          |        |
+| Web app                     |          |               |          | [Scientific: client side](https://www.lgstoolkit.com/apps/trusses/) <br> 💡: digital twin client side         |
 | 3D modeling                 |          |               |          |  [CadQuery](https://github.com/CadQuery/cadquery) <br> -[ses caractéristiques](https://chatgpt.com/share/c6743a29-56b2-4536-84fa-209041d3ff02)      |
 | API Endpoint Development    |          |  [Gorilla](https://gorilla.cs.berkeley.edu/)              |          | [vectorShift](https://vectorshift.ai/)    |
 | Virtual Operator            |          |               |          |        |
 | Local Development Environment      |[Github](https://github.com/) <br> [LMStudio](https://lmstudio.ai/)         |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd) <br> [HuggingFace candle](https://www.youtube.com/watch?v=8hpYedvjrxE)  <br> [Docker](https://www.docker.com/)            |          |        |
-| Cloud based Development Environment            | [[colab.google](https://www.perplexity.ai/search/quelles-sont-les-principales-c-NcNfvE5bRASAqlxa6IoQQA) <br> [[kaggle.com](https://www.perplexity.ai/search/quelles-sont-les-principales-c-eZGY4KOjRyOxAXcPjfMKVA) <br> [huggingface.co](https://www.perplexity.ai/search/https-huggingface-co-quelles-s-45BlLQtASYGCMo4QEsGixA) <br>         |               |          |        |
-| Fabrication             |          |               |          |        |
+| Cloud based Development Environment            | [colab.google](https://www.perplexity.ai/search/quelles-sont-les-principales-c-NcNfvE5bRASAqlxa6IoQQA) <br> [kaggle.com](https://www.perplexity.ai/search/quelles-sont-les-principales-c-eZGY4KOjRyOxAXcPjfMKVA) <br> [huggingface.co](https://www.perplexity.ai/search/https-huggingface-co-quelles-s-45BlLQtASYGCMo4QEsGixA) <br>         |               |          |        |
+| Fabrication             |          |               |          | - [Robot <1000 €](https://github.com/Red-Rabbit-Robotics) <br>[- Imprimante SLS DIY](https://sls4all.com/store/)       |
 
 
 
-<br>
+<br><br>
 
 | All in One                  | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
 | Traitement multimédia (texte,...3D)                  |  [Viva]( https://vivago.ai/home)        |               |          |        |
-| Agents                      |          |               |          |        |
+| Agents                      |          |               |  [Build agent with Docker](https://www.perplexity.ai/search/resume-sous-la-forme-d-une-lis-4bHWdgdFRo6exzkPiyX0ag) <br> [agents on internet](https://www.perplexity.ai/search/explique-sous-forme-de-liste-a-h0KnUnaSSFyQucTGJuh2Ag)       |        |
 | Avatar                      |          |  [via Kaggle](https://www.youtube.com/watch?v=pvGhSfsi1Ys)             |          |        |
 |  - parlant ou chantant                      |          |  [Gratuit et bluffant](https://github.com/fudan-generative-vision/hallo?tab=readme-ov-file)  !            |          |        |
-| Chatbot          | [pmfm](pmfm.ai) <br> - [ses caractéristiques](https://chatgpt.com/share/3599eac7-d41b-484a-bb9b-1929482a3f56)         |  [Poe.com](https://www.perplexity.ai/search/chatbot-https-poe-com-principa-xeo_mfVZRZSmg.MJYxnibA)        |          |        |
-| - Voice assistant                       |          |               |[en local] (https://www.perplexity.ai/search/resume-dans-unne-liste-a-puce-94GkUCHiTFOwvm9_Mzsk2A) <br> [Multimodal]([https://youtu.be/pi6gr_YHSuc?si=fffk2BoXy-qdY-Im](https://www.perplexity.ai/search/resume-dans-une-liste-a-puces-wT0ANkSQRxmb3d5SCrF_vA)) <br> [Allice](github.com/myshell-ai/AIlice) <br> - [sescaractéristiques](https://chatgpt.com/share/dd1851ef-4020-4ffe-842b-249d630c8ac9)
+| Chatbot          | [pmfm](pmfm.ai) <br> - [ses caractéristiques](https://chatgpt.com/share/3599eac7-d41b-484a-bb9b-1929482a3f56)         |  [Poe.com](https://www.perplexity.ai/search/chatbot-https-poe-com-principa-xeo_mfVZRZSmg.MJYxnibA)        |          | [Creation](https://www.perplexity.ai/search/resume-sosu-forme-de-liste-a-p-8yTUCkJeSpyyfWlCSPDOEA)       |
+| - Voice assistant                       |          |               |[en local](https://www.perplexity.ai/search/resume-dans-unne-liste-a-puce-94GkUCHiTFOwvm9_Mzsk2A) <br> [Multimodal](https://www.perplexity.ai/search/resume-dans-une-liste-a-puces-wT0ANkSQRxmb3d5SCrF_vA)) <br> [Allice](github.com/myshell-ai/AIlice) <br> - [sescaractéristiques](https://chatgpt.com/share/dd1851ef-4020-4ffe-842b-249d630c8ac9)
   |        |
 | Coding assistant            |          | [aider.chat](https://www.perplexity.ai/search/aider-code-assistant-cheat-she-REvsq3zxSwS75PPD_HcVeQ)              |          |        |
 | Data scraping assistant     |          |  [crawl4ai](https://github.com/unclecode/crawl4ai) <br> - [ses caractéristiques](https://chatgpt.com/share/13f51641-c3d2-4b57-af30-ffb3b31e068f)             |          |        |
@@ -98,12 +103,12 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Remote phone assistant      |          |               | [VAPI](https://docs.vapi.ai/introduction)         |        |
 | Your website asistant Chatbot      |          |               |         |  ⬜: [vectorShift](https://www.youtube.com/watch?v=Pjdnq-WcDHQ)      |
 | Expert assistant            |          |               |          |        |
-<br>
+<br><br>
   
 
 
 
-  - ⬜ :[CosyVoice](https://chatgpt.com/share/881feabd-9e38-4eea-8776-6e3bcafe7359) text to speech local facilement implantable en local (débutant)
+
 
 10. **Utilisation de Github**
 - Voici les étapes pour transformer votre répertoire local en repository GitHub et synchroniser les deux avec Git :
@@ -481,8 +486,7 @@ Try out our live research preview to see how STORM can help your knowledge explo
 13. **Traitement d'images** :
 - [Upscaling](https://flowt.ai/community/supir-v2-plugandplay-edition-n5acf-v)
 - [Avec abonnement mensuel](https://www.imagepipeline.io/pricing)
-- 🛠️ [**AuraFlow**](https://huggingface.co/spaces/multimodalart/AuraFlow)  produit des images de qualité et peut être mis en oeuvre soit en local soit à partir d'un espace HuggingFace
-<img src="https://github.com/user-attachments/assets/1fd78976-37cb-47ca-92d9-3a0aea08fa66" width="20%">
+
 
   🛠️ **Fooocus** accessible sur [Colab](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb) et sur replicate  [fooocus api](https://replicate.com/konieshadow/fooocus-api/api)
   
@@ -521,13 +525,13 @@ Try out our live research preview to see how STORM can help your knowledge explo
 - ⬜ : [Agentic RAG dans colab](https://colab.research.google.com/drive/1-cTexfgPITZ6jkSLHsP7uObdfE1rfDxu?usp=sharing]  avec [une vidéo explicative](https://www.youtube.com/watch?v=QQAkXHRJcZg&t=1s)
 -  ✅ : comparaison d'e l'analyse d'un document par [**sonnet**](https://claude.ai/chat/ad5d814e-8723-4d9d-b85e-f1da95ce1150) , [**perplexity**](https://www.perplexity.ai/search/dis-moi-ce-que-tu-penses-du-do-rOeCbqOfTqu90EG_HRlomQ) et e
       
-17. ⚙️ [**Détection d'objets automatique avec Sonnet**](https://youtu.be/u-glnHI4zCY?si=GOxoN7xGd6C4k9eq)
+
 18.   ✅ **PC distant** : [Replicate](https://replicate.com/) : permet l'accès à des ressources (comme [la création d'images](https://replicate.com/bytedance/sdxl-lightning-4step/api) via des API ou playground :essais gratuit puis coût suivant le temps passé
 
 20. ⬜ : A évaluer [Invideo](https://invideo.io/i/samsonvowles), [Replicate](https://replicate.com/), [Live-portrait](https://replicate.com/fofr/ve-portrait), [Toon crafter]https://replicate.com/fofr/tooncrafter), [Oldify](https://replicate.com/arielreplicate/oldify), [Pixverse](https://app.pixverse.ai/),[Pika](https://pika.art/), [Filmora](https://filmora.wondershare.net), [anthropic-cookbook](https://github.com/anthropics/anthropic-cookbook/tree/main)
-21. **Agent**:
-- ⬜  : [Tutorial : build agent with Docker](https://youtu.be/AhPXGKG4RZ4?si=rjCHN_tNT9UFbP8w)
-- ⬜  : [Internet of Agents](https://github.com/OpenBMB/IoA) : Pourrait conduire à une IA incontrôlable en raison de plusieurs facteurs. Premièrement, l'automatisation et l'orchestration avancées permettent à l'IA de prendre des décisions et de former des équipes sans intervention humaine constante. Deuxièmement, la capacité de ces systèmes à manipuler et interpréter d'énormes quantités de données hétérogènes pourrait leur donner un accès à des informations sensibles et critiques. Troisièmement, la collaboration dynamique entre divers agents autonomes pourrait entraîner des comportements émergents imprévus et non supervisés. Quatrièmement, ces agents peuvent utiliser divers outils de manière autonome, amplifiant leur capacité à interagir avec le monde réel sans supervision. Enfin, la capacité de ces agents à apprendre et à s'adapter en temps réel pourrait les rendre de plus en plus autonomes, échappant ainsi au contrôle humain. Si ces systèmes ne sont pas correctement encadrés et surveillés, ils pourraient potentiellement prendre des décisions ou des actions qui échappent à la compréhension et au contrôle de leurs créateurs.
+
+
+  
 22. **Learn AnyThing**:
 - "Learn anything" est capable de partir de données obtenues par web scraping ou de données locales multimodales. Les images peuvent être interprétées, et les données graphiques et tableaux sont récupérés et intégrés dans les graphes de connaissance. Cette fonctionnalité permet d'enrichir les graphes avec des informations actualisées et diversifiées, provenant de différentes sources.
 - La connaissance peut être organisée de manière efficace sous forme de graphe, comme illustré dans l'image ci-dessous :
@@ -579,22 +583,14 @@ Le résultat est tout à fait correct :
  
 
 
-24. **API scientifique**
-- ⚙️ : On peut s'inspirer de cet [exemple qui fonctionne côté client](https://www.lgstoolkit.com/apps/trusses/). En particulier les jumeaux numériques devraintt permettre d'adapter cette approche pour même pour des simulations complexes 💡.  
-25. ⬜  :
-- Le chatbot doit s'adapter au contexte; [Un chatbot interactif peut être développé](https://www.youtube.com/watch?v=BGgx9921uWY)  
-- <img src="https://github.com/user-attachments/assets/958d8873-2ab4-4f5e-ad7b-80f10daa0ff9" width=50% >
+
   
 
 
-26. ⬜  : **Fabrication low cost**:
-- [Robot low cost](https://youtu.be/F7IjlE9MfJU?si=uduz-vRK8YOe4bfc)
-- [Imprimante SLS DIY]( https://sls4all.com/store/)
 
 
 
--  ⬜  : [MOSHY](https://www.youtube.com/watch?v=AuXNiQvoe6g)
--  ⬜  : [Accessible via un code python](https://www.youtube.com/watch?v=w5unVTO7mLQ)
+
 
  
  
