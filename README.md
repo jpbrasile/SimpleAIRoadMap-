@@ -1,28 +1,3 @@
-7. [**Créer son site en ligne avec Github**:
-
-Pour mettre en place un site personnel avec GitHub Pages, voici les étapes que vous devez suivre :
-
-1. [**Créez un compte GitHub** :]([https://chatgpt.com/c/2a5fd138-49c0-42bb-a057-a831e6dbc5ea](https://chatgpt.com/c/37b0d84b-d7bd-4455-b5ae-44082f81226c))
-- Il faut créer un dépot public sur Github
-- Créez un fichier `index.html` avec un contenu ```<html><head><title>Mon Site</title></head><body><h1>Bonjour Monde JPB !</h1></body></html>```
-- Le cloner en local ```git clone https://github.com/jpbrasile/github.io```
-- **Publiez vos modifications** :
-     - Ajoutez les fichiers modifiés à votre dépôt :
-       ```
-       git add --all
-       ```
-     - Faites un commit des modifications :
-       ```
-       git commit -m "Initial commit"
-       ```
-     - Poussez les modifications sur GitHub :
-       ```
-       git push -u origin main
-       ```
-  - Il faut faire "sign in with a code" pour parvenir à valider le push
-    
-  Une fois ces étapes terminées, votre site sera en ligne à l'adresse [https://username.github.io/github.io/](https://jpbrasile.github.io/github.io/).
-
 # [SimpleAIRoadMap](https://chatgpt.com/share/d2c569e9-b863-4143-959c-583dc10b6257) *:
 *: Nous avons mis un hyperlien sur le chat d'aide à la production de ce markdown 
 
@@ -87,7 +62,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Text                        |          |               |          |        |
 | - Transcription audio mulitlangues, multi partcipants                        |          |[aTrain](https://github.com/JuergenFleiss/aTrain)               |          |        |
 | Voice                       |        |    [alltalk_tts](https://github.com/erew123/alltalk_tts) <br> [~ elevenlabs mais gratuit](https://ttsopenai.com/) <br> [Chansons avec suno](suno.ai) <br> [CosyVoice en local, facile à implanter](https://chatgpt.com/share/881feabd-9e38-4eea-8776-6e3bcafe7359)          |          |        |
-| Image                       | [**Fooocus** on Colab](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb) <br>  [fooocus api](https://replicate.com/konieshadow/fooocus-api/api) <br> <img src="https://github.com/user-attachments/assets/ae951b46-0b30-46da-b940-44b34f5af0fe" width="60%"> <br> [tout en un pour 9€/mois](https://www.perplexity.ai/search/donne-moi-les-fonctionnalite-d-zy4EKgaqQEi2VjSn.fAMvQ) <br>  [**AuraFlow**](https://www.perplexity.ai/search/resume-sous-forme-de-liste-a-p-95pSiRbEQ3e9vCU9KCVe9w) <br> [- en playground pour 0.02 €](https://fal.ai/models/fal-ai/aura-flow/playground) <br> <img src="https://github.com/user-attachments/assets/1cd6927e-2ad4-49d3-9c52-99aeff69700b" width="25%">  |               |          |        |
+| Image                       | [Fooocus on Colab](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb)  <br>  [fooocus api](https://replicate.com/konieshadow/fooocus-api/api)  <br> <img src="https://github.com/user-attachments/assets/ae951b46-0b30-46da-b940-44b34f5af0fe" width="60%"> <br> tout en un pour 9€/mois <br>  [AuraFlow](https://www.perplexity.ai/search/resume-sous-forme-de-liste-a-p-95pSiRbEQ3e9vCU9KCVe9w) <br> - en playground pour 0.02 € <br> <img src="https://github.com/user-attachments/assets/1cd6927e-2ad4-49d3-9c52-99aeff69700b" width="25%">  | [CompfyUI sur HF](https://huggingface.co/spaces/Deadmon/union-sdxl): <br> Prompt: En mode manga : Night_sky_1 with a full moon. Piper_McNimbus (12 years old, long auburn hair, freckles, bright green eyes, wearing pajamas,) soars through the air, arms outstretched, with a joyful expression. Clouds_1 (wispy, moonlit) surround her. Stars_1 (twinkling, numerous) fill the background. The atmosphere is magical and liberating. <br> Image: <img src="https://github.com/user-attachments/assets/12e8187c-c43e-402e-9182-a4f2a3511136" alt="Generated Image" width="50%"> |
 | - upscaling                       |  [Upscaling](https://flowt.ai/community/supir-v2-plugandplay-edition-n5acf-v)       |               |          |        |
 | - avec Caractères consistants                       |          |   [FaceChain](https://facechain-fact.github.io/)  <br>   [portrait/vêtements/prompt pour la pose](https://arxiv.org/html/2406.09162v1)         |          |        |
 | Animation                   | [hedra](https://www.hedra.com/)         |               |          |        |
@@ -101,7 +76,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | 3D modeling                 |          |               |          |  [CadQuery](https://github.com/CadQuery/cadquery) <br> -[ses caractéristiques](https://chatgpt.com/share/c6743a29-56b2-4536-84fa-209041d3ff02)      |
 | API Endpoint Development    |          |  [Gorilla](https://gorilla.cs.berkeley.edu/)              |          | [vectorShift](https://vectorshift.ai/)    |
 | Virtual Operator            |          |               |          |        |
-| Local Development Environment      |[Github](https://github.com/) <br> [LMStudio](https://lmstudio.ai/)         |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd) <br> [HuggingFace candle](https://www.youtube.com/watch?v=8hpYedvjrxE)  <br> [Docker](https://www.docker.com/)            |          |        |
+| Local Development Environment      |[Github](https://github.com/) <br> [- Tuto web site deploy & cheat sheet](https://www.perplexity.ai/search/creer-son-site-en-ligne-avec-g-vCw21czUT6.9nE7dSYjeHA) <br>[LMStudio](https://lmstudio.ai/)         |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd) <br> [HuggingFace candle](https://www.youtube.com/watch?v=8hpYedvjrxE)  <br> [Docker](https://www.docker.com/)            |          |        |
 | Cloud based Development Environment            | [colab.google](https://www.perplexity.ai/search/quelles-sont-les-principales-c-NcNfvE5bRASAqlxa6IoQQA) <br> [kaggle.com](https://www.perplexity.ai/search/quelles-sont-les-principales-c-eZGY4KOjRyOxAXcPjfMKVA) <br> [huggingface.co](https://www.perplexity.ai/search/https-huggingface-co-quelles-s-45BlLQtASYGCMo4QEsGixA) <br>         |               |          |        |
 | Fabrication             |          |               |          | - [Robot <1000 €](https://github.com/Red-Rabbit-Robotics) <br>[- Imprimante SLS DIY](https://sls4all.com/store/)       |
 
