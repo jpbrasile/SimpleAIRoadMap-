@@ -1,6 +1,27 @@
-21. **Agent**:
-- ⬜  : 
-- ⬜  : [Internet of Agents](https://github.com/OpenBMB/IoA) : Pourrait conduire à une IA incontrôlable en raison de plusieurs facteurs. Premièrement, l'automatisation et l'orchestration avancées permettent à l'IA de prendre des décisions et de former des équipes sans intervention humaine constante. Deuxièmement, la capacité de ces systèmes à manipuler et interpréter d'énormes quantités de données hétérogènes pourrait leur donner un accès à des informations sensibles et critiques. Troisièmement, la collaboration dynamique entre divers agents autonomes pourrait entraîner des comportements émergents imprévus et non supervisés. Quatrièmement, ces agents peuvent utiliser divers outils de manière autonome, amplifiant leur capacité à interagir avec le monde réel sans supervision. Enfin, la capacité de ces agents à apprendre et à s'adapter en temps réel pourrait les rendre de plus en plus autonomes, échappant ainsi au contrôle humain. Si ces systèmes ne sont pas correctement encadrés et surveillés, ils pourraient potentiellement prendre des décisions ou des actions qui échappent à la compréhension et au contrôle de leurs créateurs.
+7. [**Créer son site en ligne avec Github**:
+
+Pour mettre en place un site personnel avec GitHub Pages, voici les étapes que vous devez suivre :
+
+1. [**Créez un compte GitHub** :]([https://chatgpt.com/c/2a5fd138-49c0-42bb-a057-a831e6dbc5ea](https://chatgpt.com/c/37b0d84b-d7bd-4455-b5ae-44082f81226c))
+- Il faut créer un dépot public sur Github
+- Créez un fichier `index.html` avec un contenu ```<html><head><title>Mon Site</title></head><body><h1>Bonjour Monde JPB !</h1></body></html>```
+- Le cloner en local ```git clone https://github.com/jpbrasile/github.io```
+- **Publiez vos modifications** :
+     - Ajoutez les fichiers modifiés à votre dépôt :
+       ```
+       git add --all
+       ```
+     - Faites un commit des modifications :
+       ```
+       git commit -m "Initial commit"
+       ```
+     - Poussez les modifications sur GitHub :
+       ```
+       git push -u origin main
+       ```
+  - Il faut faire "sign in with a code" pour parvenir à valider le push
+    
+  Une fois ces étapes terminées, votre site sera en ligne à l'adresse [https://username.github.io/github.io/](https://jpbrasile.github.io/github.io/).
 
 # [SimpleAIRoadMap](https://chatgpt.com/share/d2c569e9-b863-4143-959c-583dc10b6257) *:
 *: Nous avons mis un hyperlien sur le chat d'aide à la production de ce markdown 
@@ -40,7 +61,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Voice                       |          |               |          |        |
 | Image                       |          |               |          |        |
 | Video /Vision               | [Object detection](https://claude.site/artifacts/58f9617b-29ff-4d72-94c6-fef471fe4550)         |               | [openedai-vision](https://github.com/matatonic/openedai-vision)         |        |
-| Web Scraping                |🛠️ [Perplexity](https://www.perplexity.ai) <br>🛠️ [Harpa](Harpa.ai)          |               |          |        |
+| Web Scraping                |🛠️ [Perplexity](https://www.perplexity.ai) <br>🛠️ [Harpa](Harpa.ai)          |               |  [gpt researcher](https://www.perplexity.ai/search/remet-en-forme-en-faisant-si-n-sATjIynuR9i6G8ikas0w2w)        |        |
 | External Tool API Access    |          |               |          |        |
 
 <br><br>
@@ -66,7 +87,8 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Text                        |          |               |          |        |
 | - Transcription audio mulitlangues, multi partcipants                        |          |[aTrain](https://github.com/JuergenFleiss/aTrain)               |          |        |
 | Voice                       |        |    [alltalk_tts](https://github.com/erew123/alltalk_tts) <br> [~ elevenlabs mais gratuit](https://ttsopenai.com/) <br> [Chansons avec suno](suno.ai) <br> [CosyVoice en local, facile à implanter](https://chatgpt.com/share/881feabd-9e38-4eea-8776-6e3bcafe7359)          |          |        |
-| Image                       |  [AuraFlow](https://www.perplexity.ai/search/resume-sous-forme-de-liste-a-p-95pSiRbEQ3e9vCU9KCVe9w)        |               |          |        |
+| Image                       | [**Fooocus** on Colab](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb) <br>  [fooocus api](https://replicate.com/konieshadow/fooocus-api/api) <br> <img src="https://github.com/user-attachments/assets/ae951b46-0b30-46da-b940-44b34f5af0fe" width="60%"> <br> [tout en un pour 9€/mois](https://www.perplexity.ai/search/donne-moi-les-fonctionnalite-d-zy4EKgaqQEi2VjSn.fAMvQ) <br>  [**AuraFlow**](https://www.perplexity.ai/search/resume-sous-forme-de-liste-a-p-95pSiRbEQ3e9vCU9KCVe9w) <br> [- en playground pour 0.02 €](https://fal.ai/models/fal-ai/aura-flow/playground) <br> <img src="https://github.com/user-attachments/assets/1cd6927e-2ad4-49d3-9c52-99aeff69700b" width="25%">  |               |          |        |
+| - upscaling                       |  [Upscaling](https://flowt.ai/community/supir-v2-plugandplay-edition-n5acf-v)       |               |          |        |
 | - avec Caractères consistants                       |          |   [FaceChain](https://facechain-fact.github.io/)  <br>   [portrait/vêtements/prompt pour la pose](https://arxiv.org/html/2406.09162v1)         |          |        |
 | Animation                   | [hedra](https://www.hedra.com/)         |               |          |        |
 | - avec images humaines réalistes    |        |               |  [unianimate](https://unianimate.github.io/)         |        |
@@ -313,30 +335,7 @@ Claude dit: [TextBlock(text='Bonjour !', type='text')]
   - Vision réaliste : Excellent pour générer des humains réalistes.
   - RealVis XL : Également recommandé pour le photoréalisme
 - La génération d'images peut se faire via une requête API comme le montre  [basic_api_exemple.py](https://claude.ai/chat/f8d04905-3570-4f00-b7e9-f220936ff540)
-7. [**Créer son site en ligne avec Github**:
 
-Pour mettre en place un site personnel avec GitHub Pages, voici les étapes que vous devez suivre :
-
-1. [**Créez un compte GitHub** :]([https://chatgpt.com/c/2a5fd138-49c0-42bb-a057-a831e6dbc5ea](https://chatgpt.com/c/37b0d84b-d7bd-4455-b5ae-44082f81226c))
-- Il faut créer un dépot public sur Github
-- Créez un fichier `index.html` avec un contenu ```<html><head><title>Mon Site</title></head><body><h1>Bonjour Monde JPB !</h1></body></html>```
-- Le cloner en local ```git clone https://github.com/jpbrasile/github.io```
-- **Publiez vos modifications** :
-     - Ajoutez les fichiers modifiés à votre dépôt :
-       ```
-       git add --all
-       ```
-     - Faites un commit des modifications :
-       ```
-       git commit -m "Initial commit"
-       ```
-     - Poussez les modifications sur GitHub :
-       ```
-       git push -u origin main
-       ```
-  - Il faut faire "sign in with a code" pour parvenir à valider le push
-    
-  Une fois ces étapes terminées, votre site sera en ligne à l'adresse [https://username.github.io/github.io/](https://jpbrasile.github.io/github.io/).
 
   8- **Créer un story teller automatique**
 - [SEED](https://github.com/TencentARC/SEED-Story) : SEED-Story, un modèle de langage multimodal (MLLM) capable de générer de longues histoires multimodales composées de textes narratifs riches et cohérents, accompagnés d'images cohérentes en termes de personnages et de style, basé sur SEED-X. Avec StoryStream, un vaste ensemble de données spécialement conçu pour l'entraînement et l'évaluation comparative de la génération d'histoires multimodales.
@@ -415,84 +414,14 @@ Forest_trail_1 in a lush, shadowy woodland with dappled sunlight. Man_1 (45 year
 
 
 Try out our live research preview to see how STORM can help your knowledge exploration journey and please provide feedback to help us improve the system 🙏!
-  - [**GPT Researcher**](https://docs.gptr.dev/docs/gpt-researcher/introduction) est un équivalent à Perplexica
-
-    - L'adaptation de ce logiciel pour utiliser les LLM Antropic (sonnet 3.5 et Haiku) a été faite.
-    - Il faut conserver l'abonnemment à openai pour la création de l'embedding 
-    - Lancement avec `(teambot) PS C:\Users\test\Documents\TeambotV1\gpt-researcher> uvicorn main:app --reload`
-    - Aller sur `http://localhost:8000/#form`pour le lancer
-
-    - **Modifications effectuées pour pouvoir utiliser GPT-Resercher avec un script Python:**
-
-      - [Le fil de la discussion avec sonnet 3.5 nous adéjà permis d'y parvenir (Teambot)](https://claude.ai/chat/49d8dd3c-e666-4851-ba3e-835da8377163)
-      - Nous allons récupéré de façon compacte la façon d'y parvenir :
-        - Adapter .env pour Anthropic:
-
-          - Modifier: `LLM_PROVIDER=anthropic`
-          - Ajouter: `FAST_LLM_MODEL=claude-3-haiku-20240307`
-          - Ajouter: `SMART_LLM_MODEL=claude-3-5-sonnet-20240620`
-          - Conserver: ANTHROPIC_API_KEY existant
-        
-        
-        - Remplacer OpenAI par Anthropic:
-        
-          - Importer: `from anthropic import Anthropic, CLAUDE_3_HAIKU_20240307`
-          - Initialiser: `anthropic = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])`
-          - Adapter `create_chat_completion()`: Utiliser `anthropic.messages.create()` avec model, max_tokens, temperature, messages
-          - Mettre à jour la gestion des erreurs: Capturer APIError et APITimeoutError d'Anthropic
-        
-        
-        - Ajouter endpoint API dans server.py:
-        
-          - Importer: from fastapi import HTTPException; from pydantic import BaseModel
-          - Définir: class ResearchRequest(BaseModel): task: str; report_type: str; agent: str
-          - Ajouter: @app.post("/api/research") async def api_research(request: ResearchRequest): ...
-        
-        
-        - Modifier WebSocketManager:
-        
-          - Mettre à jour start_streaming(): Ajouter paramètre websocket=None
-          - Adapter run_agent(): Gérer cas où websocket est None
-        
-        
-        - Adapter BasicReport et DetailedReport:
-        
-          - Ajouter `paramètre websocket=None` dans init
-          - Modifier `send_update()`: `if self.websocket: await self.websocket.send_json(...) else: print(...)`
-        
-        
-        - Mettre à jour génération PDF:
-        
-        - Remplacer md2pdf par reportlab dans utils.py
-        - Importer: `from reportlab.lib.pagesizes import letter; from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer; from reportlab.lib.styles import getSampleStyleSheet`
-        - Implémenter `write_md_to_pdf()` avec ReportLab: Convertir MD en texte, créer PDF simple
-        
-        
-        - Mettre à jour requirements.txt:
-        
-          - Ajouter: anthropic, reportlab
-          - Supprimer:  weasyprint, md2pdf
-        
-        
-        - Adapter tous les appels API:
-        
-          - Remplacer format OpenAI par format Anthropic dans tout le code
-          - Utiliser les modèles spécifiés dans .env (FAST_LLM_MODEL et SMART_LLM_MODEL)
+  - 
 
                 
 - ⬜:  [**beautifulsoup-vs-scrapy**: qui est le meilleur](https://scrapingrobot.com/blog/beautifulsoup-vs-scrapy/)
   
 
 13. **Traitement d'images** :
-- [Upscaling](https://flowt.ai/community/supir-v2-plugandplay-edition-n5acf-v)
-- [Avec abonnement mensuel](https://www.imagepipeline.io/pricing)
 
-
-  🛠️ **Fooocus** accessible sur [Colab](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb) et sur replicate  [fooocus api](https://replicate.com/konieshadow/fooocus-api/api)
-  
-![image](https://github.com/user-attachments/assets/ae951b46-0b30-46da-b940-44b34f5af0fe)
-
-- ⬜ : [Upscaling image et vidéo en local](https://chatgpt.com/share/37cb1a6e-6019-4b95-8e9e-50cdc169d864)
    
 - Les traitements possibles sont nombreux, c'est pourquoi un logiciel tout en un, accessible par API via Docker est interessant. Nous avons déjà installé Compfyui sur docker. Reste à intérer le bon module:
 - Trouver [controlnet-union-sdxl-1.0](https://huggingface.co/xinsir/controlnet-union-sdxl-1.0) sur HuggingFace
