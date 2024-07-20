@@ -1,4 +1,7 @@
 
+⚙️ : [**Text to video de longue durée**](https://video-infinity.tanzhenxiong.com/) en open source
+- [Rajout d'effet spéciaux sonores](https://github.com/open-mmlab/FoleyCrafter):FoleyCrafter: Bring Silent Videos to Life with Lifelike and Synchronized Sounds
+-  ⬜ : [Echange de visages dan une vidéo](https://www.youtube.com/watch?v=Iy0PaElchlg)
 
 __***Avec le monde d'avant l'IA on apprenait à faire puis on faisait. Avec le monde d'aujourd'hui on fait faire à l'IA, puis on apprend à partir de ce que l'IA a fait, on finit donc par savoir faire aussi. Du coup plus besoin de prof, il ne suffit que de vouloir faire pour parvenir à nos fins !! The sky is the limit !!!***__
 
@@ -35,7 +38,9 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 <br><br>
 ![image](https://github.com/user-attachments/assets/7d25f8b8-77d5-4b30-b940-4adfbe331e31)
 <br><br>
-
+- Le coeur du système, les **LLM** (Large language model)  recoivent du texte (ou de plus en plus des sources d'origines variées), le traite et fournissent du texte en retour. Le texte d'entrée doit être tel qu'il exprime clairement et concrètement nos attentes (c'est le __prompting__)
+- Le texte en retour peut être formaté pour correspondre à une réponse de type texte brut, JSON,  markdown, HTML , code , API ... suivant le post processing envisagé.
+<br><br>
 
 
 | Data Acquisition            | Débutant | Intermédiaire | Maîtrise | Expert |
@@ -119,12 +124,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 <br>
 
 
-
-
-
-
-
-# AI-automation
+## AI-automation
 Tout faire avec l'IA. Elle fait le boulot sous votre contrôle et vous forme à comprendre comment tout ça fonctionne.
 
 L'idée est de construire pas à pas une "baquette magique" apte à tout faire. Nous nous bornerons à vous indiquer:
@@ -135,24 +135,31 @@ L'idée est de construire pas à pas une "baquette magique" apte à tout faire. 
   - Ne pas réinventer la roue, donc voir si notre problème n'est pas déjà résolu. c'est le "**web scraping**" en particulier sur Github, Hugging Face ou Papers with Code
   - Récupérer l'état de l'art c'est la combinaison de "web scraping" de site comme Arxiv ou Github en particulier et le **RAG** pour stocker le savoir
   - Le programmer en "no code" avec les **coding assistants**
-  - Utiliser des **agents** collaborant entre eux pour résoudre les problèmes les plus complexes, chaque fois qu'une programmation directe s'avère difficile 
+  - Utiliser des **outils** locaux ou distants (via des**API**), des **agents**, doté d'intelligence, d'une mission , de mémoire et d'outils dédiés)  collaborant entre eux pour résoudre les problèmes les plus complexes, chaque fois qu'une programmation directe s'avère difficile 
 
 
-## Les incontournables pour automatiser:
-- Les mêmes (ou leur équivalent) accessibles à l'intérieur d'un code Python. 
-- Des outils produisant et mettant en oeuvre le code à notre place
-- Des outils pour produire automatiquement des vidéos qui nous serviront à apprendre 
-- Des outils pour [appeler des fonctions externes](https://gorilla.cs.berkeley.edu/leaderboard.html)
+## Les étapes à franchir pour automatiser
+- Mettre en oeuvre un chat à base de LLM (_débutant_), c'est le coeur du système : Sonnet 3.5 est le meilleur du moment, en particulier dans sa version 20 € par mois qui offre la fonction Artefacts
+- Accéder au LLM via des API tierces (_débutant_) ou créée par nous même (_apprenti_) : c'est le début de la programmation par "no code"
+- Exemple d'outils pour [appeler des fonctions externes](https://gorilla.cs.berkeley.edu/leaderboard.html)
 <img src="https://github.com/jpbrasile/AI-automation/assets/8331027/084708bc-b8f1-469e-94bd-32d48cc6cf50" width="600" />
+<br>
+- Le chainage d'API, associé au no code, permettra à l'_apprenti_ de créer des fonctions complexes (comme la création de vidéo à partir de texte brut)
 
-## Architecture générale:
-<img src="https://github.com/user-attachments/assets/2c6ec9d9-0e17-4a29-8eb3-30219d50ff46" width="600" />
+- Dans ce contexte accéder (_apprenti_) - ou développer (_intermediaire_) - des API pour le web scrapping, la mémorisation d'un large corpus de données, et pour disposer d'un coding assistant est une priorité <br>
+
+- On passe alors à la création de fonctions plus ambitieuses (_master_):
+  - La création d'objet 3D paramétrique à partir d'un chat avec un LLM
+  - La création de graphes à partir d'un chat avec un LLM (story board, graphes de connaissances)
+  - le portage en local, open source de toutes les briques utiles (avec un accès externes via des API
+  - La création d'agents dédiés à la réalisation de tâches complexes (_expert_)
+    - Teaching Assistant
+    - Coding assistant
+    - CAD assistant       
 
 
-- Le coeur du système, les **LLM** (Large language model)  recoivent du texte (ou de plus en plus des sources d'origines variées), le traite et fournissent du texte en retour. Le texte d'entrée doit être tel qu'il exprime clairement et concrètement nos attentes (c'est le __prompting__)
-- Le texte en retour peut être formaté pour correspondre à une réponse de type texte brut, JSON,  markdown, HTML , code , API ... suivant le post processing envisagé.
 
-1. ## Création automatique d'une API web qui peut effectuer deux opérations mathématiques :
+## Création automatique d'une API web qui peut effectuer deux opérations mathématiques : (_apprenti_)
 
 - Additionner deux nombres
 - Multiplier deux nombres
@@ -165,7 +172,7 @@ L'idée est de construire pas à pas une "baquette magique" apte à tout faire. 
 - [**Dialogue avec sonnet 3.5** pour mettre en oeuvre la solution en "manuel"](https://claude.ai/chat/a71daeb6-5875-4ecb-9dc6-7dce126afde0) 
 - Nous verrons plus tard comment automatiser la mise en place de ce type d'application en automatique avec AIDER
   
-## Faisons le tutoriel correspondant sous forme de vidéo
+### Faisons le tutoriel correspondant sous forme de vidéo (_intermédiaire_)
 - L'idée est de partir de la synthèse récapitulée par sonnet 3.5 de notre programme précédent pour en faire un tuto.
 - Pour cela on établit un [dialogue avec sonnet 3.5](https://claude.ai/chat/08fb3cc8-5cb4-45ed-9132-953e30ecf792) pour dégrossir le problème:
     - Pour créer les planches HTML support,
@@ -175,7 +182,8 @@ L'idée est de construire pas à pas une "baquette magique" apte à tout faire. 
     - Le code python créant les MP3 et les images et qui les stockent
     - Le code python qui fait l'assemblage
 - Ce dégrossissage montre qu'il est préférable d'avancer pas à pas en construisant et validant pas à pas le code python correspondant, ce que nous allons faire maintenant avec un nouveau thread sonnet 3.5.
-2. **Créer un code python permettant de dialoguer avec sonnet 3.5**
+  
+## Créer un code python permettant de dialoguer avec sonnet 3.5
   - On utilisera Visual Studio Code pour la mise en oeuvre et pour tester les codes
   - On utilisera anaconda pour créer un environnement logiciel spécifique. Nous utiliserons l'environnement teambot déjà créer avec `conda activate teambot` dans un terminal 
   - On crée un répertoire de travail video-maker dans lequel on met le fichier .env avec nos clefs API, ainsi que les fichiers requirements.txt et anthropic-api-hello-world.py créer par sonnet 3.5
@@ -188,7 +196,7 @@ L'idée est de construire pas à pas une "baquette magique" apte à tout faire. 
 Claude dit: [TextBlock(text='Bonjour !', type='text')]
 ```
 
-3. [**Création d'une vidéo à partir d'un texte**](https://claude.ai/chat/c33dece9-e5ab-4206-98c6-de644cb1d731)  
+## Création d'une vidéo à partir d'un texte](https://claude.ai/chat/c33dece9-e5ab-4206-98c6-de644cb1d731)  
 - Ce projet automatise la création de vidéos éducatives à partir de contenu textuel, utilisant diverses technologies et APIs. Le processus se déroule en plusieurs étapes intégrées dans un script Python unique :
   - Conversion du texte :
     - Lit le contenu du fichier PLACE_HOLDER_TEXTE_VIDEO.txt.
@@ -205,9 +213,8 @@ Claude dit: [TextBlock(text='Bonjour !', type='text')]
     - Assemble toutes les vidéos individuelles en une seule vidéo.
     - Ajoute des transitions entre les diapositives.
   - Le projet utilise Python avec diverses bibliothèques (BeautifulSoup, Requests, Pillow, MoviePy) et APIs (Anthropic, OpenAI). Cette approche intégrée offre une solution complète et efficace pour la production automatisée de contenu vidéo éducatif, de la conversion du texte à la création de la vidéo finale.
-⚙️ : [**Text to video de longue durée**](https://video-infinity.tanzhenxiong.com/) en open source
-- [Rajout d'effet spéciaux sonores](https://github.com/open-mmlab/FoleyCrafter):FoleyCrafter: Bring Silent Videos to Life with Lifelike and Synchronized Sounds
--  ⬜ : [Echange de visages dan une vidéo](https://www.youtube.com/watch?v=Iy0PaElchlg)
+
+
 4. **Point d'étape:**
 - Nous avons réussi à mettre en oeuvre une applicatoin complexe sans coder une seule ligne. Cependant ce faisant nous avons détecté des pistes pour augmenter encore notre productivité
   - **Automatiser les itérations de débuggage** , ce qui nous a fait perdre le plus de temps dans la mise au point du code
