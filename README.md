@@ -1,7 +1,4 @@
 
-⚙️ : [**Text to video de longue durée**](https://video-infinity.tanzhenxiong.com/) en open source
-- [Rajout d'effet spéciaux sonores](https://github.com/open-mmlab/FoleyCrafter):FoleyCrafter: Bring Silent Videos to Life with Lifelike and Synchronized Sounds
--  ⬜ : [Echange de visages dan une vidéo](https://www.youtube.com/watch?v=Iy0PaElchlg)
 
 __***Avec le monde d'avant l'IA on apprenait à faire puis on faisait. Avec le monde d'aujourd'hui on fait faire à l'IA, puis on apprend à partir de ce que l'IA a fait, on finit donc par savoir faire aussi. Du coup plus besoin de prof, il ne suffit que de vouloir faire pour parvenir à nos fins !! The sky is the limit !!!***__
 
@@ -85,6 +82,8 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Video                       |          |               |          |        |
 | - avec caractères persistants                       |          |  [ArtFlow](https://app.artflow.ai/character-builder?feature=actors)             |          |        |
 | - Face swap                       |          | [Face Swap Any Video](https://www.perplexity.ai/search/resume-sous-l-la-forme-d-une-l-u3JLXzacT9m06yn8xR3c2w)            |          |        |
+| - de longue durée   |          | [open source](https://video-infinity.tanzhenxiong.com/)           |          |        |
+| - bruitage automatique   |          |           |          |  [open source](https://github.com/open-mmlab/FoleyCrafter)      |
 | Web app                     |          |               |          | [Scientific: client side](https://www.lgstoolkit.com/apps/trusses/) <br> 💡: digital twin client side         |
 | 3D modeling                 |          |               |          |  [CadQuery](https://github.com/CadQuery/cadquery) <br> -[ses caractéristiques](https://chatgpt.com/share/c6743a29-56b2-4536-84fa-209041d3ff02)      |
 | API Endpoint Development    |          |  [Gorilla](https://gorilla.cs.berkeley.edu/)              |          | [vectorShift](https://vectorshift.ai/)    |
