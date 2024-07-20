@@ -306,7 +306,9 @@ Forest_trail_1 in a lush, shadowy woodland with dappled sunlight. Man_1 (45 year
 
         - 3. Je n'ai pas modifié les fichiers `PLACE_HOLDER_TEXTE_VIDEO.txt` et `story.json`.
 
-        Ces modifications visent à améliorer la testabilité du script et à assurer une meilleure reproductibilité de l'environnement de développement. Le mode de test local permet de tester le flux de travail sans faire d'appels API réels, ce qui peut être utile pour le débogage et les tests rapides.   
+        Ces modifications visent à améliorer la testabilité du script et à assurer une meilleure reproductibilité de l'environnement de développement. Le mode de test local permet de tester le flux de travail sans faire d'appels API réels, ce qui peut être utile pour le débogage et les tests rapides.
+
+- [**Résultat final**](https://www.youtube.com/watch?v=1y_-vTEQ0Oo) 
 
 9. **Text to CAD**
 - ⚙️ :Sonnet 3.5 semble être capable de créer un [programme python capable de générer des formes complexes](https://claude.ai/chat/91026ba9-f74b-4622-b215-3148ada38543)
