@@ -46,7 +46,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | Voice                       |          |               |          |        |
 | Image                       |    [free database](https://www.pexels.com/)      |               |          | [Full control with CGDream](https://www.perplexity.ai/page/cgdream-synthese-en-francais-RYRbYJrySjKNyKf6mrvOEQ)       |
 | Video /Vision               | [Object detection](https://claude.site/artifacts/58f9617b-29ff-4d72-94c6-fef471fe4550)         |               | [openedai-vision](https://github.com/matatonic/openedai-vision)         |        |
-| Web Scraping                |🛠️ [Perplexity](https://www.perplexity.ai) <br>🛠️ [Harpa](Harpa.ai)          | [serper](https://serper.dev/)              |  [gpt researcher](https://www.perplexity.ai/search/remet-en-forme-en-faisant-si-n-sATjIynuR9i6G8ikas0w2w)        |        |
+| Web Scraping                |🛠️ [Perplexity](https://www.perplexity.ai) <br>🛠️ [Harpa](Harpa.ai)          | [serper](https://serper.dev/)              |  [gpt researcher](https://www.perplexity.ai/search/remet-en-forme-en-faisant-si-n-sATjIynuR9i6G8ikas0w2w)   <br> [scrape anything](https://www.perplexity.ai/page/web-scraping-OW_sI2YiTj.O.6yk4kQuJQ)     |        |
 | External API     |          |               |          |        |
 
 <br><br>
@@ -103,7 +103,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 |-----------------------------|----------|---------------|----------|--------|
 | multimedia Treatment(texte,...3D)                  |  [Viva]( https://vivago.ai/home)        |               |          |        |
 | Function calling                |  | [Gorilla](https://gorilla.cs.berkeley.edu/) |[best LLM](https://www.perplexity.ai/page/function-calling-resume-en-fra-liyyJb_cSwmUGkmHxo9Gsg)  |  |
-| Agents                      |          |               |  [Build agent with Docker](https://www.perplexity.ai/search/resume-sous-la-forme-d-une-lis-4bHWdgdFRo6exzkPiyX0ag) <br> [agents on internet](https://www.perplexity.ai/search/explique-sous-forme-de-liste-a-h0KnUnaSSFyQucTGJuh2Ag)       |        |
+| **Agents**                      |          |               |  [Build agent with Docker](https://www.perplexity.ai/search/resume-sous-la-forme-d-une-lis-4bHWdgdFRo6exzkPiyX0ag) <br> [agents on internet](https://www.perplexity.ai/search/explique-sous-forme-de-liste-a-h0KnUnaSSFyQucTGJuh2Ag)  <br> [agency swarm](https://www.perplexity.ai/page/synthese-en-francais-youtube-BqhFkU6iRe6xw3_n3.xOrQ) <br> [colab](https://colab.research.google.com/drive/1EpskNFHPvWQV09MBOO8uwJcLWoJZSa1X?usp=sharing)     |        |
 | Avatar                      |          |  [via Kaggle](https://www.youtube.com/watch?v=pvGhSfsi1Ys)             |          |        |
 |  - parlant ou chantant                      |          |  [Gratuit et bluffant](https://github.com/fudan-generative-vision/hallo?tab=readme-ov-file)  !            |          |        |
 | Chatbot          | [pmfm](pmfm.ai) <br> - [ses caractéristiques](https://chatgpt.com/share/3599eac7-d41b-484a-bb9b-1929482a3f56)         |  [Poe.com](https://www.perplexity.ai/search/chatbot-https-poe-com-principa-xeo_mfVZRZSmg.MJYxnibA)        |          | [Creation](https://www.perplexity.ai/search/resume-sosu-forme-de-liste-a-p-8yTUCkJeSpyyfWlCSPDOEA)       |
