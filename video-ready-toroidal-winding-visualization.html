@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video-Ready Toroidal Winding Visualization</title>
+    <style>
+        body { margin: 0; display: flex; flex-direction: column; font-family: Arial, sans-serif; }
+        #canvasContainer { width: 100%; height: 100vh; }
+        canvas { display: block; width: 100%; height: 100%; }
+        #controls { position: absolute; top: 10px; left: 10px; background: rgba(255,255,255,0.7); padding: 10px; }
+    </style>
+</head>
+<body>
+    <div id="canvasContainer"></div>
+    <div id="controls">
+        <label>R (Major Radius): <input type="number" id="R" value="10" step="0.1" min="0.1"></label><br>
+        <label>Wire Diameter: <input type="number" id="wireDiameter" value="0.5" step="0.01" min="0.01"></label><br>
+        <label>Gap between Wires: <input type="number" id="gap" value="0.1" step="0.01" min="0"></label><br>
+        <label>Number of Turns: <input type="number" id="turns" value="12" step="1" min="1"></label><br>
+        <button id="update">Update Visualization</button><br>
+        <button id="startAnimation">Start 10s Animation</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        let scene, camera, renderer;
+        let torus, winding1, winding2;
+        let isAnimating = false;
+        let animationStartTime;
+
+        function initScene() {
+            scene = new THREE.Scene();
+            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            renderer = new THREE.WebGLRenderer();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            document.getElementById('canvasContainer').appendChild(renderer.domElement);
+
+            scene.add(new THREE.AmbientLight(0x404040));
+            const pointLight = new THREE.PointLight(0xffffff, 1, 100);
+            pointLight.position.set(20, 20, 20);
+            scene.add(pointLight);
+
+            camera.position.z = 35;
+        }
+
+        function calculateMinorRadius(R, wireDiameter, gap, turns) {
+            const innerCircumference = turns * (wireDiameter * 2 + gap);
+            const innerRadius = innerCircumference / (2 * Math.PI);
+            return innerRadius - R + wireDiameter / 2;
+        }
+
+        function createTorus(R, r) {
+            return new THREE.TorusGeometry(R, r, 32, 100);
+        }
+
+        function createWinding(R, r, turns, wireDiameter, offset = 0) {
+            const curve = new THREE.Curve();
+            curve.getPoint = function(t) {
+                const theta = t * Math.PI * 2 * turns + offset;
+                const phi = t * Math.PI * 2;
+                
+                const x = (R + r * Math.cos(theta)) * Math.cos(phi);
+                const y = (R + r * Math.cos(theta)) * Math.sin(phi);
+                const z = r * Math.sin(theta);
+                
+                return new THREE.Vector3(x, y, z);
+            };
+            return new THREE.TubeGeometry(curve, turns * 100, wireDiameter / 2, 8, false);
+        }
+
+        function updateVisualization(R, wireDiameter, gap, turns) {
+            const r = calculateMinorRadius(R, wireDiameter, gap, turns);
+
+            if (torus) scene.remove(torus);
+            if (winding1) scene.remove(winding1);
+            if (winding2) scene.remove(winding2);
+
+            const torusGeometry = createTorus(R, r);
+            const torusMaterial = new THREE.MeshPhongMaterial({ color: 0x808080, transparent: true, opacity: 0.5 });
+            torus = new THREE.Mesh(torusGeometry, torusMaterial);
+            scene.add(torus);
+
+            const windingGeometry1 = createWinding(R, r, turns, wireDiameter);
+            const windingMaterial1 = new THREE.MeshPhongMaterial({ color: 0xC0C0C0 });
+            winding1 = new THREE.Mesh(windingGeometry1, windingMaterial1);
+            scene.add(winding1);
+
+            const windingGeometry2 = createWinding(R, r, turns, wireDiameter, Math.PI / turns);
+            const windingMaterial2 = new THREE.MeshPhongMaterial({ color: 0xFF0000 });
+            winding2 = new THREE.Mesh(windingGeometry2, windingMaterial2);
+            scene.add(winding2);
+        }
+
+        function animate(time) {
+            requestAnimationFrame(animate);
+
+            if (isAnimating) {
+                const elapsedTime = (time - animationStartTime) / 1000; // Convert to seconds
+                if (elapsedTime <= 10) { // 10-second animation
+                    const rotation = elapsedTime * Math.PI / 5; // One full rotation in 10 seconds
+                    torus.rotation.x = rotation;
+                    torus.rotation.y = rotation;
+                    winding1.rotation.x = rotation;
+                    winding1.rotation.y = rotation;
+                    winding2.rotation.x = rotation;
+                    winding2.rotation.y = rotation;
+                } else {
+                    isAnimating = false;
+                }
+            }
+
+            renderer.render(scene, camera);
+        }
+
+        function init() {
+            initScene();
+            const R = parseFloat(document.getElementById('R').value);
+            const wireDiameter = parseFloat(document.getElementById('wireDiameter').value);
+            const gap = parseFloat(document.getElementById('gap').value);
+            const turns = parseInt(document.getElementById('turns').value);
+            updateVisualization(R, wireDiameter, gap, turns);
+            animate();
+
+            document.getElementById('update').addEventListener('click', () => {
+                const R = parseFloat(document.getElementById('R').value);
+                const wireDiameter = parseFloat(document.getElementById('wireDiameter').value);
+                const gap = parseFloat(document.getElementById('gap').value);
+                const turns = parseInt(document.getElementById('turns').value);
+                updateVisualization(R, wireDiameter, gap, turns);
+            });
+
+            document.getElementById('startAnimation').addEventListener('click', () => {
+                isAnimating = true;
+                animationStartTime = performance.now();
+            });
+
+            window.addEventListener('resize', () => {
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize(window.innerWidth, window.innerHeight);
+            });
+        }
+
+        init();
+    </script>
+</body>
+</html>
