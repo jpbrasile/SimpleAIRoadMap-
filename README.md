@@ -44,7 +44,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 |-----------------------------|----------|---------------|----------|--------|
 | Text                        |🛠️ [NotebookLM](https://notebooklm.google/) -<br>[ses caractéristiques](https://chatgpt.com/share/2a77dd27-ca9c-41ef-a85e-f401362111cf),<br>🛠️ [Perplexity](https://www.perplexity.ai)         |               |          |        |
 | Voice                       |          |               |          |        |
-| Image                       |          |               |          |        |
+| Image                       |    [free database](https://www.pexels.com/)      |               |          |        |
 | Video /Vision               | [Object detection](https://claude.site/artifacts/58f9617b-29ff-4d72-94c6-fef471fe4550)         |               | [openedai-vision](https://github.com/matatonic/openedai-vision)         |        |
 | Web Scraping                |🛠️ [Perplexity](https://www.perplexity.ai) <br>🛠️ [Harpa](Harpa.ai)          |               |  [gpt researcher](https://www.perplexity.ai/search/remet-en-forme-en-faisant-si-n-sATjIynuR9i6G8ikas0w2w)        |        |
 | External API     |          |               |          |        |
@@ -54,14 +54,15 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 
 | Data Processing             | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
-| [Prompting](https://chatgpt.com/share/1bc7eb5b-5afd-4d57-a963-5fc3b73ae1fa)                   |- [mise à jour des LLM](https://www.perplexity.ai/search/vous-etes-un-assistant-ia-spec-yFTongczR5q288uYziNP_A) <br> [Chain of thought](https://chat.mistral.ai/chat/f035abe1-8249-402e-90a8-031ebc7c28d1) <br> [Metaprompt](https://chatgpt.com/share/9bf5e118-0943-4d83-98fa-40b4ade83247)          |               |          |        |
+| [**Prompting**](https://chatgpt.com/share/1bc7eb5b-5afd-4d57-a963-5fc3b73ae1fa)                   |- [**mise à jour des LLM****](https://www.perplexity.ai/search/vous-etes-un-assistant-ia-spec-yFTongczR5q288uYziNP_A) <br> [**Chain of thought](https://chat.mistral.ai/chat/f035abe1-8249-402e-90a8-031ebc7c28d1) <br> [Metaprompt](https://chatgpt.com/share/9bf5e118-0943-4d83-98fa-40b4ade83247)          |               |          |        |
+| **sauvegarde ChatBot**                   |   [en local (markdown)](https://chromewebstore.google.com/detail/save-my-chatbot-ai-conver/agklnagmfeooogcppjccdnoallkhgkod       |               |          |        |
 | RAG (Retrieval-Augmented Generation) |          |               |  [Tutorial 1](https://github.com/Vasanthengineer4949/NLP-Projects-NHV/tree/main/Advanced%20RAG%20A-Z%20Course) <br> [Graph RAG tutorial](https://github.com/run-llama/llama_index/blob/main/docs/docs/examples/cookbooks/GraphRAG_v1.ipynb)        |        |
 | LLM (Large Language Models) |[Sonnet Chat](https://claude.ai/new)<br>[ChatGPT](https://chatgpt.com/)          | [OpenAI playground & API](https://platform.openai.com)  <br> [Deepseek api](https://www.deepseek.com/) <br> [Groq](https://groq.com/)  <br> [Mistral](https://mistral.ai/) <br> [Sonnet API](https://www.anthropic.com/api-bk)          |  [mathstral](https://mistral.ai/news/mathstral/)        |        |
-| LLM Multimodal |          |               |          |        |
-| Reasoning                   |          |               |          |        |
-| Automation                  |          |               |          |[Fabric](https://github.com/danielmiessler/fabric) <br> - [ses fonctionnalités](https://chatgpt.com/share/1f411711-2457-459f-94d8-2d3d67805592)       |
-| Tools creation              |          |               |          |        |
-| Objects manufacturing            |          |               |    [text to real 3D part](https://chatgpt.com/c/847ba680-fd83-4ed7-bd0b-84a2d75f0f67) 
+| **LLM Multimodal** | sonnet 3.5, GPT4o,GPT-4o mini, [Groq1.5](https://www.perplexity.ai/page/elon-musk-s-xai-and-grok-0c66ZeWOT6SS4tCeiy3H6Q)         |   [GPT-4o mini API](https://mail.google.com/mail/u/0/#inbox/WhctKLbFVzmwlxRsPCWTsjMLZZvQVkVGzGLLKXFHWsWvVshssjsmzDQqSZKTqKzXxhWSctL)            |          |        |
+| **Reasoning**                   |          |               |          |        |
+| **Automation**                  |          |               |          |[Fabric](https://github.com/danielmiessler/fabric) <br> - [ses fonctionnalités](https://chatgpt.com/share/1f411711-2457-459f-94d8-2d3d67805592)       |
+| **Tools creation**              |          |               |          |        |
+| **Objects manufacturing**            |          |               |    [text to real 3D part](https://chatgpt.com/c/847ba680-fd83-4ed7-bd0b-84a2d75f0f67) 
    
 
 <br><br>
@@ -69,44 +70,46 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 
 |  Creation   | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
-| Text                        |          |               |          |        |
+| **Text**                        |          |               |          |        |
 | - Transcription audio mulitlangues, multi partcipants                        |          |[aTrain](https://github.com/JuergenFleiss/aTrain)               |          |        |
-| Voice                       |        |    [alltalk_tts](https://github.com/erew123/alltalk_tts) <br> [~ elevenlabs mais gratuit](https://ttsopenai.com/) <br> [Chansons avec suno](suno.ai) <br> [CosyVoice en local, facile à implanter](https://chatgpt.com/share/881feabd-9e38-4eea-8776-6e3bcafe7359)          |          |        |
-| Image                       | [Fooocus on Colab](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb)  <br>  [fooocus api](https://replicate.com/konieshadow/fooocus-api/api)  <br> <img src="https://github.com/user-attachments/assets/ae951b46-0b30-46da-b940-44b34f5af0fe" width="60%"> <br> [tout en un pour 9€/mois](https://www.perplexity.ai/search/donne-moi-les-fonctionnalite-d-zy4EKgaqQEi2VjSn.fAMvQ) <br>  [AuraFlow](https://www.perplexity.ai/search/resume-sous-forme-de-liste-a-p-95pSiRbEQ3e9vCU9KCVe9w) <br> - en playground pour 0.02 € <br> <img src="https://github.com/user-attachments/assets/1cd6927e-2ad4-49d3-9c52-99aeff69700b" width="25%">  | [CompfyUI sur HF](https://huggingface.co/spaces/Deadmon/union-sdxl): <br> Prompt: En mode manga : Night_sky_1 with a full moon. Piper_McNimbus (12 years old, long auburn hair, freckles, bright green eyes, wearing pajamas,) soars through the air, arms outstretched, with a joyful expression. Clouds_1 (wispy, moonlit) surround her. Stars_1 (twinkling, numerous) fill the background. The atmosphere is magical and liberating. <br> Image: <img src="https://github.com/user-attachments/assets/12e8187c-c43e-402e-9182-a4f2a3511136" alt="Generated Image" width="50%"> |
+| **Voice**                       |  [full control,free](https://ttsopenai.com/]      |    [alltalk_tts](https://github.com/erew123/alltalk_tts) <br> [~ elevenlabs mais gratuit](https://ttsopenai.com/) <br> [Chansons avec suno](suno.ai) <br> [CosyVoice en local, facile à implanter](https://chatgpt.com/share/881feabd-9e38-4eea-8776-6e3bcafe7359)          |   [en local gratuit](https://www.perplexity.ai/page/summarize-in-french-dNV1x459RlCo3CJ.pJvuFA)       |        |
+| **Image**                       | [leonardo](https://www.perplexity.ai/page/amelioration-de-leonardo-ai-Du0LlRT3T6OVeM0k_hwM_g) <br>[Fooocus on Colab](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb)  <br>  [fooocus api](https://replicate.com/konieshadow/fooocus-api/api)  <br> <img src="https://github.com/user-attachments/assets/ae951b46-0b30-46da-b940-44b34f5af0fe" width="60%"> <br> [tout en un pour 9€/mois](https://www.perplexity.ai/search/donne-moi-les-fonctionnalite-d-zy4EKgaqQEi2VjSn.fAMvQ) <br>  [AuraFlow](https://www.perplexity.ai/search/resume-sous-forme-de-liste-a-p-95pSiRbEQ3e9vCU9KCVe9w) <br> - en playground pour 0.02 € <br> <img src="https://github.com/user-attachments/assets/1cd6927e-2ad4-49d3-9c52-99aeff69700b" width="25%">  | [CompfyUI sur HF](https://huggingface.co/spaces/Deadmon/union-sdxl): <br> Prompt: En mode manga : Night_sky_1 with a full moon. Piper_McNimbus (12 years old, long auburn hair, freckles, bright green eyes, wearing pajamas,) soars through the air, arms outstretched, with a joyful expression. Clouds_1 (wispy, moonlit) surround her. Stars_1 (twinkling, numerous) fill the background. The atmosphere is magical and liberating. <br> Image: <img src="https://github.com/user-attachments/assets/12e8187c-c43e-402e-9182-a4f2a3511136" alt="Generated Image" width="50%"> |
+| -avec choix du style | [tengr](https://tengr.ai/) <br> <img src="https://github.com/user-attachments/assets/16a40593-5360-473f-8d50-c131e6b35312" width="50%"> |
 | - upscaling                       |  [Upscaling](https://flowt.ai/community/supir-v2-plugandplay-edition-n5acf-v)       |               |          |        |
 | - avec Caractères consistants                       |          |   [FaceChain](https://facechain-fact.github.io/)  <br>   [portrait/vêtements/prompt pour la pose](https://arxiv.org/html/2406.09162v1)         |          |        |
-| Animation                   | [hedra](https://www.hedra.com/)         |               |          |        |
+| **Animation**                   | [hedra](https://www.hedra.com/)         |               |          |        |
 | - avec images humaines réalistes    |        |               |  [unianimate](https://unianimate.github.io/)         |        |
+| - animation entre 2 images| | |[avec Luma Dream Machine ](https://www.perplexity.ai/page/animate-any-characters-lpRGS7C9StuHQK8stTS6uQ) |
 | - à partir d'une image   |        |               |   [EasyAnimate](https://github.com/aigc-apps/EasyAnimate)        |        |
 | - à partir de 2 vidéos    |        |               |  [MotionFollower]([https://unianimate.github.io/](https://francis-rings.github.io/MotionFollower/))         |        |
-| Video                       |          |               |          |        |
+| **Video**                       |          | [conseils pratiques](https://www.perplexity.ai/page/creer-une-video-d-image-iY8wTR3dRMWBNygLeSFjNw)             |          |        |
 | - avec caractères persistants                       |          |  [ArtFlow](https://app.artflow.ai/character-builder?feature=actors)             |          |        |
-| - Face swap                       |          | [Face Swap Any Video](https://www.perplexity.ai/search/resume-sous-l-la-forme-d-une-l-u3JLXzacT9m06yn8xR3c2w)            |          |        |
+| - avec émotions                       |          |  [https://liveportrait.github.io/](https://www.perplexity.ai/page/resume-en-francais-sc4ilfT4TSOUHajqxjh4Rg)            |          |        |
+| - Face swap                       |          | [Face Swap Any Video](https://www.perplexity.ai/search/resume-sous-l-la-forme-d-une-l-u3JLXzacT9m06yn8xR3c2w) <br> [et aussi](https://www.perplexity.ai/page/resume-emoji-youtube-video-DIRYmQpaSay7rPGEhxsvEg)           |          |        |
 | - de longue durée   |          | [open source](https://video-infinity.tanzhenxiong.com/)           |          |        |
 | - bruitage automatique   |          |           |          |  [open source](https://github.com/open-mmlab/FoleyCrafter)      |
-| Web app                     |          |               |          | [Scientific: client side](https://www.lgstoolkit.com/apps/trusses/) <br> 💡: digital twin client side         |
-| 3D modeling                 |          |               |          |  [CadQuery](https://github.com/CadQuery/cadquery) <br> -[ses caractéristiques](https://chatgpt.com/share/c6743a29-56b2-4536-84fa-209041d3ff02)      |
-| API Endpoint Development    |          |  [Gorilla](https://gorilla.cs.berkeley.edu/)              |          | [vectorShift](https://vectorshift.ai/)    |
-| Virtual Operator            |          |               |          |        |
+| **Web app**                     |          |               |          | [Scientific: client side](https://www.lgstoolkit.com/apps/trusses/) <br> 💡: digital twin client side         |
+| **3D modeling**                 | [ERA3D sur colab & Kaggle](https://github.com/wandaweb/Era3D-Colab-Kaggle/)         |     [wonder3D](https://github.com/xxlong0/Wonder3D) <br> <img src="https://github.com/user-attachments/assets/86f13894-488c-4d69-b86d-97e49b3b7b1f" width= "70%">|          |  [CadQuery](https://github.com/CadQuery/cadquery) <br> -[ses caractéristiques](https://chatgpt.com/share/c6743a29-56b2-4536-84fa-209041d3ff02)      |
+| **API Endpoint Development**    |          |  [Gorilla](https://gorilla.cs.berkeley.edu/)              |          | [vectorShift](https://vectorshift.ai/)    |
+| **Virtual Operator**            |          |               |          |        |
 | Local Development Environment      |[Github](https://github.com/) <br> [- Tuto web site deploy & cheat sheet](https://www.perplexity.ai/search/creer-son-site-en-ligne-avec-g-vCw21czUT6.9nE7dSYjeHA) <br>[LMStudio](https://lmstudio.ai/)         |  [Lightning AI](https://chatgpt.com/share/05b67f08-a0da-495c-a295-198e63e6c9bd) <br> [HuggingFace candle](https://www.perplexity.ai/search/faire-un-resume-de-https-www-y-Nd7V1Ag9TjGjS9gY0AJCgQ)  <br> [Docker](https://www.docker.com/)            |          |        |
-| Cloud based Development Environment            | [colab.google](https://www.perplexity.ai/search/quelles-sont-les-principales-c-NcNfvE5bRASAqlxa6IoQQA) <br> [kaggle.com](https://www.perplexity.ai/search/quelles-sont-les-principales-c-eZGY4KOjRyOxAXcPjfMKVA) <br> [huggingface.co](https://www.perplexity.ai/search/https-huggingface-co-quelles-s-45BlLQtASYGCMo4QEsGixA) <br>         |               |          |        |
-| Fabrication             |          |               |          | - [Robot <1000 €](https://github.com/Red-Rabbit-Robotics) <br>[- Imprimante SLS DIY](https://sls4all.com/store/)       |
-
-
+| **Cloud based Development Environment**            | [colab.google](https://www.perplexity.ai/search/quelles-sont-les-principales-c-NcNfvE5bRASAqlxa6IoQQA) <br> [kaggle.com](https://www.perplexity.ai/search/quelles-sont-les-principales-c-eZGY4KOjRyOxAXcPjfMKVA) <br> [huggingface.co](https://www.perplexity.ai/search/https-huggingface-co-quelles-s-45BlLQtASYGCMo4QEsGixA) <br>         |               |          |        |
+| **Fabrication**             |          |               |          | - [Robot <1000 €](https://github.com/Red-Rabbit-Robotics) <br>[- Imprimante SLS DIY](https://sls4all.com/store/)       |
+| **Text 2 Graph**             |          |               |          | [https://www.youtube.com/watch?v=4v42JHuI30Y](https://www.perplexity.ai/page/resume-en-francais-P2yjJ105TTGAXbe8cw5gVQ)     |
 
 <br><br>
 
 | Tools                  | Débutant | Intermédiaire | Maîtrise | Expert |
 |-----------------------------|----------|---------------|----------|--------|
 | multimedia Treatment(texte,...3D)                  |  [Viva]( https://vivago.ai/home)        |               |          |        |
-| Function calling                |  | [Gorilla](https://gorilla.cs.berkeley.edu/) |  |  |
+| Function calling                |  | [Gorilla](https://gorilla.cs.berkeley.edu/) |[best LLM](https://www.perplexity.ai/page/function-calling-resume-en-fra-liyyJb_cSwmUGkmHxo9Gsg)  |  |
 | Agents                      |          |               |  [Build agent with Docker](https://www.perplexity.ai/search/resume-sous-la-forme-d-une-lis-4bHWdgdFRo6exzkPiyX0ag) <br> [agents on internet](https://www.perplexity.ai/search/explique-sous-forme-de-liste-a-h0KnUnaSSFyQucTGJuh2Ag)       |        |
 | Avatar                      |          |  [via Kaggle](https://www.youtube.com/watch?v=pvGhSfsi1Ys)             |          |        |
 |  - parlant ou chantant                      |          |  [Gratuit et bluffant](https://github.com/fudan-generative-vision/hallo?tab=readme-ov-file)  !            |          |        |
 | Chatbot          | [pmfm](pmfm.ai) <br> - [ses caractéristiques](https://chatgpt.com/share/3599eac7-d41b-484a-bb9b-1929482a3f56)         |  [Poe.com](https://www.perplexity.ai/search/chatbot-https-poe-com-principa-xeo_mfVZRZSmg.MJYxnibA)        |          | [Creation](https://www.perplexity.ai/search/resume-sosu-forme-de-liste-a-p-8yTUCkJeSpyyfWlCSPDOEA)       |
 | - Voice assistant                       |          |               |[en local](https://www.perplexity.ai/search/resume-dans-unne-liste-a-puce-94GkUCHiTFOwvm9_Mzsk2A) <br> [Multimodal](https://www.perplexity.ai/search/resume-dans-une-liste-a-puces-wT0ANkSQRxmb3d5SCrF_vA)) <br> [Allice](github.com/myshell-ai/AIlice) <br> - [sescaractéristiques](https://chatgpt.com/share/dd1851ef-4020-4ffe-842b-249d630c8ac9)
   |        |
-| Coding assistant            |          | [aider.chat](https://www.perplexity.ai/search/aider-code-assistant-cheat-she-REvsq3zxSwS75PPD_HcVeQ)              |          |        |
+| **Coding assistant**            |          |[claude engineer](https://github.com/Doriandarko/claude-engineer) <br> [aider.chat](https://www.perplexity.ai/search/aider-code-assistant-cheat-she-REvsq3zxSwS75PPD_HcVeQ)              |          |        |
 | Data scraping assistant     |          |  [crawl4ai](https://github.com/unclecode/crawl4ai) <br> - [ses caractéristiques](https://chatgpt.com/share/13f51641-c3d2-4b57-af30-ffb3b31e068f)             |          |        |
 | Teaching Assistant          |          |               |          |        |
 | Project assistant           |          |               |          |        |
