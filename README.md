@@ -458,7 +458,8 @@ Le résultat est tout à fait correct :
     - Un outil pour tracer la progression de son élève, c'est la [_palette de progression_](https://claude.ai/chat/f1134fe8-632f-4590-89cb-6560f41acf8c) Cela nous a aussi permis de tester la richesse d'un travail en équipe avec l'IA :l'amélioration est spectaculaire:
 <img src="https://github.com/user-attachments/assets/cf7c1b19-bc1f-41d6-9256-da5d6a013311" width="50%"> 
    - Un outil d'interface avec l'utilisateur qui montre son état d'avancement dans l'acquisition de ce nouveau savoir
-     -  
+     - Sonnet nous offre un [interface convivial](https://claude.site/artifacts/36f2d592-7b03-4023-b877-5c1b7b5f440f )  avec l'élève qui peux naviguer dans les savoir à acquérir tout en visualisant sa progression :
+     
 - de données obtenues par web scraping ou de données locales multimodales. Les images peuvent être interprétées, et les données graphiques et tableaux sont récupérés et intégrés dans les graphes de connaissance. Cette fonctionnalité permet d'enrichir les graphes avec des informations actualisées et diversifiées, provenant de différentes sources.
 - La connaissance peut être organisée de manière efficace sous forme de graphe, comme illustré dans l'image ci-dessous :
 
