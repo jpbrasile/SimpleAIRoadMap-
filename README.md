@@ -360,32 +360,7 @@ Try out our live research preview to see how STORM can help your knowledge explo
 
 
   
-22. **Learn AnyThing**:
-- "Learn anything" est capable de partir de données obtenues par web scraping ou de données locales multimodales. Les images peuvent être interprétées, et les données graphiques et tableaux sont récupérés et intégrés dans les graphes de connaissance. Cette fonctionnalité permet d'enrichir les graphes avec des informations actualisées et diversifiées, provenant de différentes sources.
-- La connaissance peut être organisée de manière efficace sous forme de graphe, comme illustré dans l'image ci-dessous :
 
-<img src="https://github.com/user-attachments/assets/9c5d7cdd-b4e8-48ed-8a33-c2f8059b17e8" width= "50%">
-
-- Un modèle de langage large (LLM) est capable de générer des graphes interactifs (voir référence 23.) à partir d'informations même déstructurées.
-- Pour un utilisateur de la plateforme "Learn anything", chaque nœud représente une connaissance à acquérir. Le LLM (ou un agent spécifique) peut mettre en œuvre plusieurs fonctionnalités pour aider à cet apprentissage :
-    - _Faire un cours_ : Créer des cours, y compris des vidéos automatiques (voir référence 3.), qui peuvent s'adapter à la langue et au niveau de l'utilisateur.
-    - _Poser des questions_ : Encourager un apprentissage actif en posant des questions dont la complexité s'ajuste au niveau de l'utilisateur.
-    - _Proposer des solutions_ : Offrir des solutions, des corrections adaptées à la réponse reçue ou des pistes de résolution.
-    - _Suivi du niveau de connaissance_ : Maintenir un état du niveau de connaissance acquis, en changeant par exemple la couleur du nœud de blanc à vert pour les connaissances maîtrisées.
-    - _Séquençage des réactivations_ : Activer des séquences de réactivation de la connaissance dont la fréquence diminue à mesure que l'acquisition progresse.
-    - _Multimodalité_ : Utiliser la voix, l'image et la vidéo à la fois en entrée et en sortie pour une efficacité accrue.
-    - _Personnalisation avancée_ : Implémenter des algorithmes de personnalisation plus sophistiqués pour s'adapter aux préférences et au style d'apprentissage de chaque utilisateur.
-    - _Analyse des données d'apprentissage_ : Utiliser des analyses de données pour identifier les points faibles et proposer des plans d'amélioration personnalisés.
-    - _Gamification_ : Introduire des éléments de gamification pour rendre l'apprentissage plus engageant et motivant.
-    - _Feedback en temps réel_ : Fournir des retours en temps réel sur les performances de l'utilisateur pour un apprentissage plus réactif.
-- Voir la fin du [dialogue avec Perplexity](https://www.perplexity.ai/search/what-is-the-interest-of-llama-6lm_fKVKQqeLarBCK0Z30g) qui nous a orienté sur l'emploi de LangChain dau dépend de notre idée initiale  (_llama-index agent_). 
-- Nous allons tenter le no code avec LangGraph pour répondre à notre besoin dans un nouveau [dialogue avec Sonnet 3.5](https://claude.ai/chat/c9a4a45f-0e90-43ac-a305-867cef5f2793). Malheureusement il donne un code non cohérent avec la réalité de LangGraph car il refuse de faire des recherches sur le net. Nous nous sommes donc reporté sur [Perplexity](https://www.perplexity.ai/search/detaille-langgraph-promptnode-PeOQJBUAT9mAJRrp.vjg5g).
-- Nous revenons sur [sonnet 3.5 avec le code proposé par Perplexity](https://claude.ai/chat/c9a4a45f-0e90-43ac-a305-867cef5f2793) pour générer le code dont voici la structure 
-  <img src="https://github.com/user-attachments/assets/2fa4a265-ce1d-4086-b1c6-e89a079ad8f0" width="50%">
-- Il ne ns restera plus qu'à valider le code avec l'aide d'AIDER. Nous utilisons l'environnement conda "learnanything" qui permet le lancement de aider en tapant simplement dans un terminal `aider`
-- Nous avons lancé les divers tests avec l'aide d'aider qui proposait des changements si nécessaire. [Sonnet 3.5 fait la synthèse](https://claude.ai/chat/c2ad00e6-187f-4bae-aae5-7e13b2b3ac7a) 
-- Ma conclusion est que l'activation d'agents est possible, mais très lente et relativement coûteuse. Nous avons probablement aussi exagéré sur le nombre d'agents à mettre en oeuvre. Il faut mieux que le traitement de la requ^te initiale soit priseen compte par un seul LLM  qui , avec le bon prompt peut produire le graphe ainsi que l'artefact qui permet sa visualisation. Le LLM maîtrise la cohérence d'ensemble et peut donc facilement adapter le résultat à des adaptations souhaitée par l'utilisateur. 
-        
 23. **Text to Graph**:
 - ⬜ :  [Story teller avec bifurcation dans l'histoire possible](https://github.com/langchain-ai/story-writing)
 - ⬜ :  [Un tutoriel pour chatter avec un  Knowledge Graph using LLMs](https://www.youtube.com/watch?v=KMXQ4SVLwmo)
@@ -471,10 +446,44 @@ Le résultat est tout à fait correct :
 - Je vous laisse le soin de tester ces différents logiciels qui même dans leurs versions gratuites amélioreront sensiblement votre productivité.
 
 
-
-
  
- 
+ ## **Learn AnyThing**:
+- "Learn anything" est capable de partir d'un besoin et se transforme en véritable professeur attitré:
+- Comment y parvenir: 
+  - L'interaction avec l'utilisateur pour cibler précisément son besoin (passer de "apprendre l'IA" à "produire des vidéos de façon automatique" par exemple. Pour cela il va nnous falloir apprendrele "_prompting_",
+  - La collecte de données, le LLM a une connaissance générale pas très pointue ni très à jour: pour y remédier il faut aller chercher les données sur internet, c'est le _web scraping_
+  - Ces données, il faut que le LLM soit capable de les stocker et de s'en servir en fonction du contexte, c'est le _Retrieval-Augmented Generation (RAG)_
+  - Le LLM est devenu expert de son sujet , à charge pour lui de transmettre son savoir
+    - Un cours attrayant d'abord, pour cela il va devoir créer une video, c'est le _video_making_
+    - Un outil pour tracer la progression de son élève, c'est la [_palette de progression_](https://claude.ai/chat/f1134fe8-632f-4590-89cb-6560f41acf8c) Cela nous a aussi permis de tester la richesse d'un travail en équipe avec l'IA :l'amélioration est spectaculaire:
+<img src="https://github.com/user-attachments/assets/cf7c1b19-bc1f-41d6-9256-da5d6a013311" width="50%"> 
+   - Un outil d'interface avec l'utilisateur qui montre son état d'avancement dans l'acquisition de ce nouveau savoir
+     -  
+- de données obtenues par web scraping ou de données locales multimodales. Les images peuvent être interprétées, et les données graphiques et tableaux sont récupérés et intégrés dans les graphes de connaissance. Cette fonctionnalité permet d'enrichir les graphes avec des informations actualisées et diversifiées, provenant de différentes sources.
+- La connaissance peut être organisée de manière efficace sous forme de graphe, comme illustré dans l'image ci-dessous :
+
+<img src="https://github.com/user-attachments/assets/9c5d7cdd-b4e8-48ed-8a33-c2f8059b17e8" width= "50%">
+
+- Un modèle de langage large (LLM) est capable de générer des graphes interactifs (voir référence 23.) à partir d'informations même déstructurées.
+- Pour un utilisateur de la plateforme "Learn anything", chaque nœud représente une connaissance à acquérir. Le LLM (ou un agent spécifique) peut mettre en œuvre plusieurs fonctionnalités pour aider à cet apprentissage :
+    - _Faire un cours_ : Créer des cours, y compris des vidéos automatiques (voir référence 3.), qui peuvent s'adapter à la langue et au niveau de l'utilisateur.
+    - _Poser des questions_ : Encourager un apprentissage actif en posant des questions dont la complexité s'ajuste au niveau de l'utilisateur.
+    - _Proposer des solutions_ : Offrir des solutions, des corrections adaptées à la réponse reçue ou des pistes de résolution.
+    - _Suivi du niveau de connaissance_ : Maintenir un état du niveau de connaissance acquis, en changeant par exemple la couleur du nœud de blanc à vert pour les connaissances maîtrisées.
+    - _Séquençage des réactivations_ : Activer des séquences de réactivation de la connaissance dont la fréquence diminue à mesure que l'acquisition progresse.
+    - _Multimodalité_ : Utiliser la voix, l'image et la vidéo à la fois en entrée et en sortie pour une efficacité accrue.
+    - _Personnalisation avancée_ : Implémenter des algorithmes de personnalisation plus sophistiqués pour s'adapter aux préférences et au style d'apprentissage de chaque utilisateur.
+    - _Analyse des données d'apprentissage_ : Utiliser des analyses de données pour identifier les points faibles et proposer des plans d'amélioration personnalisés.
+    - _Gamification_ : Introduire des éléments de gamification pour rendre l'apprentissage plus engageant et motivant.
+    - _Feedback en temps réel_ : Fournir des retours en temps réel sur les performances de l'utilisateur pour un apprentissage plus réactif.
+- Voir la fin du [dialogue avec Perplexity](https://www.perplexity.ai/search/what-is-the-interest-of-llama-6lm_fKVKQqeLarBCK0Z30g) qui nous a orienté sur l'emploi de LangChain dau dépend de notre idée initiale  (_llama-index agent_). 
+- Nous allons tenter le no code avec LangGraph pour répondre à notre besoin dans un nouveau [dialogue avec Sonnet 3.5](https://claude.ai/chat/c9a4a45f-0e90-43ac-a305-867cef5f2793). Malheureusement il donne un code non cohérent avec la réalité de LangGraph car il refuse de faire des recherches sur le net. Nous nous sommes donc reporté sur [Perplexity](https://www.perplexity.ai/search/detaille-langgraph-promptnode-PeOQJBUAT9mAJRrp.vjg5g).
+- Nous revenons sur [sonnet 3.5 avec le code proposé par Perplexity](https://claude.ai/chat/c9a4a45f-0e90-43ac-a305-867cef5f2793) pour générer le code dont voici la structure 
+  <img src="https://github.com/user-attachments/assets/2fa4a265-ce1d-4086-b1c6-e89a079ad8f0" width="50%">
+- Il ne ns restera plus qu'à valider le code avec l'aide d'AIDER. Nous utilisons l'environnement conda "learnanything" qui permet le lancement de aider en tapant simplement dans un terminal `aider`
+- Nous avons lancé les divers tests avec l'aide d'aider qui proposait des changements si nécessaire. [Sonnet 3.5 fait la synthèse](https://claude.ai/chat/c2ad00e6-187f-4bae-aae5-7e13b2b3ac7a) 
+- Ma conclusion est que l'activation d'agents est possible, mais très lente et relativement coûteuse. Nous avons probablement aussi exagéré sur le nombre d'agents à mettre en oeuvre. Il faut mieux que le traitement de la requ^te initiale soit priseen compte par un seul LLM  qui , avec le bon prompt peut produire le graphe ainsi que l'artefact qui permet sa visualisation. Le LLM maîtrise la cohérence d'ensemble et peut donc facilement adapter le résultat à des adaptations souhaitée par l'utilisateur. 
+        
 
 
 
