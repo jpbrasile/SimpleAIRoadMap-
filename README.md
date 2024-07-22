@@ -122,7 +122,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 
 
 <br>
-**TO DO  ⬜ / DONE ✅** / **en cours** ⚙️ / **tools** 🛠️ / **innovations** 💡
+
 <br>
 
 
@@ -487,9 +487,11 @@ Le résultat est tout à fait correct :
 - Ma conclusion est que l'activation d'agents est possible, mais très lente et relativement coûteuse. Nous avons probablement aussi exagéré sur le nombre d'agents à mettre en oeuvre. Il faut mieux que le traitement de la requ^te initiale soit priseen compte par un seul LLM  qui , avec le bon prompt peut produire le graphe ainsi que l'artefact qui permet sa visualisation. Le LLM maîtrise la cohérence d'ensemble et peut donc facilement adapter le résultat à des adaptations souhaitée par l'utilisateur. 
         
 
-
-
-
+# Les problèmes que nous solvons ... ou pas pas à pas 
+**TO DO  ⬜ / DONE ✅** / **en cours** ⚙️ / **tools** 🛠️ / **innovations** 💡
+- **Avoir un bon environnement de programation no code**
+  - Débutant : sonnet 3.5 version pro avec Artefact est le plus facile à utiliser : "Montre moi en HTML/CSS comment faire ...."
+  - Interm'diaire : 
 
 
 
