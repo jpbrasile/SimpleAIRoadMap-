@@ -491,7 +491,37 @@ Le résultat est tout à fait correct :
 **TO DO  ⬜ / DONE ✅** / **en cours** ⚙️ / **tools** 🛠️ / **innovations** 💡
 - **Avoir un bon environnement de programation no code**
   - Débutant : sonnet 3.5 version pro avec Artefact est le plus facile à utiliser : "Montre moi en HTML/CSS comment faire ...."
-  - Interm'diaire : 
+  - Intermédiaire :
+    - Evaluation de [gpt-engineer](gpte <project_dir>) . Nous avons suivi les instruction mais il faut installer Poetry et relancer l'ordinateur pour que les variables d'environnement prennent effet. **Son emploi n'est pas probant**
+    - **AIDER:** son emploi est facile, dans le répertoire de travail (il va créer un .git s'il n'existe pas) et l'environnement conda "teambot" on l'active avec la commande AIDER
+
+| **Commandes principales d'Aider** | **Fonctionnalités clés** |
+| --- | --- |
+| **/add** [nom_fichier] : Ajouter des fichiers à la session de chat pour que l'IA puisse les modifier ou les examiner | Intégration Git automatique avec commits intelligents |
+| **/clear** : Effacer tout l'historique de chat précédent | Prise en charge de plusieurs langages de programmation populaires |
+| **/commit** [message] : Enregistrer les modifications dans le dépôt avec un message de commit | Capacité à éditer plusieurs fichiers simultanément |
+| **/diff** : Afficher les différences entre les versions des fichiers | Utilisation d'une carte du dépôt Git entier pour une meilleure compréhension du contexte |
+| **/drop** [nom_fichier] : Retirer des fichiers de la session en cours | Possibilité d'ajouter des images et des URLs au chat |
+| **/exit** ou **/quit** : Fermer l'application Aider | Codage par commande vocale |
+| **/git** [commande] : Exécuter des commandes Git | |
+| **/help** : Afficher les informations sur les commandes disponibles | Bonnes pratiques |
+| **/lint** [nom_fichier] : Vérifier et corriger les erreurs de code | Ajoutez les fichiers pertinents au contexte du chat avec /add |
+| **/ls** : Lister tous les fichiers connus et leur statut dans le chat | Effectuez des changements petits et itératifs plutôt que de grandes requêtes |
+| **/model** [nom] : Passer à un modèle de langage différent | Utilisez /run pour exécuter des tests et fournir un retour à Aider |
+| **/models** : Rechercher parmi les modèles de langage disponibles | Tirez parti de /lint pour les corrections et améliorations automatiques du code |
+| **/run** [commande] : Exécuter des commandes shell | Utilisez /diff pour examiner les changements avant de les valider |
+| **/test** : Exécuter des commandes shell et enregistrer les erreurs | Expérimentez avec différents modèles en utilisant /model pour des résultats optimaux |
+| **/tokens** : Rapporter le nombre de tokens utilisés dans le chat | |
+| **/undo** : Annuler le dernier commit Git effectué par Aider | |
+| **/voice** : Enregistrer et transcrire l'entrée vocale | |
+| **/web [url]** : Extraire le contenu d'une page web avec Selenium sans interface graphique | |
+<br><br>
+<img src="https://github.com/user-attachments/assets/def6af11-570c-4f83-96b3-25813f13b437" width="70%">
+
+
+
+
+
 
 
 
