@@ -493,8 +493,8 @@ Le résultat est tout à fait correct :
   - Débutant : sonnet 3.5 version pro avec Artefact est le plus facile à utiliser : "Montre moi en HTML/CSS comment faire ...."
   - Intermédiaire :
     - Evaluation de [gpt-engineer](gpte <project_dir>) . Nous avons suivi les instruction mais il faut installer Poetry et relancer l'ordinateur pour que les variables d'environnement prennent effet. **Son emploi n'est pas probant**
-    - **AIDER:** son emploi est facile, dans le répertoire de travail (il va créer un .git s'il n'existe pas) et l'environnement conda "teambot" on l'active avec la commande AIDER
-
+    - **AIDER:** son emploi est facile, dans le répertoire de travail (il va créer un .git s'il n'existe pas) et l'environnement conda "teambot" on l'active avec la commande AIDER. Il faut mettre la variable d'environnement :`$env:ANTHROPIC_API_KEY = "sk...`
+- Run aider with the files you want to edit: `aider <file1> <file2>`
 | **Commandes principales d'Aider** | **Fonctionnalités clés** |
 | --- | --- |
 | **/add** [nom_fichier] : Ajouter des fichiers à la session de chat pour que l'IA puisse les modifier ou les examiner | Intégration Git automatique avec commits intelligents |
@@ -517,7 +517,7 @@ Le résultat est tout à fait correct :
 | **/web [url]** : Extraire le contenu d'une page web avec Selenium sans interface graphique | |
 <br><br>
 <img src="https://github.com/user-attachments/assets/def6af11-570c-4f83-96b3-25813f13b437" width="70%">
-
+<br><br>
 
 
 
