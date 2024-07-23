@@ -529,7 +529,51 @@ Le résultat est tout à fait correct :
 
 
 
+Module: 1_auth_user_management
+Overview
+The module 1_auth_user_management handles user registration, login, and profile management functionalities. It is built using Flask, Flask-SQLAlchemy, and Flask-Login.
 
+Components
+models.py
+
+Defines the User model with fields id, username, email, and password.
+Uses SQLAlchemy for ORM and Flask-Login for user session management.
+main.py
+
+Sets up the Flask application with configuration for secret key, database URI, and SQLAlchemy.
+Initializes the database and Flask-Login.
+Defines routes for user registration (/register), user login (/login), preferences (/preferences), and home (/).
+templates/inscription.html
+
+Contains HTML and JavaScript for both sign-up and sign-in forms.
+Provides feedback messages for successful registration and login.
+Uses AJAX to send form data to the server and handle responses.
+reset_db.py
+
+Script to reset the database by deleting the existing SQLite file and recreating the database tables.
+Workflow
+User Registration
+
+The user accesses the registration form at the home route (/).
+Fills out the form with username, email, and password.
+Form data is sent via AJAX to the /register route.
+The server checks for existing email, creates a new user, logs the user in, and returns a success response.
+The client displays a success message and toggles to the login form.
+User Login
+
+The user fills out the login form with email and password.
+Form data is sent via AJAX to the /login route.
+The server authenticates the user and returns a success response.
+The client displays a success message and redirects to the /preferences page.
+Profile Management
+
+The /preferences route is protected and requires user authentication.
+Authenticated users can access and manage their profile information.
+Error Handling
+Checks for duplicate email during registration.
+Provides error messages for invalid login attempts.
+Summary
+The 1_auth_user_management module efficiently handles user sign-up, sign-in, and profile management using Flask, SQLAlchemy, and Flask-Login. It provides a user-friendly interface with real-time feedback and secure session management.
 
 
 
