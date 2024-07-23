@@ -106,7 +106,7 @@ D'autres contraintes doivent être intégrer durant notre parcours: Souhaite-t-o
 | **Agents**                      |          |               |  [Build agent with Docker](https://www.perplexity.ai/search/resume-sous-la-forme-d-une-lis-4bHWdgdFRo6exzkPiyX0ag) <br> [agents on internet](https://www.perplexity.ai/search/explique-sous-forme-de-liste-a-h0KnUnaSSFyQucTGJuh2Ag)  <br> [agency swarm](https://www.perplexity.ai/page/synthese-en-francais-youtube-BqhFkU6iRe6xw3_n3.xOrQ) <br> [colab](https://colab.research.google.com/drive/1EpskNFHPvWQV09MBOO8uwJcLWoJZSa1X?usp=sharing)     |        |
 | Avatar                      |          |  [via Kaggle](https://www.youtube.com/watch?v=pvGhSfsi1Ys)             |          |        |
 |  - parlant ou chantant                      |          |  [Gratuit et bluffant](https://github.com/fudan-generative-vision/hallo?tab=readme-ov-file)  !            |          |        |
-| Chatbot          | [pmfm](pmfm.ai) <br> - [ses caractéristiques](https://chatgpt.com/share/3599eac7-d41b-484a-bb9b-1929482a3f56)         |  [Poe.com](https://www.perplexity.ai/search/chatbot-https-poe-com-principa-xeo_mfVZRZSmg.MJYxnibA)        |          | [Creation](https://www.perplexity.ai/search/resume-sosu-forme-de-liste-a-p-8yTUCkJeSpyyfWlCSPDOEA)       |
+| Chatbot          | [pmfm](pmfm.ai) <br> - [ses caractéristiques](https://chatgpt.com/share/3599eac7-d41b-484a-bb9b-1929482a3f56)         |  [Poe.com : ~ Artefacts](https://www.perplexity.ai/search/chatbot-https-poe-com-principa-xeo_mfVZRZSmg.MJYxnibA)        |          | [Creation](https://www.perplexity.ai/search/resume-sosu-forme-de-liste-a-p-8yTUCkJeSpyyfWlCSPDOEA)       |
 | - Voice assistant                       |          |               |[en local](https://www.perplexity.ai/search/resume-dans-unne-liste-a-puce-94GkUCHiTFOwvm9_Mzsk2A) <br> [Multimodal](https://www.perplexity.ai/search/resume-dans-une-liste-a-puces-wT0ANkSQRxmb3d5SCrF_vA)) <br> [Allice](github.com/myshell-ai/AIlice) <br> - [sescaractéristiques](https://chatgpt.com/share/dd1851ef-4020-4ffe-842b-249d630c8ac9)
   |        |
 | **Coding assistant**            |          |[claude engineer](https://github.com/Doriandarko/claude-engineer) <br> [aider.chat](https://www.perplexity.ai/search/aider-code-assistant-cheat-she-REvsq3zxSwS75PPD_HcVeQ)              |          |        |
@@ -487,14 +487,18 @@ Le résultat est tout à fait correct :
 - Ma conclusion est que l'activation d'agents est possible, mais très lente et relativement coûteuse. Nous avons probablement aussi exagéré sur le nombre d'agents à mettre en oeuvre. Il faut mieux que le traitement de la requ^te initiale soit priseen compte par un seul LLM  qui , avec le bon prompt peut produire le graphe ainsi que l'artefact qui permet sa visualisation. Le LLM maîtrise la cohérence d'ensemble et peut donc facilement adapter le résultat à des adaptations souhaitée par l'utilisateur. 
         
 
-# Les problèmes que nous solvons ... ou pas pas à pas 
+# Les problèmes que nous solvons ... ou pas pas à pas
+
 **TO DO  ⬜ / DONE ✅** / **en cours** ⚙️ / **tools** 🛠️ / **innovations** 💡
-- **Avoir un bon environnement de programation no code**
+
+ 
+ ## **Avoir un bon environnement de programation no code**
   - Débutant : sonnet 3.5 version pro avec Artefact est le plus facile à utiliser : "Montre moi en HTML/CSS comment faire ...."
   - Intermédiaire :
     - Evaluation de [gpt-engineer](gpte <project_dir>) . Nous avons suivi les instruction mais il faut installer Poetry et relancer l'ordinateur pour que les variables d'environnement prennent effet. **Son emploi n'est pas probant**
     - **AIDER:** son emploi est facile, dans le répertoire de travail (il va créer un .git s'il n'existe pas) et l'environnement conda "teambot" on l'active avec la commande AIDER. Il faut mettre la variable d'environnement :`$env:ANTHROPIC_API_KEY = "sk...`
 - Run aider with the files you want to edit: `aider <file1> <file2>`
+- 
 | **Commandes principales d'Aider** | **Fonctionnalités clés** |
 | --- | --- |
 | **/add** [nom_fichier] : Ajouter des fichiers à la session de chat pour que l'IA puisse les modifier ou les examiner | Intégration Git automatique avec commits intelligents |
