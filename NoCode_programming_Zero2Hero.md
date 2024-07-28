@@ -1,6 +1,6 @@
 Programmer en no code est la nouvelle façon de programmer mais encore faut-il le faire de façon professionnelle. 
 - Cela est aujourd'hui possible avec des LLM comme gpt-4o (125 k de contexte) ou Sonnet-3.5 (200 k de contexte)
-- Un [dialogue avec chatGPT](https://chatgpt.com/c/410d9165-1dea-4c6d-b042-0fcfd5cb00cf) nous a conduit a y prvenir!
+- Un [dialogue avec chatGPT](https://chatgpt.com/c/8a7525a8-1722-4f2e-b43d-63bc1ebd7972) nous a conduit a y prvenir!
   - Pour qu'un logiciel soit considéré comme professionnel, plusieurs fonctionnalités et caractéristiques essentielles doivent être présentes, garantissant qualité, sécurité, évolutivité et maintenabilité.
 
   - **Authentification et Autorisation**
@@ -28,3 +28,99 @@ Le projet est structuré de manière claire et modulaire, avec une séparation d
       -  Des tests unitaires sont inclus pour vérifier le bon fonctionnement des différentes parties de l'application, assurant la fiabilité et facilitant la détection de bugs.
 
 - Ces fonctionnalités et caractéristiques font de ce logiciel Flask une application professionnelle, répondant aux standards de qualité, de sécurité et de maintenabilité
+
+
+## Création des pages statiques 
+- Elles maquettent le site pour chacune de ses pages en incluant le fond, la forme et un début d'interactivité (étant statique, on ne peut pas "sauter" sur d'autres pages ni stocker ou récupérer des données).
+- Elles peuvent être réalisées de façon interactive avec l'artefact de Sonnet ou avec le prompt adéquat de GPT4o :
+  - `Je veux pouvoir télécharger un fichier html statique qui fait ....`
+ 
+## une fois les pages statiques de notre application finale figée le LLM pren en charge la production du code avec le prompt :
+  - Voici le prompt système formaté comme demandé, sous forme de string incluant du code markdown entre triples guillemets :
+
+Prompt système pour générer une application Flask professionnelle
+Vous devez générer une application Flask professionnelle basée sur les fichiers HTML initiaux et les données initiales pour la base de données fournis. L'application doit être structurée et inclure les fonctionnalités essentielles garantissant la qualité, la sécurité, l'évolutivité et la maintenabilité. Suivez les instructions et fournissez les fichiers nécessaires pour construire l'application. Assurez-vous que le résultat final est un fichier ZIP complet contenant tous les répertoires et fichiers requis.
+Fichiers HTML initiaux :
+
+home.html
+about.html
+contact.html
+login.html
+register.html
+
+Données initiales pour la base de données :
+sqlCopyINSERT INTO users (username, password_hash) VALUES ('testuser', 'hashedpassword');
+INSERT INTO items (name, description) VALUES ('Item1', 'Description of item 1');
+Structure et fonctionnalités requises
+L'application doit avoir la structure et les fonctionnalités suivantes :
+
+my_flask_app/<br>
+│<br>
+├── app/<br>
+│   ├── __init__.py<br>
+│   ├── models.py<br>
+│   ├── routes/<br>
+│   │   ├── __init__.py<br>
+│   │   ├── main.py<br>
+│   │   ├── api.py<br>
+│   │   └── auth.py<br>
+│   ├── static/<br>
+│   │   ├── css/<br>
+│   │   │   └── styles.css<br>
+│   │   ├── js/<br>
+│   │   │   └── scripts.js<br>
+│   ├── templates/<br>
+│   │   ├── base.html<br>
+│   │   ├── home.html<br>
+│   │   ├── about.html<br>
+│   │   ├── contact.html<br>
+│   │   ├── login.html<br>
+│   │   └── register.html<br>
+│   ├── auth/<br>
+│   │   ├── __init__.py<br>
+│   │   ├── forms.py<br>
+│   │   └── models.py<br>
+│<br>
+├── data/<br>
+│   ├── initial_db_data.sql<br>
+│<br>
+├── tests/<br>
+│   ├── __init__.py<br>
+│   ├── test_models.py<br>
+│   ├── test_routes.py<br>
+│   ├── test_forms.py<br>
+│   └── test_auth.py<br>
+│<br>
+├── migrations/<br>
+│<br>
+├── .gitignore<br>
+├── .env_example<br>
+├── config.py<br>
+├── requirements.txt<br>
+├── run.py<br>
+├── run_tests.py<br>
+├── init_db.py<br>
+└── README.md<br>
+
+- Contenu détaillé des fichiers
+  - Générez le contenu de chaque fichier en suivant les meilleures pratiques de développement Flask et en incluant toutes les fonctionnalités nécessaires pour une application web professionnelle. Assurez-vous d'implémenter :
+
+    - Une structure modulaire utilisant des Blueprints
+    - L'authentification et l'autorisation des utilisateurs
+    - Des points de terminaison API RESTful
+    - L'intégration AJAX
+    - Des formulaires sécurisés avec protection CSRF
+    - Des migrations de base de données avec Flask-Migrate
+    - Des tests unitaires
+
+- Instructions spécifiques
+
+  - Utilisez Flask-SQLAlchemy pour la gestion de la base de données
+  - Implémentez Flask-Login pour la gestion de l'authentification
+  - Utilisez Flask-WTF pour la gestion des formulaires
+  - Incluez des commentaires pertinents dans le code
+  - Assurez-vous que l'application suit les meilleures pratiques de sécurité
+  - Créez un fichier README.md détaillé avec les instructions d'installation et d'utilisation
+
+- Sortie
+  - Générez un fichier ZIP nommé my_flask_app.zip contenant la structure de projet complète avec tous les fichiers listés ci-dessus. Assurez-vous que tous les fichiers sont correctement organisés dans leurs répertoires respectifs.
