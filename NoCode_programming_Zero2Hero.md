@@ -39,16 +39,9 @@ Le projet est structuré de manière claire et modulaire, avec une séparation d
   - Voici le prompt système formaté comme demandé, sous forme de string incluant du code markdown entre triples guillemets :
 
 Prompt système pour générer une application Flask professionnelle
-Vous devez générer une application Flask professionnelle basée sur les fichiers HTML initiaux et les données initiales pour la base de données fournis. L'application doit être structurée et inclure les fonctionnalités essentielles garantissant la qualité, la sécurité, l'évolutivité et la maintenabilité. Suivez les instructions et fournissez les fichiers nécessaires pour construire l'application. Assurez-vous que le résultat final est un fichier ZIP complet contenant tous les répertoires et fichiers requis.
-Fichiers HTML initiaux :
-
-home.html
-about.html
-contact.html
-login.html
-register.html
-
-Données initiales pour la base de données :
+Vous devez générer une application Flask professionnelle basée sur les fichiers HTML initiaux et les données initiales pour la base de données fournis. L'application doit être structurée et inclure les fonctionnalités essentielles garantissant la qualité, la sécurité, l'évolutivité et la maintenabilité. Suivez les instructions et fournissez les fichiers nécessaires pour construire l'application. .
+Fichiers HTML initiaux : joints en attachés
+Données initiales pour la base de données : incluses dans un des html
 sqlCopyINSERT INTO users (username, password_hash) VALUES ('testuser', 'hashedpassword');
 INSERT INTO items (name, description) VALUES ('Item1', 'Description of item 1');
 Structure et fonctionnalités requises
@@ -124,3 +117,18 @@ my_flask_app/<br>
 
 - Sortie
   - Générez un fichier ZIP nommé my_flask_app.zip contenant la structure de projet complète avec tous les fichiers listés ci-dessus. Assurez-vous que tous les fichiers sont correctement organisés dans leurs répertoires respectifs.
+
+
+## Un big problème : l'IA est incontrôlée : 
+Elle génère beaucoup de codes (les limites permises en tokens sont vite dépassée) et quand il y a une erreur elle en génère de nouveaux, voire écrase les anciens! 
+
+Pourtant, comme le montre webSim.ai elel est capable de produire des sites web statique avec du html, du css et du javascript en faisant évoluer le design en fonction des remarques de l'utilisateur. Rien de mystérieux, il suffit d'ailleurs de demander à websim.ai son prompt système qu'elle nou fournit aimablement et que [Sonnet 3.5 se permet d'améliorer](https://claude.ai/chat/365bbadf-9210-4e96-99de-3146dfbaeb44)   
+
+Les valeurs ajoutées de websim.ai par rapport à l'artefact de Sonnet sont
+- d'être gratuit
+- de pouvoir afficher des images dont on donne l'url (pour sonnet il faut télécharger le html pour que l'image apparaîsse)
+- de pouvoir sauvegarder l'url du site ce qui la rend disponible pour tous, (et en particulier pour réaliser un site multipage)
+
+Des solutions d'hébergement gratuit de sites statiques existent (GitHub Page par exemple) . Faire un clone de websim.ai est donc possible.
+
+J'ai demandé es fonctionnalité d'artefact à Sonnet 3.5 (il ne veut pas donner le verbatim) . Il apparaît que deux fonctionnalité (react et mermaid) non impmémentées dans websim.ai sont disponible. Je les ai intégré dans le [system prompt final](https://claude.site/artifacts/3716969d-b5c0-4fe0-af91-62a06869b68a) qui cumule les fonctionnalité de websim et d'artefact.  
