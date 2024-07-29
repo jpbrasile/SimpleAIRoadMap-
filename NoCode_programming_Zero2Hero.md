@@ -143,24 +143,28 @@ J'ai demandé es fonctionnalité d'artefact à Sonnet 3.5 (il ne veut pas donner
 
   When generating Flask application code:
 
-  - 1. Use a single SQLAlchemy instance defined in the app's init.py file.
-  - 2. In models.py, import the db instance from the parent package, not re-declare it.
-  - 3. Use relative imports within the application package (e.g., from .. import db).
-  - 4. Ensure blueprint imports in init.py match the actual file structure.
-  - 5. Configure the database URI in a config file, preferably loaded from environment variables.
-  - 6. In test files, use the testing configuration and an in-memory SQLite database.
-  - 7. Always consider the project's directory structure when writing import statements.
-  - 8. Use a create_app factory function for application initialization.
-  - 9. Register blueprints in the create_app function.
-  - 10.Separate configuration classes (Development, Testing, Production) in a config.py file.
-  - 11. Maintain a comprehensive requirements.txt file, including all direct and indirect dependencies.
-  - 12. When writing tests in subdirectories, add the parent directory of the app to sys.path to ensure the app can be imported correctly.
-  - 13. Use absolute imports for app modules in test files located in subdirectories.
-  - 14. Consider using a setup.py file to make your app installable and resolve import issues.
-  - 15. When using environment variables, ensure they are loaded before the app configuration (consider using python-dotenv).
-  - 16. Ensure Proper Handling of Boolean Values in Templates: When rendering boolean values in HTML templates, convert them to human-readable strings like "Enabled" or "Disabled".
-  - 17. Update Tests Accordingly: When modifying how data is rendered in templates, ensure the tests are updated to reflect these changes.
-  - 18. Use Descriptive Assertions: When writing assertions in tests, ensure they check for the exact output expected in the HTML response.
-  - 19. Always Commit User Before Preferences or Quizzes: Ensure that the user is committed to the database before adding and committing related preferences or quizzes.
-  - 20. Print Registered Routes for Debugging: If necessary, print registered routes for debugging to ensure routes are correctly set up.
-  - 21. Include Detailed Comments and Print Statements in Tests: For better debugging and clarity, include detailed comments and print statements in tests.
+- Lorsque vous générez du code pour une application Flask, suivez ces étapes pour éviter les erreurs courantes :
+
+    - 1. Use a single SQLAlchemy instance defined in the app's init.py file.
+    - 2. In models.py, import the db instance from the parent package, not re-declare it.
+    - 3. Use relative imports within the application package (e.g., from .. import db).
+    - 4. Ensure blueprint imports in init.py match the actual file structure.
+    - 5. Configure the database URI in a config file, preferably loaded from environment variables.
+    - 6. In test files, use the testing configuration and an in-memory SQLite database.
+    - 7. Always consider the project's directory structure when writing import statements.
+    - 8. Use a create_app factory function for application initialization.
+    - 9. Register blueprints in the create_app function.
+    - 10.Separate configuration classes (Development, Testing, Production) in a config.py file.
+    - 11. Maintain a comprehensive requirements.txt file, including all direct and indirect dependencies.
+    - 12. When writing tests in subdirectories, add the parent directory of the app to sys.path to ensure the app can be imported correctly.
+    - 13. Use absolute imports for app modules in test files located in subdirectories.
+    - 14. Consider using a setup.py file to make your app installable and resolve import issues.
+    - 15. When using environment variables, ensure they are loaded before the app configuration (consider using python-dotenv).
+    - 16. Ensure Proper Handling of Boolean Values in Templates: When rendering boolean values in HTML templates, convert them to human-readable strings like "Enabled" or "Disabled".
+    - 17. Update Tests Accordingly: When modifying how data is rendered in templates, ensure the tests are updated to reflect these changes.
+    - 18. When rendering boolean values in HTML templates, convert them to human-readable strings like "Enabled" or "Disabled".
+    - 19. Ensure that tests are updated to reflect any changes in how data is rendered in templates.
+    - 20. Use descriptive assertions in tests to check for the exact output expected in the HTML response.
+    - 21.  Always commit the user to the database before adding and committing related preferences or quizzes.
+    - 22. Print registered routes for debugging if necessary.
+    - 23. Include detailed comments and print statements in tests for better debugging and clarity.
