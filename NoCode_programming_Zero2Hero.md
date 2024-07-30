@@ -168,3 +168,41 @@ J'ai demandé es fonctionnalité d'artefact à Sonnet 3.5 (il ne veut pas donner
     - 21.  Always commit the user to the database before adding and committing related preferences or quizzes.
     - 22. Print registered routes for debugging if necessary.
     - 23. Include detailed comments and print statements in tests for better debugging and clarity.
+
+### Points d'étapes
+
+- Ne pas utiliser gpt4-o pour programmer: il est verbeux et détruit tout sur son passage: sous prétexte de résoudre une erreur il supprime allègrement des fichiers qui eux était fonctionnels.
+- Le front-end peux être mis en oeuvre avec un dialogue "text2frontend" avec l'artéfact de Sonnet 3.5 (ou avec WebSim.ai qui le met en oeuvre gratuitement actuellement.
+- J'ai hacké Le prompt de WebSimai, et même si le prompt équivalent de Sonnet est protégé, il nous a permis [d'améliorer ce prompt](https://claude.site/artifacts/3716969d-b5c0-4fe0-af91-62a06869b68a))
+- 💡: Ni WebSim ni Aretefact ne traitent le backend car il demande les ressources d'un serveur. il est toutefois possible d'intégrer à la fin de chaque page html du frontend les directives que le backend devra suivre pour l'intégrer. Le dialogue "text2backend" [obtenu avec Sonnet](https://claude.ai/chat/401d301d-5807-4571-9d1a-758ff3fcc65f) peut donc s'établir une fois que le développeur est satisfait du front. j'ai créé un [prompt côté frontend](https://claude.site/artifacts/67e81ae2-9a7c-455f-8046-17a704926077) et un autre côtés backend ([recommendations](https://claude.site/artifacts/681b749a-17f5-4585-b3b8-770d2eda5c09) qui s'appuie sur un complément structuré, [informations spécifiques](https://claude.site/artifacts/681b749a-17f5-4585-b3b8-770d2eda5c09) à la page traitée.
+- **Mode d'emploi** du processus d'automatisation pour la mise en place d'une application full stack professionnelle, en utilisant une approche itérative avec LLM et les artefacts :
+
+  - **Phase Frontend :**
+a. Initialisation : Le développeur fournit une description initiale de la page à créer.
+b. Génération : Le LLM utilise le prompt système frontend pour générer un artefact HTML initial.
+c. Itération : Le développeur examine l'artefact, fournit des commentaires ou des modifications.
+d. Raffinement : Le LLM ajuste l'artefact en fonction des commentaires du développeur.
+e. Finalisation : Le processus se répète jusqu'à ce que le développeur soit satisfait de la page frontend.
+Prompt utilisé : "Prompt Système pour la Génération de Page HTML avec Directives Backend Intégrées"
+
+  - **Intégration des Directives Backend :**
+a. Le LLM ajoute automatiquement la section <backend> à chaque page HTML finalisée.
+b. Cette section inclut les spécifications, routes, modèles, logique, et structure de fichiers pour le backend.
+Prompt utilisé : Le même que pour la phase frontend, avec focus sur la section backend.
+
+  - **Phase Backend :**
+a. Récupération : Le développeur backend récupère les pages HTML avec les directives intégrées.
+b. Analyse : Un script ou le LLM analyse les sections <backend> de chaque page.
+c. Génération de la Structure : Création de l'arborescence du projet backend selon les directives.
+d. Implémentation : Le LLM génère le code Python pour chaque fichier spécifié.
+e. Révision : Le développeur backend examine et ajuste le code généré si nécessaire.
+Prompt utilisé : "Prompt pour le Développement Backend Flask"
+
+- **Intégration et Tests :**
+a. Le développeur intègre le frontend et le backend.
+b. Des tests automatisés sont générés et exécutés pour valider l'application.
+
+- **Itération Globale :**
+Si des ajustements sont nécessaires, le processus peut être répété pour des composants spécifiques.
+
+Cette approche permet une création rapide et cohérente d'une application full stack, en utilisant l'intelligence du LLM pour la génération de code et les connaissances du développeur pour la validation et les ajustements fins.
