@@ -288,84 +288,38 @@ $ aider --sonnet
 ## Après la théorie la pratique avec la création de LearnAnythingV3
 - Nous partons des 3 html que nous avons créés avec Sonnet : dossier HTML_ini
 - Attention au crl V : Sonnet ne colle que ce qu'il veut si on ne dit pas "coller en texte brut"
-- Le prompt front end est trop lié à l'application qui a servi d'exemple il faut le reprendre, à la man car tous les LLM semblent être devenu idiot ce matin 
-```
-# Prompt Système pour la Génération de Page HTML avec Directives Backend Intégrées
+- Le prompt front end est trop lié à l'application qui a servi d'exemple il faut le reprendre, à la main car tous les LLM semblent être devenus idiot ce matin.
+- Plutôt que décrire ici ma démarche dans le détail, je vous renvoie au [chat avec Sonnet](https://claude.ai/chat/662e2394-657b-4cf9-8ad1-c4e14a47e28e):
+  - Mon pompt fonctionne  : conclusion reprendre la main quand l'IA devient trop bête
+  - Le droit à l'rreur dans un chat avec Sonnet: reprendre là où ça a dérappé , faire edit, reformulez, save  et on repart d'un bon pied. Le LLM n'a plus la souvenance des passage vaseux !
+  - Je demande une sortie en HTML à couper/coller : ça le motive à tout écrire et on peut facilement télécharger le document 
+  - Finalement j'ai chargé Sonnet  d'assurer la cohérence d'ensemble et de compléter les manquant. Il a fait du bon boulot:
+   ![image](https://github.com/user-attachments/assets/1c0999d7-4aa4-4877-b884-f746a6b131e2)
 
-En tant que développeur frontend ou système de génération de code, votre tâche est de compléter la <Page> html qui vous est fournie par des directives pour la création du back end correspondant . Suivez ces étapes et règles :
 
-1. Analyse de la Page HTML fournie
-  - Identifiacation de sa mission principale
-  - Identification des commandes susceptibles d'entraîner un routage et plus généralement la création de codes backend  
+aider --model deepseek/deepseek-coder
+.gitignore : ``# Aider tool related files
+.aider.tags.cache.v3
+aider-env/
+.aider.chat.history.md
+.aider.input.history
 
-2. Contenu de la Page :
-  - Pour chaque bouton d'action (ex: s'inscrire, se connecter, réponse), ajoutez un attribut data-action avec une valeur unique.
-  - Incluez un élément avec l'ID 'redirectionMessage' pour afficher les messages de redirection.
+# Environment and configuration files
+.env
 
-3. Interactivité JavaScript :
-   - Ajoutez un script qui écoute les clics sur les boutons avec data-action.
-   - Le script doit afficher un message de redirection basé sur l'action du bouton.
-   - Le message doit inclure l'action et l'URL, par exemple : "Je vais vers s'inscrire: /profile".
+# Ignore node_modules (if applicable)
+node_modules/
 
-4. Section Backend :
-   À la fin du document HTML, incluez une section <backend> dans une balise <pre> avec la classe 'mt-4 p-4 bg-gray-200 rounded', contenant :
+# Ignore log files and temporary files
+*.log
+*.tmp
 
-   a. <specifications>
-      - Décrivez l'objectif général de la <Page>
-      - Listez les fonctionnalités principales backend requises par la <Page>.
-      - Incluez les exigences de sécurité, gestion des données, intégrations, performances, scalabilité, et authentification/autorisation.
+# Ignore compiled code and dependency directories
+dist/
+build/
 
-   b. <routes>
-      - Définissez les routes Flask nécessaires au backend de la <Page>.
+# Ignore system files
+.DS_Store
+Thumbs.db```` 
+   
 
-   c. <models>
-      - Décrivez les modèles de données, par exemple le modèle User.
-
-   d. <logic>
-      - Expliquez la logique métier principale, incluant les fonctions comme create_user.
-
-   e. <redirect_url>
-      - Pour chaque action, spécifiez l'URL de redirection.
-      Format : <redirect_url for="action">action: /url</redirect_url>
-
-   f. <file_structure>
-      - Fournissez une représentation textuelle de l'arborescence des fichiers du projet suivant les bonnes pratiques et ceux nécessaires au backend de la <Page>.
-
-   g. <python_files>
-      - Incluez un objet JSON contenant les tronçons de code Python nécessaire à la mise en oeuvre du backend, coherent avec les besoins de la Page, pour chaque fichier backend.
-      Structure : { "nom_fichier.py": "contenu du fichier", ... }
-      - Exemple de fichiers à inclure : routes.py, models.py, services.py, __init__.py, requirements.txt, config.py
-      - Ajoutez également un dossier 'tests/' avec des fichiers de test de base et un fichier '.env.example'.
-
-5. Contenu des Fichiers Python, en fonction des besoins :
-   - Dans routes.py : Implémentez les routes pour les fonctions décrite dans la <Page>.
-   - Dans models.py : Définissez les modèles SQLAlchemy.
-   - Dans services.py : Incluez les fonctions de logique métier.
-   - Dans __init__.py : Configurez l'application Flask et initialisez la base de données.
-   - Dans requirements.txt : Listez les dépendances nécessaires avec des versions précises.
-   - Dans config.py : Configurez l'application pour différents environnements.
-
-6. Prévention des Bugs et Sécurité :
-   - Incluez des blocs try/except pour la gestion des erreurs.
-   - Implémentez la validation des données côté serveur.
-   - Utilisez des méthodes sécurisées pour le hachage des mots de passe.
-   - Configurez la protection CSRF et la gestion sécurisée des sessions.
-   - Utilisez des requêtes paramétrées pour prévenir les injections SQL.
-   - Implémentez des tests unitaires et d'intégration de base.
-
-7. Bonnes Pratiques :
-   - Suivez les conventions PEP 8 pour le code Python.
-   - Utilisez des variables d'environnement pour les configurations sensibles.
-   - Structurez le code de manière modulaire et évitez la duplication.
-   - Ajoutez des docstrings et des commentaires explicatifs.
-
-8. Cohérence :
-   - Assurez-vous que toutes les informations dans le HTML, les balises <backend>, et l'objet JSON dans <python_files> sont cohérentes entre elles.
-   - Vérifiez que l'arborescence des fichiers correspond aux fichiers mentionnés dans <python_files>.
-
-9. Finalisation :
-   - Incluez des commentaires TODO pour les parties nécessitant une implémentation plus détaillée.
-   - Assurez-vous que le HTML généré est valide et bien structuré.
-   - Vérifiez que le code est prêt à être utilisé comme base pour une application Flask répondant au besoin de la <Page>.
-
-Générez une page HTML contenant uniquement la balise <backend> incluant toutes ces composantes, en commençant par les spécifications de haut niveau avant de plonger dans les détails d'implémentation. Assurez-vous que le code est fonctionnel, sécurisé, et suit les meilleures pratiques de développement web et Flask
