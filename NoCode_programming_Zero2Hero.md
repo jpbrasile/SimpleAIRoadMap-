@@ -169,7 +169,7 @@ J'ai demandé es fonctionnalité d'artefact à Sonnet 3.5 (il ne veut pas donner
     - 22. Print registered routes for debugging if necessary.
     - 23. Include detailed comments and print statements in tests for better debugging and clarity.
 
-### Points d'étapes
+## Points d'étapes
 
 - Ne pas utiliser gpt4-o pour programmer: il est verbeux et détruit tout sur son passage: sous prétexte de résoudre une erreur il supprime allègrement des fichiers qui eux était fonctionnels.
 - Le front-end peux être mis en oeuvre avec un dialogue "text2frontend" avec l'artéfact de Sonnet 3.5 (ou avec WebSim.ai qui le met en oeuvre gratuitement actuellement.
@@ -206,3 +206,82 @@ b. Des tests automatisés sont générés et exécutés pour valider l'applicati
 Si des ajustements sont nécessaires, le processus peut être répété pour des composants spécifiques.
 
 Cette approche permet une création rapide et cohérente d'une application full stack, en utilisant l'intelligence du LLM pour la génération de code et les connaissances du développeur pour la validation et les ajustements fins.
+
+### Développement Backend
+- Lors de nos précédentes tentatives nous avons perdu beaucoup de temps à des tâcheS qui pourraient être automatiséeS
+  -  💡 La création du repository local (arbrescence et fichiers vides) a pu être automatisé en donnant à Sonnet d'image (copie d'écran) de l'arborescence souhaitée et en demandant au llm le code python qui l'implémente : Sonnet lit l'image et produit le code suivant.
+
+```
+import os
+
+def create_directory_structure(base_path):
+    directories = [
+        "myapp",
+        "myapp/app",
+        "myapp/app/blueprints",
+        "myapp/app/static",
+        "myapp/app/static/js",
+        "myapp/app/templates",
+        "myapp/tests",
+        "myapp/tests/unit",
+        "myapp/tests/integration"
+    ]
+    
+    files = [
+        "myapp/app/__init__.py",
+        "myapp/app/blueprints/auth.py",
+        "myapp/app/blueprints/preferences.py",
+        "myapp/app/blueprints/quiz.py",
+        "myapp/app/static/js/preferences.js",
+        "myapp/app/static/js/quiz.js",
+        "myapp/app/templates/inscription.html",
+        "myapp/app/templates/preferences.html",
+        "myapp/app/templates/frontend_base.html",
+        "myapp/app/templates/dashboard.html",
+        "myapp/app/models.py",
+        "myapp/app/utils.py",
+        "myapp/app/config.py",
+        "myapp/tests/unit/test_auth.py",
+        "myapp/tests/unit/test_preferences.py",
+        "myapp/tests/unit/test_quiz.py",
+        "myapp/tests/unit/test_utils.py",
+        "myapp/tests/integration/test_registration_login_flow.py",
+        "myapp/tests/integration/test_quiz_flow.py",
+        "myapp/tests/conftest.py",
+        "myapp/.gitignore",
+        "myapp/.env_example",
+        "myapp/README.md",
+        "myapp/requirements.txt",
+        "myapp/run.py"
+    ]
+    
+    for directory in directories:
+        os.makedirs(os.path.join(base_path, directory), exist_ok=True)
+    
+    for file in files:
+        open(os.path.join(base_path, file), 'a').close()
+
+if __name__ == "__main__":
+    base_path = os.getcwd()  # You can change this to any path you want
+    create_directory_structure(base_path)
+    print("Directory structure created successfully!")
+```
+
+- Maintenant muni des instructions backend et du contenu à intégrer dans les divers fichiers, la mise en place du répertory peut être automatisée
+- Nous avons ensuite passé beaucoup de temps (outre la mauvaise prestation de GPT-4o ) à faire du couper/coller pour prendre en compte les suggestions du LLM au cours du débug
+- La gestion des historiques nous aurait également été bien utile pour figer chaque étape franchie
+- MAis ces tâches peuvent être elles aussi automatisée grace à l'assistant au codage opensource [AIDER](https://github.com/paul-gauthier/aider). Sa mise en oeuvre se fait en quelques clicks
+```
+$ pip install aider-chat
+
+# Change directory into a git repo
+$ cd /to/your/git/repo
+
+# Work with Claude 3.5 Sonnet on your repo
+$ export ANTHROPIC_API_KEY=your-key-goes-here
+$ aider
+
+# Work with GPT-4o on your repo
+$ export OPENAI_API_KEY=your-key-goes-here
+$ aider --sonnet 
+```   
