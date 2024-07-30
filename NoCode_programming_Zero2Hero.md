@@ -285,3 +285,5 @@ $ aider
 $ export OPENAI_API_KEY=your-key-goes-here
 $ aider --sonnet 
 ```   
+## Après la théorie la pratique avec la création de LearnAnythingV3
+- Nous partons des3 html que nous avons créé avec Sonnet : dossier HTML_ini
