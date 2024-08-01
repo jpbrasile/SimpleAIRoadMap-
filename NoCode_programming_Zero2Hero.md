@@ -291,7 +291,7 @@ $ aider --sonnet
 - Le prompt front end est trop lié à l'application qui a servi d'exemple il faut le reprendre, à la main car tous les LLM semblent être devenus idiot ce matin.
 - Plutôt que décrire ici ma démarche dans le détail, je vous renvoie au [chat avec Sonnet](https://claude.ai/chat/662e2394-657b-4cf9-8ad1-c4e14a47e28e):
   - Mon pompt fonctionne  : conclusion reprendre la main quand l'IA devient trop bête
-  - Le droit à l'rreur dans un chat avec Sonnet: reprendre là où ça a dérappé , faire edit, reformulez, save  et on repart d'un bon pied. Le LLM n'a plus la souvenance des passage vaseux !
+  - Le droit à l'erreur dans un chat avec Sonnet: reprendre là où ça a dérappé , faire edit, reformulez, save  et on repart d'un bon pied. Le LLM n'a plus la souvenance des passage vaseux !
   - Je demande une sortie en HTML à couper/coller : ça le motive à tout écrire et on peut facilement télécharger le document 
   - Finalement j'ai chargé Sonnet  d'assurer la cohérence d'ensemble et de compléter les manquant. Il a fait du bon boulot:
    ![image](https://github.com/user-attachments/assets/1c0999d7-4aa4-4877-b884-f746a6b131e2)
@@ -322,4 +322,34 @@ build/
 .DS_Store
 Thumbs.db```` 
    
+## Le prncipe MISS (make it simple and stupid
+- L'idée de départ, d'avoir des spécificatons parfates d'abord puis coder ensuite ne fonctionnnne pas vraiment car on en met trop dans la gueule du LLM .
+- Par contre commencer à partir d'un répertoire vide et demander à AIDER d'afficher une page.html "Hello Word" fonctionne parfaitement, puis on lui demande de faire une page log up , puis de conserver le résultat dans une base de données...
+- Il ira mêeme à traduire un cours en anglais et l'affiche en foncton des préféences
+- Tout ça en quelques minutes, mais avec le coût de l'API Sonnet (4 € quand même) DeepSeek_coder est un peu moins bon mais 50 fois moins cher.
+- AIDER est vraiment efficace il fait tourner les codes corrige les erreurs et gère github 
 
+## les bases de l'apprentissage 3 phse : le tuto , la démonstration interactive et les exercices interactifs
+- les prompts ont été générés par [Sonnet]
+  - Pour le tutoriel avec présentation animée :
+
+    "Créez une page HTML unique pour un tutoriel sur les équations du premier degré, destiné aux élèves de collège (12-15 ans). La page doit inclure une introduction, une explication de l'importance des équations du premier degré, et un tutoriel pas à pas avec des analogies simples. Utilisez HTML5, CSS3 et JavaScript (ES6+) pour créer une présentation animée des équations. La page doit être responsive, utiliser des couleurs vives mais non agressives, et inclure des animations subtiles pour l'engagement. Assurez-vous que le code est bien structuré et commenté."
+
+  - Pour la démonstration interactive :
+
+"Créez une page HTML unique pour une démonstration interactive des équations du premier degré, adaptée aux élèves de collège. La page doit permettre aux utilisateurs d'entrer une équation du premier degré ou d'en générer une aléatoirement. Implémentez une fonction pour résoudre l'équation pas à pas, affichant chaque étape individuellement. Utilisez HTML5, CSS3 et JavaScript (ES6+) pour créer cette expérience interactive. Assurez-vous que la page est responsive, utilise un design attrayant, et inclut des vérifications pour éviter les résultats NaN. Le code doit être bien structuré et commenté."
+
+  - Pour les exercices interactifs :
+
+"Créez une page HTML unique pour des exercices interactifs sur les équations du premier degré, destinés aux élèves de collège. La page doit présenter une série d'exercices de difficulté croissante, avec un champ de saisie pour la réponse de l'utilisateur, une vérification immédiate, et des options pour obtenir des indices ou voir la solution complète. Implémentez un suivi des progrès de l'utilisateur. Utilisez HTML5, CSS3 et JavaScript (ES6+) pour créer cette expérience interactive. Assurez-vous que la page est responsive, utilise un design attrayant et encourageant. Le code doit être modulaire, bien commenté et inclure un système de stockage local pour sauvegarder les progrès."    
+
+""  [Métaprompting](https://claude.ai/chat/73ae7e7f-6c11-4c81-8c8d-17d03d24be3d) : 
+- On passe à un tuo interactif sur Magellan en rajoutant simplement : "adapte les 3 prompts suivant pour "la vie de Magellan":  - Pour le tutoriel avec présentation animée :..." , puis applique les 3 prompts
+on obtient (en demandant d'utiliser mermaid : [le tuto](https://claude.site/artifacts/46812f3a-e262-4c00-a0be-3e727f80a431), [la démonstratin animée](https://claude.site/artifacts/5aaf2e0c-fb37-4429-b939-ac3d64283b52) et [les quizz](https://claude.site/artifacts/5138d4be-88ce-4ee9-b62c-226b5bdf0a09)
+- la généralisation à tous les cours de 5ième estpossible mais artefact ne gère pas facilement les fichiers de gros volume: s'il donne bine la [strcuture générale]( des cours de 5ième, il ne rempli pas le détail de chaque cours
+- Nous avons contourné l'obstacle, e nlui demandant [de ne générer que le prompt qui génèrera le cours](https://claude.site/artifacts/02c006cb-67d0-46db-b957-e4de04e0f506) , pour chaque cas particulier
+- Nous nous sommes attaché ensuite à améliorer les cours correspondants, en particulier pour les exercices interactifs, que nosu avons, après de nombreuse itérations, en jeu interactif. Le codetrop lourd, ne tourne pas sur Artefact mais sonnet nous permet de le décomposer en plusieurs fichiers qui compilé localement tournent parfaitement. La bonne nouvelle est que le code est bien structuré avec un fichier json pour les questions. Ce sera le fichier à changer pour passer d'un thème à un autre. 
+- Voici l'[arborecence](https://claude.site/artifacts/4ef389ba-d7d7-4679-8464-c63cc66b1614) des fichiers correspondants.
+- Une autre issue détect est la difficulté de prendre en compte uen réponse ouverte de l'élève car elle sera déclarée fausse même en cas d'un formatage qui n'est pas celui attendu. La solution la plus performante serait de laisser traiter par n llm la cohérence, question, réponse attendue, préférences et historique des réponses.  
+
+- 
