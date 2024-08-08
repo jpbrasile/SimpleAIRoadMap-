@@ -221,6 +221,12 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/votre_nom_utilisateur/votre_depot.git
 git push -u origin master
 ```
+### En cas de tentative d'ajout de dossier sensible, github n'accepte pas le push
+- il faut mettre les fichiers sensibles en .gitignore
+- et faire un reset de git avant de recommencer
+```
+Remove-Item -Recurse -Force .git
+```
 ### Configurer Streamlit pour le Déploiement
 - Installer Streamlit CLI : Si ce n'est pas déjà fait.
     - Pourquoi ? La CLI de Streamlit est nécessaire pour lancer et déployer votre application sur Streamlit Cloud.
