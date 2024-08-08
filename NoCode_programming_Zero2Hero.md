@@ -352,4 +352,7 @@ on obtient (en demandant d'utiliser mermaid : [le tuto](https://claude.site/arti
 - Voici l'[arborecence](https://claude.site/artifacts/4ef389ba-d7d7-4679-8464-c63cc66b1614) des fichiers correspondants.
 - Une autre issue détect est la difficulté de prendre en compte uen réponse ouverte de l'élève car elle sera déclarée fausse même en cas d'un formatage qui n'est pas celui attendu. La solution la plus performante serait de laisser traiter par n llm la cohérence, question, réponse attendue, préférences et historique des réponses.  
 
-- 
+## Point d'avancement au 8 Août 2024
+- La réalisation d'une application full stack en no code a été réalisée avec un backend streamlit
+- Nous avons déployé l'applications sur https://learnanything.streamlit.app/ en traitant les problèmes de secrets. Cette application est maintenant synchronisée via github 
+- nous avons créé un compte admin qui a accès à tous les échanges et qui peut chatter avec chatgpt-4o-mini 
